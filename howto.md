@@ -26,56 +26,54 @@ Ton dépôt GitHub contiendra à peu près ceci :
 
 ------------------------------------------------------------------------
 
-## ⚙️ 2. Créer le dépôt sur GitHub
+## ⚙️ 2. Créer le dossier local
 
-1.  Se connecter à ton compte GitHub.\
-
-2.  Cliquer sur **New repository**.\
-
-3.  Nommer ton dépôt :
-
-        recettes
-
-4.  Cocher : ✅ *Add a README file*\
-
-5.  Créer le dépôt.
-
-------------------------------------------------------------------------
-
-## 💻 3. Cloner le dépôt sur ton ordinateur
-
-Tu vas "lier" ton ordinateur à ce dépôt en ligne pour pouvoir envoyer et
-récupérer les fichiers.
-
-### Installer Git (si ce n'est pas déjà fait)
-
--   macOS : Git est souvent déjà installé.
--   Windows : https://git-scm.com/download/win
-
-### Puis dans le terminal :
+Crée d'abord ton dossier de projet sur ton ordinateur :
 
 ``` bash
 # Aller dans ton dossier de travail
 cd ~/Documents
 
-# Cloner ton dépôt
-git clone https://github.com/tonpseudo/recettes.git
-
-# Entrer dans le dossier
+# Créer le dossier du projet
+mkdir recettes
 cd recettes
-```
 
-Tu as maintenant une **copie locale** de ton dépôt GitHub.
+# Créer le sous-dossier docs
+mkdir docs
+```
 
 ------------------------------------------------------------------------
 
-## 🗂️ 4. Créer la structure de base
+## 💻 3. Publier sur GitHub depuis VS Code
 
-``` bash
-mkdir docs
-touch docs/index.md
-touch _config.yml
-```
+Ouvre ton dossier `recettes` dans VS Code, puis :
+
+1.  Ouvrir la **palette de commandes** : `Cmd+Shift+P` (macOS) ou `Ctrl+Shift+P` (Windows)
+
+2.  Taper : **Publish to GitHub**
+
+3.  Choisir le nom du dépôt : `recettes`
+
+4.  Sélectionner **Public** ou **Private** selon ta préférence
+
+5.  VS Code va automatiquement :
+    -   Créer le dépôt sur GitHub
+    -   Initialiser Git localement
+    -   Faire le premier commit
+    -   Pousser tes fichiers sur GitHub
+
+> ✅ Ton dépôt est maintenant en ligne et synchronisé !
+
+### Vérifier que ça a marché
+
+Ouvre ton navigateur et va sur : `https://github.com/tonpseudo/recettes`  
+(remplace `tonpseudo` par ton nom d'utilisateur GitHub)
+
+Tu devrais voir tous tes fichiers en ligne !
+
+------------------------------------------------------------------------
+
+## 🗂️ 4. Configurer les fichiers de base
 
 ### `_config.yml`
 
@@ -87,6 +85,8 @@ description: Recettes testées et approuvées
 
 ### `docs/index.md`
 
+Ce fichier va **automatiquement lister toutes tes recettes** sans que tu aies à les ajouter une par une :
+
 ``` markdown
 ---
 layout: default
@@ -95,10 +95,53 @@ title: Accueil
 
 # 🍴 Mes recettes
 
-Bienvenue !  
-- [Tarte aux pommes](tarte_aux_pommes.md)
-- [Velouté céleri-poireau](veloute_celeri.md)
-- [Recherche de recette](search.html)
+Bienvenue ! Voici toutes mes recettes :
+
+{% for page in site.pages %}
+  {% if page.dir == '/docs/' and page.name != 'index.md' and page.name != 'search.html' %}
+- [{{ page.title }}]({{ page.url | relative_url }})
+  {% endif %}
+{% endfor %}
+
+---
+
+[🔎 Rechercher une recette](search.html)
+```
+
+> 💡 **Comment ça marche ?** Jekyll parcourt automatiquement tous les fichiers dans `docs/` et les affiche. Tu n'as qu'à ajouter de nouvelles recettes dans le dossier, elles apparaîtront automatiquement sur la page d'accueil !
+
+------------------------------------------------------------------------
+
+## 📤 5. Envoyer les modifications sur GitHub
+
+Après avoir créé ou modifié des fichiers, il faut les "pousser" sur GitHub :
+
+### Avec VS Code (recommandé)
+
+1. **Ouvrir le panneau Source Control** : `Cmd+Shift+G` (ou clic sur l'icône de branche à gauche)
+
+2. **Voir les changements** : Tous tes fichiers modifiés sont listés
+
+3. **Stage les fichiers** : Clique sur le `+` en haut pour tout ajouter
+
+4. **Écrire le message de commit** : Dans la zone de texte, tape par exemple :
+   ```
+   Ajout fichiers de configuration et recettes
+   ```
+
+5. **Commit** : Clique sur le bouton `✓ Commit` (ou `Cmd+Enter`)
+
+6. **Push** : Clique sur `Sync Changes` ou `Push`
+
+> ✅ Tes modifications sont maintenant en ligne sur GitHub !
+
+### Avec le terminal (alternative)
+
+``` bash
+cd ~/Documents/recettes
+git add .
+git commit -m "Ajout fichiers de configuration et recettes"
+git push
 ```
 
 ------------------------------------------------------------------------

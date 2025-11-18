@@ -1,3 +1,9 @@
+---
+layout: default
+title: Pain de mie légèrement brioché – version T65 bio
+tags: [pain, boulangerie, T65, bio]
+---
+
 # 🥖 Pain de mie légèrement brioché – version T65 bio
 
 ## 🌾 Ingrédients (pour un moule à cake standard)

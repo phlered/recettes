@@ -1,3 +1,9 @@
+---
+layout: default
+title: Pain de mie japonais (Shokupan)
+tags: [pain, boulangerie, japonais, shokupan, T65, bio]
+---
+
 # 🍶 Pain de mie japonais (Shokupan) – version T65 bio et KitchenAid
 
 ## 🌾 Ingrédients (pour un moule à cake standard)
