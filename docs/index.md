@@ -7,11 +7,8 @@ title: Accueil
 
 Bienvenue ! Voici toutes mes recettes :
 
-{% for page in site.pages %}
-  {% if page.path contains 'docs/' and page.name != 'index.md' and page.name != 'search.html' and page.name contains '.md' %}
-- [{{ page.title }}]({{ page.url | relative_url }})
-  {% endif %}
-{% endfor %}
+- [Pain de mie légèrement brioché – version T65 bio](pain_de_mie_brioche_T65)
+- [Pain de mie japonais (Shokupan)](pain_de_mie_japonais)
 
 ---
 

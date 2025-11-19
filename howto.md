@@ -98,7 +98,7 @@ title: Accueil
 Bienvenue ! Voici toutes mes recettes :
 
 {% for page in site.pages %}
-  {% if page.dir == '/docs/' and page.name != 'index.md' and page.name != 'search.html' %}
+  {% if page.dir == '/docs/' and page.name != 'index.md' and page.name contains '.md' %}
 - [{{ page.title }}]({{ page.url | relative_url }})
   {% endif %}
 {% endfor %}
