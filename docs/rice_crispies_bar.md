@@ -6,6 +6,8 @@ tags: [rice crispies, barres, sucré]
 
 # Rice crispies bar
 
+Cette recette nous a été transmise par notre assistante américaine Elyse hébergée pendant le confinement de 2020. 
+
 ## Ingrédients
 - 45 g de beurre
 - 300 g de marshmallows
