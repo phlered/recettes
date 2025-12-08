@@ -2,6 +2,7 @@
 layout: default
 title: Mes recettes
 ---
+[🔍 Recherche]({{ "/search" | relative_url }})
 
 # 🍽️ Toutes les recettes
 
@@ -14,4 +15,3 @@ title: Mes recettes
 {% endfor %}
 </ul>
 
-[🔍 Recherche]({{ "/search" | relative_url }})
