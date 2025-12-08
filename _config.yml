@@ -5,3 +5,7 @@ url: https://phlered.github.io
 baseurl: /recettes
 permalink: pretty
 source: docs
+
+# Navigation
+header_pages:
+  - index.md
