@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Mes recettes
+title: Accueil
 ---
 
-<h1>🍽️ Mes recettes</h1>
+<h1>🍽️ Mes recettes de cuisine</h1>
 
 <div style="background: #f5f5f5; padding: 20px; border-radius: 8px; margin-bottom: 30px;">
   <h2>🔍 Recherche rapide</h2>
@@ -13,7 +13,7 @@ title: Mes recettes
   <ul id="searchResults" style="list-style: none; padding: 0;"></ul>
 </div>
 
-<h2>Toutes les recettes</h2>
+<h2>Toutes les recettes par ordre alphabétique</h2>
 
 <ul id="allRecettes">
 {% for recette in site.recettes %}
