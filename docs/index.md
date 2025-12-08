@@ -69,10 +69,14 @@ title: Accueil
 
 <script src="https://unpkg.com/simple-jekyll-search/dest/simple-jekyll-search.min.js"></script>
 <script>
-SimpleJekyllSearch({
-  searchInput: document.getElementById('search-input'),
-  resultsContainer: document.getElementById('recipes-grid'),
-  json: '{{ "/search.json" | relative_url }}',
-  searchResultTemplate: '<a href="{url}" class="recipe-card"><h3>{title}</h3><small>{tags}</small></a>'
+window.addEventListener('load', function() {
+  SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('recipes-grid'),
+    json: '{{ "/search.json" | relative_url }}',
+    searchResultTemplate: '<a href="{url}" class="recipe-card"><h3>{title}</h3><small>{tags}</small></a>',
+    noResultsText: 'Aucune recette trouvée',
+    fuzzySearch: true
+  });
 });
 </script>

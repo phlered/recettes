@@ -1,5 +1,4 @@
 ---
-layout: null
 ---
 [
 {% assign pages = site.pages | where_exp:'p','p.name != "index.md" and p.name != "search.html"' %}
