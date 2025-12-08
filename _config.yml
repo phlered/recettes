@@ -4,3 +4,7 @@ description: Recettes testées et approuvées
 url: https://phlered.github.io
 baseurl: /recettes
 permalink: pretty
+
+# Navigation - seulement les pages importantes
+header_pages:
+  - about.md
