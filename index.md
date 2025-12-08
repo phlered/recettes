@@ -6,10 +6,10 @@ title: Mes recettes
 # 🍽️ Toutes les recettes
 
 <ul>
-{% for post in site.posts %}
+{% for recette in site.recettes %}
   <li>
-    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    {% if post.categories %}<em>({{ post.categories | join: ", " }})</em>{% endif %}
+    <a href="{{ recette.url | relative_url }}">{{ recette.title }}</a>
+    {% if recette.tags %}<em>({{ recette.tags | join: ", " }})</em>{% endif %}
   </li>
 {% endfor %}
 </ul>

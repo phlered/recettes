@@ -15,3 +15,7 @@ plugins:
 collections:
   recettes:
     output: true
+
+header_pages:
+  - about.md
+  - search.md
