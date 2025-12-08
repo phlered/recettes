@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Recherche
+permalink: /search/
 ---
 
 <h1>🔍 Recherche</h1>
