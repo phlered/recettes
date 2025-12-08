@@ -1,10 +1,17 @@
-theme: minima
-title: Mes recettes maison
+title: Mes recettes
 description: Recettes testées et approuvées
-url: https://phlered.github.io
-baseurl: /recettes
-permalink: pretty
+theme: minima
 
-# Navigation - seulement les pages importantes
-header_pages:
-  - about.md
+url: "https://phlered.github.io"
+baseurl: "/recettes"
+
+markdown: kramdown
+permalink: /:categories/:title/
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+
+collections:
+  recettes:
+    output: true

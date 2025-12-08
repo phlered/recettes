@@ -3,12 +3,15 @@ layout: default
 title: Mes recettes
 ---
 
-# 🍰 Bienvenue sur mon site de recettes !
+# 🍽️ Toutes les recettes
 
-Découvrez toutes mes recettes maison testées et approuvées.
-
-## Toutes les recettes
-
+<ul>
 {% for post in site.posts %}
-- [{{ post.title }}]({{ post.url | relative_url }})
+  <li>
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    {% if post.categories %}<em>({{ post.categories | join: ", " }})</em>{% endif %}
+  </li>
 {% endfor %}
+</ul>
+
+[🔍 Recherche]({{ "/search" | relative_url }})
