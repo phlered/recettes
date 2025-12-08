@@ -1,0 +1,30 @@
+{
+  "Nouvelle recette": {
+    "prefix": "recette",
+    "body": [
+      "---",
+      "layout: recipe",
+      "title: ${1:Titre de la recette}",
+      "description: ${2:Description courte}",
+      "category: ${3:dessert}",
+      "ingredients:",
+      "  - ${4:100 g ingrédient 1}",
+      "  - ${5:2 oeufs}",
+      "  - ${6:200 ml lait}",
+      "instructions:",
+      "  - ${7:Étape 1}",
+      "  - ${8:Étape 2}",
+      "  - ${9:Étape 3}",
+      "preptime: ${10:15}",
+      "cooktime: ${11:30}",
+      "servings: ${12:4}",
+      "tags: ${13:[tag1, tag2]}",
+      "---",
+      "",
+      "# ${1:Titre de la recette}",
+      "",
+      "${14:Notes supplémentaires}"
+    ],
+    "description": "Template pour créer une nouvelle recette"
+  }
+}
