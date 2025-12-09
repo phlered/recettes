@@ -5,12 +5,12 @@ title: Accueil
 
 <h1>🍽️ Mes recettes de cuisine</h1>
 
-<div style="background: #f5f5f5; padding: 20px; border-radius: 8px; margin-bottom: 30px;">
+<div class="search-box">
   <h2>🔍 Recherche rapide</h2>
   <input type="text" id="searchInput"
-         placeholder="Tapez un ingrédient, un tag, un mot-clé…"
-         style="width:100%; padding:10px; margin-bottom: 15px; border: 1px solid #ddd; border-radius: 4px;">
-  <ul id="searchResults" style="list-style: none; padding: 0;"></ul>
+         class="search-input"
+         placeholder="Tapez un ingrédient, un tag, un mot-clé…">
+  <ul id="searchResults" class="search-results"></ul>
 </div>
 
 <h2>Toutes les recettes par ordre alphabétique</h2>

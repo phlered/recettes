@@ -1,6 +1,8 @@
 title: Mes recettes
 description: Recettes testées et approuvées
 theme: minima
+minima:
+  skin: dark
 
 url: "https://phlered.github.io"
 baseurl: "/recettes"
