@@ -3,7 +3,7 @@ layout: default
 title: Accueil
 ---
 
-<h1>🍽️ Recettes maison</h1>
+<h1>🍽️ Mes recettes maison</h1>
 
 <div class="search-box">
   <h2>🔍 Recherche rapide</h2>
