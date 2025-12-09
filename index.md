@@ -13,7 +13,7 @@ title: Accueil
   <ul id="searchResults" class="search-results"></ul>
 </div>
 
-<h2>Toutes les recettes par ordre alphabétique</h2>
+<h2>Toutes mes recettes par ordre alphabétique</h2>
 
 <ul id="allRecettes">
 {% for recette in site.recettes %}
