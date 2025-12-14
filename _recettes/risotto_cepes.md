@@ -1,7 +1,8 @@
-------  
+---
 layout: default
-title: Risotto aux cèpes et noix
-tags: [risotto, cèpes, noix, automne, plat principal, recette facile, végétarien,noël]  
+title: Risotto aux cèpes et aux éclats de noix
+description: Un risotto crémeux aux cèpes et aux éclats de noix, parfait pour une soirée automnale.
+tags: [risotto, cèpes, noix, automne, plat principal, recette facile, végétarien, noël]
 ---
 
 ## Ingrédients (4 personnes)
