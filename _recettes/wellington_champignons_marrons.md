@@ -1,8 +1,8 @@
-------
+---
 layout: default
 title: Wellington végétarien aux champignons et aux marrons
 tags: [plat principal, végétarien, pâte feuilletée, champignons, marrons, noël]
-------
+---
 
 
 ## Ingrédients (4-6 personnes)

@@ -1,8 +1,8 @@
-------
+---
 layout: default
 title: Velouté de potimarron au lait de coco et éclats de châtaignes
 tags: [velouté, potimarron, coco, châtaignes, automne, soupe, recette facile, noël,végétarien]
-------
+---
 
 ## Ingrédients (4 personnes)
 	•	1 potimarron moyen

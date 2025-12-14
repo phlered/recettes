@@ -1,8 +1,8 @@
-------
+---
 layout: default
 title: Salade de lentilles aux agrumes, grenade et herbes fraîches
 tags: [salade, lentilles, agrumes, grenade, recette facile, végétarien, noël]
-------
+---
 
 
 ## Ingrédients (4 personnes)

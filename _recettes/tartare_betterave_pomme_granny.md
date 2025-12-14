@@ -1,8 +1,8 @@
-------
+---
 layout: default
 title: Tartare de betterave et pomme granny smith, sauce aux noix
 tags: [entrée, végétarien, facile, rapide, betterave, pomme,végétarien,noël]
-------
+---
 
 ## Ingrédients (4 personnes)
 •	2 betteraves cuites
