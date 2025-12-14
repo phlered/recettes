@@ -5,13 +5,13 @@ tags: [entrée, végétarien, facile, rapide, betterave, pomme,végétarien,noë
 ---
 
 ## Ingrédients (4 personnes)
-•	2 betteraves cuites
-•	1 pomme granny smith
-•	2 c. à soupe de noix concassées
-•	2 c. à soupe de yaourt nature ou yaourt végétal
-•	1 c. à soupe de moutarde
-•	1 c. à soupe d’huile de noix
-•	Sel, poivre, ciboulette
+- 2 betteraves cuites
+- 1 pomme granny smith
+- 2 c. à soupe de noix concassées
+- 2 c. à soupe de yaourt nature ou yaourt végétal
+- 1 c. à soupe de moutarde
+- 1 c. à soupe d’huile de noix
+- Sel, poivre, ciboulette
 
 ## Préparation
 1.	Éplucher et couper les betteraves et la pomme en petits dés.

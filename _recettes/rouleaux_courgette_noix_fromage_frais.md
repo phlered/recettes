@@ -6,11 +6,11 @@ tags: [entrée, végétarien, facile, rapide, courgette, fromage frais, noix,no�
 
 
 ## Ingrédients (4 personnes)
-•	2 courgettes
-•	150 g de fromage frais type ricotta
-•	50 g de noix concassées
-•	Huile d’olive
-•	Sel, poivre, basilic
+- 2 courgettes
+- 150 g de fromage frais type ricotta
+- 50 g de noix concassées
+- Huile d’olive
+- Sel, poivre, basilic
 
 ## Préparation
 1.	Couper les courgettes en fines lamelles dans la longueur et les griller 2-3 min de chaque côté.

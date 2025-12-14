@@ -6,13 +6,13 @@ tags: [gratin, légumes racines, patate douce, parmesan, plat principal, recette
 
 
 ## Ingrédients (4 personnes)
-•	2 patates douces
-•	2 carottes
-•	2 panais
-•	200 ml de crème (ou crème végétale)
-•	100 g de parmesan râpé (ou fromage végétal)
-•	2 gousses d’ail
-•	Sel, poivre, noix de muscade
+- 2 patates douces
+- 2 carottes
+- 2 panais
+- 200 ml de crème (ou crème végétale)
+- 100 g de parmesan râpé (ou fromage végétal)
+- 2 gousses d’ail
+- Sel, poivre, noix de muscade
 
 
 ## Préparation

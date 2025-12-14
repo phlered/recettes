@@ -6,14 +6,14 @@ tags: [risotto, cèpes, noix, automne, plat principal, recette facile, végétar
 ---
 
 ## Ingrédients (4 personnes)
-•	300 g de riz arborio
-•	300 g de cèpes frais ou surgelés
-•	1 oignon
-•	1 litre de bouillon de légumes chaud
-•	50 g de parmesan râpé (ou levure nutritionnelle pour version vegan)
-•	50 g de noix concassées
-•	2 c. à soupe d’huile d’olive
-•	Sel, poivre
+- 300 g de riz arborio
+- 300 g de cèpes frais ou surgelés
+- 1 oignon
+- 1 litre de bouillon de légumes chaud
+- 50 g de parmesan râpé (ou levure nutritionnelle pour version vegan)
+- 50 g de noix concassées
+- 2 c. à soupe d’huile d’olive
+- Sel, poivre
 
 ## Préparation
 1.	Émincer l’oignon et le faire revenir dans l’huile d’olive.

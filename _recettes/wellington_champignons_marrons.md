@@ -6,15 +6,15 @@ tags: [plat principal, végétarien, pâte feuilletée, champignons, marrons, no
 
 
 ## Ingrédients (4-6 personnes)
-•	1 pâte feuilletée
-•	500 g de champignons de Paris ou forestiers
-•	150 g de marrons cuits
-•	1 oignon
-•	2 gousses d’ail
-•	2 c. à soupe de crème ou crème végétale
-•	1 c. à soupe de moutarde
-•	1 œuf (ou lait végétal pour dorure)
-•	Huile d’olive, sel, poivre, herbes (thym, persil)
+- 1 pâte feuilletée
+- 500 g de champignons de Paris ou forestiers
+- 150 g de marrons cuits
+- 1 oignon
+- 2 gousses d’ail
+- 2 c. à soupe de crème ou crème végétale
+- 1 c. à soupe de moutarde
+- 1 œuf (ou lait végétal pour dorure)
+- Huile d’olive, sel, poivre, herbes (thym, persil)
 
 ## Préparation
 1.	Émincer oignon et ail, les faire revenir avec un peu d’huile.

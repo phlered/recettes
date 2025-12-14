@@ -6,14 +6,14 @@ tags: [salade, lentilles, agrumes, grenade, recette facile, végétarien, noël]
 
 
 ## Ingrédients (4 personnes)
-•	200 g de lentilles vertes
-•	1 orange
-•	1 pamplemousse
-•	½ grenade
-•	Persil et coriandre frais
-•	2 c. à soupe d’huile d’olive
-•	1 c. à soupe de vinaigre balsamique
-•	Sel et poivre
+- 200 g de lentilles vertes
+- 1 orange
+- 1 pamplemousse
+- ½ grenade
+- Persil et coriandre frais
+- 2 c. à soupe d’huile d’olive
+- 1 c. à soupe de vinaigre balsamique
+- Sel et poivre
 
 ## Préparation
 1.	Cuire les lentilles dans de l’eau bouillante salée 20 minutes, égoutter et laisser refroidir.
