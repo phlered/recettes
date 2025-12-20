@@ -26,7 +26,7 @@ def extract_marmiton_recipe_selenium(url):
     # Accepter le consentement si présent
     try:
         consent_btn = WebDriverWait(driver, 5).until(
-            EC.element_to_be_clickable((By.XPATH, "//button[contains(., 'J'accepte tout')]")
+            EC.element_to_be_clickable((By.XPATH, "//button[contains(., 'J'accepte tout')]") )
         )
         consent_btn.click()
     except Exception:
