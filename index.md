@@ -70,7 +70,7 @@ function highlight(text, query) {
 function updateSearch() {
   const q = searchInput.value.toLowerCase();
   searchResults.innerHTML = "";
-  allRecettes.style.display = q.trim() === "" ? "block" : "none";
+
   if (q.trim() === "") return;
 
   const filtered = recettes.filter(r =>
