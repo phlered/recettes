@@ -17,7 +17,7 @@ tags: [Tatin d'endives aux marrons, tarte tatin salée, pâte feuilletée, endiv
 ---
 
 
-![illustration de la recette](images/tatin_d_endives_aux_marrons.jpeg)
+![illustration de la recette](_recettes/images/tatin_d_endives_aux_marrons.jpeg)
 # Tatin d'endives aux marrons
 
 ## Ingrédients
