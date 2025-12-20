@@ -25,7 +25,8 @@ body.accueil .recette-card {
 body.recette-page .site-main {
   padding: 16px;
   overflow-y: visible;
-  margin-top: 180px;
+  margin-top: 80px;
+  padding-top: 0;
 }
 
 body.recette-page .recette-main {
@@ -34,7 +35,7 @@ body.recette-page .recette-main {
   background: rgba(30, 32, 40, 0.82);
   border-radius: 16px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5333333333);
-  padding: 24px 20px;
+  padding: 96px 20px;
   margin: 0 auto;
   display: block;
   column-count: 1;
@@ -42,16 +43,21 @@ body.recette-page .recette-main {
   overflow-y: visible;
 }
 
+body.recette-page .recette-main h1:first-child {
+  margin-top: 0;
+}
+
 @media (max-width: 700px) {
   body.recette-page .site-main {
     padding: 8px;
-    margin-top: 140px;
+    margin-top: 72px;
+    padding-top: 0;
   }
   body.recette-page .recette-main {
     width: 90vw;
     background: rgba(30, 32, 40, 0.82);
     border-radius: 18px;
-    padding: 20px 16px;
+    padding: 88px 16px;
     margin: 0 auto;
   }
 }

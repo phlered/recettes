@@ -31,7 +31,8 @@ body.accueil .recette-card {
 body.recette-page .site-main {
   padding: 16px; // pas de flex: flux vertical conservé
   overflow-y: visible; // défilement global non bloqué
-  margin-top: 180px; // offset plus grand pour garantir le titre entièrement visible
+  margin-top: 80px; // exactement la hauteur du header desktop
+  padding-top: 0;
 }
 
 body.recette-page .recette-main {
@@ -40,7 +41,7 @@ body.recette-page .recette-main {
   background: rgba(30,32,40,0.82); // même alpha que les cartes de l'accueil
   border-radius: 16px;
   box-shadow: 0 8px 24px #0008;
-  padding: 24px 20px;
+  padding: 96px 20px; // espace suffisant pour afficher le titre sous le header
   margin: 0 auto; // centre horizontalement sans changer le flux
   display: block; // garantit le flux vertical
   column-count: 1; // aucune mise en colonnes
@@ -48,16 +49,22 @@ body.recette-page .recette-main {
   overflow-y: visible; // pas de scroll interne
 }
 
+// Assure que le premier titre n'est pas rogné
+body.recette-page .recette-main h1:first-child {
+  margin-top: 0;
+}
+
 @media (max-width: 700px) {
   body.recette-page .site-main {
     padding: 8px;
-    margin-top: 140px; // offset mobile augmenté pour bien dégager le titre
+    margin-top: 72px; // header mobile ~64px + marge de confort
+    padding-top: 0;
   }
   body.recette-page .recette-main {
     width: 90vw;           // Occupe ~90% de la largeur sur téléphone
     background: rgba(30,32,40,0.82); // identique à l'accueil
     border-radius: 18px;
-    padding: 20px 16px;
+    padding: 88px 16px; // espace suffisant pour le titre sur mobile
     margin: 0 auto;        // fond visible sur les bords
   }
 }
