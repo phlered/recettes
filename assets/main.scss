@@ -143,6 +143,7 @@
   padding: 0 16px;
   min-height: calc(100vh - 80px);
   overflow-y: auto;
+  overflow-x: hidden;
 }
 /* Boutons stylisés */
 .btn-main {
@@ -265,10 +266,11 @@
     flex-direction: column;
     align-items: center;
     gap: 18px;
+    width: 100%;
   }
   .recette-card {
-    width: 98vw;
-    max-width: 340px;
+    width: 100%;
+    max-width: 360px;
   }
 }
 /* Header fixe : décale le contenu */
