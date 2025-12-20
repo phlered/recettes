@@ -13,7 +13,7 @@ ingredients:
   - "2 cuillères de sucre"
   - "poivre"
   - "sel"
-tags: [Tatin d'endives aux marrons, tarte tatin salée, pâte feuilletée, endive, marrons, fromage de chèvre, beurre salé, miel liquide, sucre, poivre, sel, facile, bon marché]
+tags: [Fêtes, Noël, Tatin d'endives aux marrons, tarte tatin salée, pâte feuilletée, endive, marrons, fromage de chèvre, beurre salé, miel liquide, sucre, poivre, sel, facile, bon marché]
 ---
 
 
@@ -25,7 +25,7 @@ tags: [Tatin d'endives aux marrons, tarte tatin salée, pâte feuilletée, endiv
 - 1 pâtes feuilletées
 - 1 kg d'endive
 - 250 g de marrons au naturel
-- 250 g de fromage de chèvre FRAIS
+- 250 g de fromage de chèvre FRAIS ou Ricotta ou Mélange Boursin et fromage blanc
 - 40 g de beurre salé
 - 2 cuillères à soupe de miel liquide PEU PARFUME
 - 2 cuillères de sucre
