@@ -4,7 +4,7 @@
 .recette-main {
   max-height: calc(100vh - 80px);
   overflow-y: auto;
-  background: rgba(255,255,255,0.04);
+  background: transparent; // Laisse voir l'image de fond entre les cartes
   border-radius: 12px;
   box-shadow: 0 2px 8px #0002;
   padding: 32px 24px;
@@ -13,7 +13,7 @@
 .recettes-scroll {
   max-height: calc(100vh - 160px);
   overflow-y: auto;
-  background: rgba(255,255,255,0.04);
+  background: transparent; // Pas de voile entre les éléments
   border-radius: 12px;
   box-shadow: 0 2px 8px #0002;
   padding: 24px 16px;
@@ -335,6 +335,18 @@ body {
   color: #e8ecf2;
   margin: 0;
   overflow-x: hidden;
+  position: relative; // Permet le pseudo-élément de fond
+}
+
+// Fond photo en transparence derrière tout le site
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: linear-gradient(180deg, #0f1117ee 0%, #0f1117ee 100%), url("{{ '/images/truffes_au_chocolat.jpeg' | relative_url }}") center/cover no-repeat;
+  opacity: 0.88; // Photo quasi pleine, cartes restent lisibles
+  z-index: -1;
+  pointer-events: none;
 }
 
 img {
