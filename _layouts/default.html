@@ -18,15 +18,99 @@ layout: null
         <a href="{{ '/' | relative_url }}" class="logo-btn">
           🍽️ Mes Recettes
         </a>
-        <form class="search-bar" action="{{ '/search/' | relative_url }}" method="get">
-          <input type="text" name="q" placeholder="Rechercher une recette..." />
-          <button type="submit">🔍</button>
-        </form>
+        <div class="search-bar">
+          <input type="text" id="headerSearchInput" placeholder="Rechercher une recette..." />
+          <button type="button">🔍</button>
+          <ul id="headerSearchResults" class="header-search-results"></ul>
+        </div>
       </div>
     </header>
     <main class="site-main recette-main">
       {{ content }}
     </main>
+    
+    <script>
+    (function() {
+      const searchInput = document.getElementById("headerSearchInput");
+      const searchResults = document.getElementById("headerSearchResults");
+      
+      let recettes = [
+      {% for recette in site.recettes %}
+        {
+          "title": {{ recette.title | jsonify }},
+          "url": "{{ recette.url | relative_url }}",
+          "content": {{ recette.content | strip_html | jsonify }},
+          "tags": {{ recette.tags | jsonify }}
+        }{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+      ];
+      
+      function debounce(fn, delay) {
+        let timer = null;
+        return (...args) => {
+          clearTimeout(timer);
+          timer = setTimeout(() => fn(...args), delay);
+        };
+      }
+      
+      function highlight(text, query) {
+        if (!query) return text;
+        const regex = new RegExp(`(${query})`, "gi");
+        return text.replace(regex, "<mark>$1</mark>");
+      }
+      
+      function updateSearch() {
+        const q = searchInput.value.toLowerCase().trim();
+        searchResults.innerHTML = "";
+        
+        if (q === "") {
+          searchResults.style.display = "none";
+          return;
+        }
+        
+        const filtered = recettes.filter(r =>
+          r.title.toLowerCase().includes(q) ||
+          r.content.toLowerCase().includes(q) ||
+          (r.tags && r.tags.some(t => t.toLowerCase().includes(q)))
+        );
+        
+        if (filtered.length === 0) {
+          searchResults.innerHTML = "<li class='no-results'>Aucune recette trouvée</li>";
+          searchResults.style.display = "block";
+          return;
+        }
+        
+        filtered.slice(0, 8).forEach(r => {
+          const li = document.createElement("li");
+          li.innerHTML = `
+            <a href="${r.url}">
+              <strong>${highlight(r.title, q)}</strong>
+              ${r.tags ? '<br><small>' + highlight(r.tags.join(", "), q) + '</small>' : ''}
+            </a>
+          `;
+          searchResults.appendChild(li);
+        });
+        
+        searchResults.style.display = "block";
+      }
+      
+      searchInput.addEventListener("input", debounce(updateSearch, 200));
+      
+      // Fermer les résultats quand on clique ailleurs
+      document.addEventListener("click", function(e) {
+        if (!searchInput.contains(e.target) && !searchResults.contains(e.target)) {
+          searchResults.style.display = "none";
+        }
+      });
+      
+      // Rouvrir les résultats si on focus l'input et qu'il y a du contenu
+      searchInput.addEventListener("focus", function() {
+        if (searchInput.value.trim() !== "") {
+          updateSearch();
+        }
+      });
+    })();
+    </script>
     {% include footer.html %}
   </body>
 </html>
