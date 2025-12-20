@@ -3,6 +3,7 @@ layout: default
 title: "Truffes au chocolat"
 source: "https://www.marmiton.org/recettes/recette_truffes-au-chocolat_15660.aspx"
 date: "2025-12-20"
+image: "https://assets.afcdn.com/recipe/20221003/135679_w1024h576c1cx1030cy1112cxt0cyt669cxb1414cyb1702.jpg"
 ingredients:
   - "250 g de chocolat noir de bonne qualité"
   - "100 g de beurre doux"
@@ -12,6 +13,8 @@ ingredients:
   - "50 g de cacao"
 tags: [Truffes au chocolat, truffes en chocolat, chocolat noir, beurre doux, jaune d'oeuf, sucre vanillé, sucre glace, cacao, très facile, moyen, rapide]
 ---
+![illustration de la recette](https://assets.afcdn.com/recipe/20221003/135679_w1024h576c1cx1030cy1112cxt0cyt669cxb1414cyb1702.jpg)
+
 # Truffes au chocolat
 
 ## Ingrédients
