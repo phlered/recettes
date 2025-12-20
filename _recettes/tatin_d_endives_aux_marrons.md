@@ -1,5 +1,5 @@
 ---
-layout: defaut
+layout: default
 title: "Tatin d'endives aux marrons"
 source: "https://www.marmiton.org/recettes/recette_tatin-d-endives-aux-marrons_23645.aspx"
 date: "2025-12-20"
