@@ -1,3 +1,18 @@
+/* Style spécifique pour le lien ACCUEIL dans l'en-tête */
+.header-home {
+  color: #fff !important;
+  font-weight: bold;
+  text-shadow: 1px 1px 4px #222;
+  text-decoration: none;
+  font-size: 1.2em;
+  letter-spacing: 0.05em;
+  transition: color 0.2s, text-shadow 0.2s;
+}
+
+.header-home:hover {
+  color: #ffd700 !important;
+  text-shadow: 2px 2px 8px #222;
+}
 ---
 ---
 @import "minima";
