@@ -201,9 +201,9 @@
 .recette-cards {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 16px;
   justify-content: center;
-  margin-top: 24px;
+  margin-top: 12px;
   width: 100%;
   box-sizing: border-box;
 }
@@ -211,15 +211,15 @@
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  width: 240px;
+  width: 208px;
   background: rgba(30,32,40,0.98);
-  border-radius: 14px;
-  box-shadow: 0 4px 18px #0007;
+  border-radius: 12px;
+  box-shadow: 0 3px 14px #0006;
   text-decoration: none;
   color: #e8ecf2;
   transition: transform 0.18s, box-shadow 0.18s;
   overflow: hidden;
-  border: 1.5px solid #23243a;
+  border: 1px solid #23243a;
 }
 .recette-card:hover {
   transform: translateY(-6px) scale(1.03);
@@ -237,15 +237,15 @@
   box-shadow: 0 2px 8px #0006;
 }
 .recette-card-content {
-  padding: 16px 14px 12px 14px;
+  padding: 10px 12px;
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
 }
 .recette-card-content h3 {
-  margin: 0 0 8px 0;
-  font-size: 1.15em;
+  margin: 0;
+  font-size: 1.05em;
   color: #fff;
   font-weight: 600;
   letter-spacing: 0.01em;
@@ -269,12 +269,12 @@
   .recette-cards {
     flex-direction: column;
     align-items: center;
-    gap: 18px;
+    gap: 14px;
     width: 100%;
   }
   .recette-card {
     width: 100%;
-    max-width: 360px;
+    max-width: 320px;
   }
 }
 /* Header fixe : décale le contenu */
