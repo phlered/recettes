@@ -19,6 +19,42 @@
   padding: 24px 16px;
   margin-top: 16px;
 }
+
+// Cartes plus transparentes sur l'accueil pour laisser respirer l'image de fond
+body.accueil .recette-card {
+  background: rgba(30,32,40,0.82); // Encore plus translucide sur l'accueil
+}
+
+// =====================
+// Pages de recettes (carte géante)
+// =====================
+body.recette-page .site-main {
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+}
+
+body.recette-page .recette-main {
+  width: 100%;
+  max-width: 980px;
+  background: rgba(20,22,30,0.92);
+  border-radius: 16px;
+  box-shadow: 0 8px 24px #0008;
+  padding: 24px 20px;
+}
+
+@media (max-width: 700px) {
+  body.recette-page .site-main {
+    padding: 8px;
+  }
+  body.recette-page .recette-main {
+    width: 90vw;           // Occupe ~90% de la largeur sur téléphone
+    min-height: calc(90vh - 72px); // Grande carte, laisse voir le fond autour
+    background: rgba(20,22,30,0.9);
+    border-radius: 18px;
+    padding: 20px 16px;
+  }
+}
 .recettes-scroll ul {
   list-style: none;
   padding: 0;
@@ -347,6 +383,12 @@ body::before {
   opacity: 0.88; // Photo quasi pleine, cartes restent lisibles
   z-index: -1;
   pointer-events: none;
+}
+
+// Page d'accueil : fond presque nu (image très visible autour des cartes)
+body.accueil::before {
+  background: linear-gradient(180deg, #0f111733 0%, #0f111733 100%), url("{{ '/images/truffes_au_chocolat.jpeg' | relative_url }}") center/cover no-repeat;
+  opacity: 0.96;
 }
 
 img {
