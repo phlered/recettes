@@ -15,6 +15,9 @@ ingredients:
   - "sel"
 tags: [Tatin d'endives aux marrons, tarte tatin salée, pâte feuilletée, endive, marrons, fromage de chèvre, beurre salé, miel liquide, sucre, poivre, sel, facile, bon marché]
 ---
+
+
+![illustration de la recette](images/tatin_d_endives_aux_marrons.jpeg)
 # Tatin d'endives aux marrons
 
 ## Ingrédients
