@@ -1,5 +1,5 @@
 ---
-layout: recipe
+layout: default
 title: Titre de la recette
 description: Description courte de la recette
 category: [dessert/plat principal/entrée/pain/sauce]
