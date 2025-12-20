@@ -5,10 +5,13 @@ title: Accueil
 
 <h1>🍽️ Mes recettes maison</h1>
 
-<h2>Toutes mes recettes</h2>
-<div class="recette-cards">
+<h2 id="recettes-title">Toutes mes recettes</h2>
+<div class="recette-cards" id="recetteCards">
 {% for recette in site.recettes %}
-  <a class="recette-card" href="{{ recette.url | relative_url }}">
+  <a class="recette-card" href="{{ recette.url | relative_url }}" 
+     data-title="{{ recette.title | downcase }}" 
+     data-tags="{% if recette.tags %}{{ recette.tags | join: ',' | downcase }}{% endif %}" 
+     data-content="{{ recette.content | strip_html | downcase }}">
     {% if recette.image %}
       <img src="{{ recette.image | relative_url }}" alt="{{ recette.title }}" class="recette-card-img">
     {% endif %}

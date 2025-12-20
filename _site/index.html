@@ -13,25 +13,35 @@
         <a href="/recettes/" class="logo-btn">
           🍽️ Mes Recettes
         </a>
-        <form class="search-bar" action="/recettes/search/" method="get">
-          <input type="text" name="q" placeholder="Rechercher une recette..." />
-          <button type="submit">🔍</button>
-        </form>
+        <div class="search-bar">
+          <input type="text" id="headerSearchInput" placeholder="Rechercher une recette..." />
+          <button type="button" id="clearSearchBtn">✖</button>
+        </div>
       </div>
     </header>
     <main class="site-main recette-main">
       <h1>🍽️ Mes recettes maison</h1>
 
-<div class="search-box">
-  <h2>🔍 Recherche rapide</h2>
-  <input type="text" id="searchInput" class="search-input" placeholder="Tapez un ingrédient, un tag, un mot-clé…" />
-  <ul id="searchResults" class="search-results"></ul>
-</div>
+<h2 id="recettes-title">Toutes mes recettes</h2>
+<div class="recette-cards" id="recetteCards">
 
-<h2>Toutes mes recettes</h2>
-<div class="recette-cards">
+  <a class="recette-card" href="/recettes/recettes/appareil-a-creme-prise/" data-title="appareil à crème prise" data-tags="crème,tarte,sucré" data-content="appareil à crème prise
 
-  <a class="recette-card" href="/recettes/recettes/appareil-a-creme-prise/">
+par exemple pour recouvrir les pommes dans une tarte aux pommes
+
+ingrédients
+
+  2 œufs entiers
+  1 jaune d’œuf
+  50 g de sucre en poudre
+  200 g de lait
+  100 g de crème double
+  extrait de vanille
+
+
+préparation
+mélanger tous les ingrédients, puis verser dans la tarte.
+">
     
     <div class="recette-card-content">
       <h3>Appareil à crème prise</h3>
@@ -49,7 +59,33 @@
     </div>
   </a>
 
-  <a class="recette-card" href="/recettes/recettes/brownie-au-chocolat/">
+  <a class="recette-card" href="/recettes/recettes/brownie-au-chocolat/" data-title="brownie au chocolat" data-tags="brownie,chocolat,sucré" data-content="brownie au chocolat
+
+(recette de maud, du grand pâtissier)
+
+ingrédients
+
+  200 g de beurre doux
+  40 g d’huile neutre
+  460 g de chocolat noir
+  150 g de farine
+  6 œufs
+  180 g de sucre
+  1 pincée de sel
+  100 g de noix de pécan ou noisettes ou pépites de chocolat
+
+
+préparation
+
+  fouettez les œufs et le sucre, avec un fouet électrique environ 5 min.
+  faites fondre le chocolat noir et le beurre, en mélangeant les deux ensemble puis ajoutez l’huile.
+  ajoutez au mélange œufs sucre qui doit avoir doublé de volume et mélangez à la maryse.
+  ajoutez la farine et le sel et mélangez.
+  beurrez le moule et versez la pâte.
+  ajoutez des noisettes et des noix de pécan sur le dessus.
+  enfournez 15 min dans un four préchauffé à 180°c.
+
+">
     
     <div class="recette-card-content">
       <h3>Brownie au chocolat</h3>
@@ -67,7 +103,19 @@
     </div>
   </a>
 
-  <a class="recette-card" href="/recettes/recettes/broye-du-poitou/">
+  <a class="recette-card" href="/recettes/recettes/broye-du-poitou/" data-title="broyé du poitou" data-tags="broyé,poitou,gâteau,sucré" data-content="broyé du poitou
+
+pour 1 grand moule et un moyen
+
+ingrédients
+
+  1,2 kg de farine
+  600 g de beurre
+  550 g de sucre
+  1 blanc d’œuf (garder le jaune pour le vernis)
+  10 à 15 g de sel
+
+">
     
     <div class="recette-card-content">
       <h3>Broyé du Poitou</h3>
@@ -87,7 +135,41 @@
     </div>
   </a>
 
-  <a class="recette-card" href="/recettes/recettes/cake-aux-fruits-confits/">
+  <a class="recette-card" href="/recettes/recettes/cake-aux-fruits-confits/" data-title="cake aux fruits confits" data-tags="cake,fruits confits,sucré" data-content="cake aux fruits confits
+
+source
+
+ingrédients pour un moule à cake de 22 cm
+
+ingrédients
+
+  3 œufs (150 g environ)
+  125 g de sucre glace ou de sucre en poudre
+  125 g de beurre demi-sel
+  160 g de farine tamisée
+  1/3 de sachet de levure chimique
+  100 g de raisins de corinthe
+  100 g de cerises confites
+  50 g de fruits confits
+  4 cuillerées à soupe de rhum (remplacé par le thé ou de la fleur d’oranger)
+  1 sachet de thé
+
+
+préparation
+
+  préchauffer le four à 200°c.
+  faire macérer les raisins secs dans un bol d’eau infusé d’un sachet de thé citron ou orange afin de gonfler.
+  crémer le beurre ramolli et le sucre au fouet jusqu’à ce que le mélange blanchisse.
+  ajouter les œufs un par un, puis incorporer la farine et la levure chimique. travailler bien le mélange en ruban.
+  égoutter puis sécher les raisins gonflés dans du papier absorbant puis farinez-les en retirant l’excédent.
+  incorporer alors tous les petits morceaux de fruits confits à la pâte en mélangeant bien la préparation.
+  verser dans un moule à cake beurré ou chemisé de papier sulfurisé.
+  avant d’enfourner, réduire la température du four à 180°c et cuire le cake pour 45 à 50 minutes environ.
+  si nécessaire, couvrir le cake d’un papier cuisson ou aluminium si sa surface est déjà bien dorée et que l’intérieur manque de cuisson.
+  pour vérifier sa cuisson, piquer avec la pointe d’un couteau ou cure-dent le centre du cake.
+  à la sortie du four, badigeonner éventuellement d’un sirop de sucre parfumé ou d’un nappage neutre.
+
+">
     
     <div class="recette-card-content">
       <h3>Cake aux fruits confits</h3>
@@ -105,7 +187,24 @@
     </div>
   </a>
 
-  <a class="recette-card" href="/recettes/recettes/cake-de-sophie-aux-olives/">
+  <a class="recette-card" href="/recettes/recettes/cake-de-sophie-aux-olives/" data-title="cake de sophie aux olives" data-tags="cake,olives,jambon,salé" data-content="cake de sophie aux olives
+
+ingrédients
+
+  3 œufs
+  150 g de farine
+  1 sachet de levure
+  10 cl d’huile de tournesol
+  12,5 cl de lait
+  100 g de gruyère râpé
+  200 g de jambon de paris
+  75 g d’olives vertes
+  sel, poivre
+
+
+préparation
+cuire à 180°c pendant 45 minutes.
+">
     
     <div class="recette-card-content">
       <h3>Cake de Sophie aux olives</h3>
@@ -125,7 +224,30 @@
     </div>
   </a>
 
-  <a class="recette-card" href="/recettes/recettes/cheesecake/">
+  <a class="recette-card" href="/recettes/recettes/cheesecake/" data-title="cheesecake" data-tags="cheesecake,fromage,sucré" data-content="cheesecake
+
+pour la croûte :
+
+  200 g de biscuits à thé émiettés
+  80 g de beurre fondu
+
+
+préchauffer le four à 175°c. mélanger les biscuits écrasés et le beurre fondu dans un moule 24 cm, tasser avec un verre, cuire 10 à 15 minutes. sortir la croûte du four et augmenter la température à 225°c.
+
+pour la crème :
+
+  550 g de philadelphia
+  150 g de sucre en poudre
+  pincée de sel
+  40 g de farine
+  36 cl de crème fraîche épaisse
+  5 œufs moyens
+  1 jaune d’œuf
+  1/2 cuillère à café d’extrait de vanille
+
+
+en respectant l’ordre des ingrédients, mélanger, verser sur la croûte. enfourner 10 minutes. sans ouvrir le four, baisser la température à 120°c et prolonger la cuisson de 1h ou 1h15. la crème doit rester légèrement tremblotante au milieu. laisser refroidir au réfrigérateur pendant au moins 4 heures.
+">
     
     <div class="recette-card-content">
       <h3>Cheesecake</h3>
@@ -143,7 +265,25 @@
     </div>
   </a>
 
-  <a class="recette-card" href="/recettes/recettes/clafoutis/">
+  <a class="recette-card" href="/recettes/recettes/clafoutis/" data-title="clafoutis" data-tags="clafoutis,fruits,sucré" data-content="clafoutis
+
+ingrédients
+
+  1 kg de fruits (cerises, abricots, …)
+  3 œufs entiers + 3 jaunes d’œuf
+  150 g sucre
+  150 g farine
+  90 g beurre fondu
+  vanille (éventuellement)
+  375 g lait
+  pincée de sel
+
+
+préparation
+disposer les fruits dans un grand moule beurré.
+mélanger progressivement les ingrédients puis verser sur les fruits.
+cuire 45 minutes à 180°c.
+">
     
     <div class="recette-card-content">
       <h3>Clafoutis</h3>
@@ -161,7 +301,25 @@
     </div>
   </a>
 
-  <a class="recette-card" href="/recettes/recettes/cookies/">
+  <a class="recette-card" href="/recettes/recettes/cookies/" data-title="cookies" data-tags="cookies,chocolat,sucré" data-content="cookies
+
+pour deux plaques :
+
+ingrédients
+
+  3 œufs
+  230 g sucre
+  250 g beurre
+  450 g farine
+  300 g pépites de chocolat
+  3 sachets de sucre vanillé
+  1 sachet de levure chimique
+  1 cc sel
+
+
+préparation
+beurre ramolli + sucre + œufs et sucre vanillé + farine, levure et sel + chocolat. bien mélanger et former de petites boules. cuisson une dizaine de minutes à 180°c.
+">
     
     <div class="recette-card-content">
       <h3>Cookies</h3>
@@ -179,7 +337,27 @@
     </div>
   </a>
 
-  <a class="recette-card" href="/recettes/recettes/cookies-au-kitchenaid/">
+  <a class="recette-card" href="/recettes/recettes/cookies-au-kitchenaid/" data-title="cookies au kitchenaid" data-tags="cookies,chocolat,sucré" data-content="cookies au kitchenaid
+
+ingrédients
+
+  700 g de farine
+  400 g de beurre
+  200 g de sucre roux
+  100 g de sucre blanc
+  2 œufs
+  400 g de chocolat
+  levure chimique
+  sel
+
+
+préparation
+mélanger dans le kitchenaid le beurre et le sucre jusqu’à ce que le mélange devienne crémeux. une fois le mélange crémeux, il faudra y ajouter l’œuf, la farine, le sel et le bicarbonate de soude et mélanger le tout. la pâte doit être bien amalgamée avant de pouvoir y ajouter les pépites de chocolat.
+
+rouler un boudin de 5 cm de diamètre, et laisser reposer au frais.
+
+préchauffer à 180°c. cuisson 10 minutes.
+">
     
     <div class="recette-card-content">
       <h3>Cookies au KitchenAid</h3>
@@ -197,7 +375,21 @@
     </div>
   </a>
 
-  <a class="recette-card" href="/recettes/recettes/creme-patissiere-fa%C3%A7on-meme-arlette/">
+  <a class="recette-card" href="/recettes/recettes/creme-patissiere-fa%C3%A7on-meme-arlette/" data-title="crème pâtissière façon mémé arlette" data-tags="crème,pâtissière,sucré" data-content="crème pâtissière façon mémé arlette
+
+ingrédients
+
+  2 jaunes d’œuf + 1 œuf entier
+  100 g sucre en poudre
+  75 g farine
+  1/2 l de lait
+  sucre vanillé
+  50 g beurre
+
+
+préparation
+battre les œufs + sucre. incorporer la farine. bouillir lait + vanille. verser sur la préparation. réchauffer jusqu’à épaississement. rajouter le beurre hors du feu (ne plus remettre sur le feu).
+">
     
     <div class="recette-card-content">
       <h3>Crème pâtissière façon mémé Arlette</h3>
@@ -215,7 +407,22 @@
     </div>
   </a>
 
-  <a class="recette-card" href="/recettes/recettes/far-breton/">
+  <a class="recette-card" href="/recettes/recettes/far-breton/" data-title="far breton" data-tags="far,breton,pruneau,sucré" data-content="far breton
+
+ingrédients
+
+  220 g farine
+  110 g sucre poudre
+  1 sachet de sucre vanillé
+  3/4 litre lait
+  5 œufs
+  20 g beurre fondu
+  400 g pruneau
+
+
+préparation
+travailler comme une pâte à crêpe. c’est très liquide mais à la cuisson devient normal ! cuisson environ 1 heure à 180°c.
+">
     
     <div class="recette-card-content">
       <h3>Far breton</h3>
@@ -235,7 +442,20 @@
     </div>
   </a>
 
-  <a class="recette-card" href="/recettes/recettes/feuilles-de-brick-aux-amandes/">
+  <a class="recette-card" href="/recettes/recettes/feuilles-de-brick-aux-amandes/" data-title="feuilles de brick aux amandes" data-tags="brick,amandes,sucré" data-content="feuilles de brick aux amandes
+
+pour 18 à 20 pièces (10 feuilles de brick)
+
+ingrédients
+
+  250 g poudre d’amande
+  170 g sucre
+  3 œufs
+
+
+préparation
+fourrer les demi-feuilles de brick, plier, dorer à la poêle. avec un pinceau, recouvrir de miel chaud et laisser refroidir.
+">
     
     <div class="recette-card-content">
       <h3>Feuilles de brick aux amandes</h3>
@@ -253,7 +473,24 @@
     </div>
   </a>
 
-  <a class="recette-card" href="/recettes/recettes/financiers/">
+  <a class="recette-card" href="/recettes/recettes/financiers/" data-title="financiers" data-tags="financiers,amande,sucré" data-content="financiers
+
+ingrédients
+
+  75 g de farine
+  225 g de sucre poudre
+  110 g de beurre fondu
+  125 g de poudre d’amande
+  6 blancs d’œufs
+  1 goutte de rhum
+  1 pincée de sel
+
+
+préparation
+préchauffer le four à 190°c.
+mélanger tous les ingrédients sauf le beurre (inutile de monter les blancs en neige). puis ajouter le beurre et mélanger. verser dans des moules à financiers bien beurrés.
+cuire 15 minutes à 190°c.
+">
     
     <div class="recette-card-content">
       <h3>Financiers</h3>
@@ -271,7 +508,20 @@
     </div>
   </a>
 
-  <a class="recette-card" href="/recettes/recettes/fondant-au-chocolat/">
+  <a class="recette-card" href="/recettes/recettes/fondant-au-chocolat/" data-title="fondant au chocolat" data-tags="fondant,chocolat,sucré" data-content="fondant au chocolat
+
+ingrédients
+
+  5 œufs
+  5 cuillères à soupe de sucre
+  3 cuillères à soupe de farine ou maïzena
+  125 g de beurre
+  1 tablette de chocolat noir
+
+
+préparation
+faire fondre le beurre avec le chocolat. ajouter au reste déjà mélangé. cuisson environ 10 ou 15 minutes à 180°c.
+">
     
     <div class="recette-card-content">
       <h3>Fondant au chocolat</h3>
@@ -289,7 +539,32 @@
     </div>
   </a>
 
-  <a class="recette-card" href="/recettes/recettes/fondue-fromage/">
+  <a class="recette-card" href="/recettes/recettes/fondue-fromage/" data-title="fondue au fromage" data-tags="fondue,fromage,salé" data-content="fondue au fromage
+
+pour 4 personnes :
+
+ingrédients
+
+  350 g de comté
+  350 g d’abondance
+  3 ou 4 gousses d’ail
+  40 cl litre de vin blanc sec
+  1 cuillère à soupe de maïzena ou de farine
+  pain de campagne ou baguette coupé en morceaux
+  poivre
+
+
+préparation
+
+  frotter le caquelon avec les gousses d’ail coupées en deux, puis récupérer les gousses pour les découper finement et les ajouter au vin blanc
+  faire chauffer le vin blanc dans le caquelon
+  ajouter le fromage râpé petit à petit en remuant constamment
+  incorporer  la maïzena ou la farine diluée dans un peu de vin blanc
+  remuer jusqu’à ce que le mélange soit homogène et onctueux
+  poivrer selon le goût
+  servir avec des morceaux de pain à tremper dans le fromage fondu
+
+">
     
     <div class="recette-card-content">
       <h3>Fondue au fromage</h3>
@@ -307,7 +582,22 @@
     </div>
   </a>
 
-  <a class="recette-card" href="/recettes/recettes/galette-des-rois/">
+  <a class="recette-card" href="/recettes/recettes/galette-des-rois/" data-title="galette des rois" data-tags="galette,amande,rois,sucré" data-content="galette des rois
+
+ingrédients
+
+  250 g de poudre d’amande
+  200 g de sucre
+  180 g de beurre mou
+  un bouchon de rhum
+  3 œufs
+  une pincée de sel
+  deux pâtes feuilletées
+
+
+préparation
+mélanger le tout et déposer sur un cercle de pâte feuilletée sur une plaque en laissant environ 2 cm non recouvert au pourtour de la pâte. déposer la fève. mettre de l’eau sur ce pourtour et coller dessus le deuxième cercle. glaçage au jaune d’œuf pur. four à 180°c et baisser à la fin de la cuisson (on peut mettre un peu de sucre glace en fin de cuisson pour caraméliser).
+">
     
     <div class="recette-card-content">
       <h3>Galette des Rois</h3>
@@ -327,7 +617,25 @@
     </div>
   </a>
 
-  <a class="recette-card" href="/recettes/recettes/galettes-de-ble-noir/">
+  <a class="recette-card" href="/recettes/recettes/galettes-de-ble-noir/" data-title="galettes de blé noir" data-tags="crêpe,blé noir,salé" data-content="galettes de blé noir
+
+ingrédients
+
+  250 g de farine de blé noir
+  1/2 cuillère à soupe de sel
+  1 œuf
+  0,5 l d’eau
+  0,25 l de lait
+
+
+préparation
+verser la farine dans une terrine en formant une fontaine.
+y ajouter au centre le sel et l’œuf.
+verser peu à peu eau et lait tout en délayant jusqu’à obtention d’une pâte lisse et onctueuse.
+laisser reposer une heure.
+
+garnitures : œuf/jambon/fromage ; beurre-sucre ; crème et saumon fumé
+">
     
     <div class="recette-card-content">
       <h3>Galettes de blé noir</h3>
@@ -345,7 +653,22 @@
     </div>
   </a>
 
-  <a class="recette-card" href="/recettes/recettes/gateau-au-yaourt-geraldine/">
+  <a class="recette-card" href="/recettes/recettes/gateau-au-yaourt-geraldine/" data-title="gâteau au yaourt (recette de géraldine)" data-tags="gâteau,yaourt,sucré" data-content="gâteau au yaourt (recette de géraldine)
+
+ingrédients
+
+  1 pot de yaourt
+  3 œufs
+  2 pots de sucre
+  1 paquet de sucre vanillé
+  3/4 de pot d’huile
+  3 pots de farine
+  1 paquet de levure chimique
+
+
+préparation
+cuire 30 à 35 min à th=225°c. nb : meilleur si beurre fondu à la place de l’huile.
+">
     
     <div class="recette-card-content">
       <h3>Gâteau au yaourt (recette de Géraldine)</h3>
@@ -363,7 +686,19 @@
     </div>
   </a>
 
-  <a class="recette-card" href="/recettes/recettes/gaufres-lyonnaises/">
+  <a class="recette-card" href="/recettes/recettes/gaufres-lyonnaises/" data-title="gaufres lyonnaises" data-tags="gaufres,lyon,sucré" data-content="gaufres lyonnaises
+
+ingrédients
+
+  500 g farine
+  une pincée de sel
+  30 g de sucre
+  10 g de levure
+  125 g beurre
+  3 à 4 œufs
+  bière, lait, eau : total 3/4 de litre
+
+">
     
     <div class="recette-card-content">
       <h3>Gaufres Lyonnaises</h3>
@@ -381,7 +716,37 @@
     </div>
   </a>
 
-  <a class="recette-card" href="/recettes/recettes/gougeres-au-fromage/">
+  <a class="recette-card" href="/recettes/recettes/gougeres-au-fromage/" data-title="gougères au fromage" data-tags="gougères,fromage,apéritif,salé" data-content="gougères au fromage
+
+ingrédients (pour 8 personnes)
+
+  1 cuillère à café de sel
+  1 cuillère à café de sel
+  150 g de gruyère râpé
+  150 g de beurre
+  300 g de farine
+  50 cl d’eau
+  8 oeufs
+
+
+faire une pâte à choux en faisant fondre dans une casserole le beurre, l’eau, le sel. porter à ébullition.
+
+retirer du feu et ajouter la farine d’un seul coup en travaillant vivement à la spatule.
+
+remettre sur le feu et dessécher la pâte jusqu’à ce qu’elle se détache de la casserole.
+
+retirer du feu, laissez tiédir.
+
+incorporer les 8 oeufs, un à un, en mélangeant bien à la spatule.
+
+ajouter à cette pâte le gruyère râpé.
+
+disposer en petites boules sur une plaque beurrée.
+
+faire cuire à four chaud (210 degrés), jusqu’à ce que ça ait gonflé et que ce soit un peu doré (environ 25 min).
+
+petite astuce : à la fin de la cuisson (pas avant !), ouvrir légèrement la porte du four pour faire sortir la vapeur, puis refermer la porte et laisser cuire quelques minutes. cela assèche un peu les gougères et les rend plus croustillantes.
+">
     
     <div class="recette-card-content">
       <h3>Gougères au fromage</h3>
@@ -401,7 +766,26 @@
     </div>
   </a>
 
-  <a class="recette-card" href="/recettes/recettes/gratin-legumes-racines-patate-douce-parmesan/">
+  <a class="recette-card" href="/recettes/recettes/gratin-legumes-racines-patate-douce-parmesan/" data-title="gratin de légumes racines et patate douce au parmesan" data-tags="gratin,légumes racines,patate douce,parmesan,plat principal,recette facile,végétarien,noël" data-content="ingrédients (4 personnes)
+
+  2 patates douces
+  2 carottes
+  2 panais
+  200 ml de crème (ou crème végétale)
+  100 g de parmesan râpé (ou fromage végétal)
+  2 gousses d’ail
+  sel, poivre, noix de muscade
+
+
+préparation
+
+  préchauffer le four à 180°c.
+  éplucher et couper tous les légumes en fines tranches.
+  frotter un plat à gratin avec l’ail, puis disposer les légumes en couches.
+  verser la crème, assaisonner et parsemer de parmesan.
+  cuire 35-40 min jusqu’à ce que les légumes soient tendres et dorés.
+
+">
     
     <div class="recette-card-content">
       <h3>Gratin de légumes racines et patate douce au parmesan</h3>
@@ -429,7 +813,24 @@
     </div>
   </a>
 
-  <a class="recette-card" href="/recettes/recettes/madeleines-aux-epices/">
+  <a class="recette-card" href="/recettes/recettes/madeleines-aux-epices/" data-title="madeleines aux épices" data-tags="madeleines,épices,sucré,diététique" data-content="madeleines aux épices
+
+recette “diététique”
+
+ingrédients
+
+  1 yaourt
+  2 œufs
+  1/2 sachet de levure chimique
+  1 pot de yaourt de sucre
+  2 pots de yaourt de farine
+  1/2 pot d’huile
+  2 cuillères à soupe de mélange pour pain d’épices
+
+
+préparation
+mettre dans des moules à madeleine et cuire 15 minutes à 200°c. baisser le four à 120°c pendant 3 minutes puis les sortir du four.
+">
     
     <div class="recette-card-content">
       <h3>Madeleines aux épices</h3>
@@ -449,7 +850,24 @@
     </div>
   </a>
 
-  <a class="recette-card" href="/recettes/recettes/mini-quiches-sans-pate/">
+  <a class="recette-card" href="/recettes/recettes/mini-quiches-sans-pate/" data-title="mini-quiches sans pâte" data-tags="quiche,mini,diététique,salé" data-content="mini-quiches sans pâte
+
+recette “diététique”
+
+ingrédients
+
+  100 ml de lait
+  2 œufs
+  40 g de farine blanche
+  40 g de champignons émincés
+  50 g de jambon
+  40 g de gruyère râpé
+  1 pincée de poivre
+
+
+préparation
+faire cuire 15 minutes à 200°c puis 2 minutes au grill.
+">
     
     <div class="recette-card-content">
       <h3>Mini-Quiches sans pâte</h3>
@@ -469,7 +887,25 @@
     </div>
   </a>
 
-  <a class="recette-card" href="/recettes/recettes/moelleux-a-la-carotte/">
+  <a class="recette-card" href="/recettes/recettes/moelleux-a-la-carotte/" data-title="moelleux à la carotte" data-tags="cake,carotte,sucré,diététique" data-content="moelleux à la carotte
+
+recette “diététique” ; pour un cake.
+
+ingrédients
+
+  1 yaourt nature
+  2 pots de yaourt de farine
+  1/2 pot d’huile
+  3 œufs
+  180 g de carottes râpées
+  1 cuillère à soupe de noix de muscade (ou 1 cuillère à café de quatre épices)
+  1/2 sachet de levure chimique
+
+
+préparation
+mélanger l’ensemble des ingrédients.
+faire cuire dans un moule à cake environ 30 minutes à 180°c.
+">
     
     <div class="recette-card-content">
       <h3>Moelleux à la carotte</h3>
@@ -489,7 +925,33 @@
     </div>
   </a>
 
-  <a class="recette-card" href="/recettes/recettes/mon-amuse-bouche-de-gambas/">
+  <a class="recette-card" href="/recettes/recettes/mon-amuse-bouche-de-gambas/" data-title="mon amuse-bouche de gambas" data-tags="mon amuse-bouche de gambas,bouchée ou amuse-bouche,gambas,carré frais,miel,sésame,mélange 5 baies,huile d'olive,facile,bon marché,rapide" data-content="
+
+mon amuse-bouche de gambas
+
+ingrédients
+
+
+  6 gambas
+  3 carré frais
+  1 cuillères à soupe de miel
+  sésame
+  mélange 5 baies
+  2 cuillères à soupe d’huile d’olive
+
+
+préparation
+
+
+  otez les têtes des gambas et décortiquez-les jusqu’à ce qu’il ne reste que la queue.
+  roulez les queues de gambas dans les graines de sesame et faites-les revenir dans l’huile d’olive de chaque côté pendant 2/3 minutes (suivant coloration).
+  ecrasez les carrés frais à la fourchette et ajoutez-y généreusement du cinq-baies.
+  dans des petits verres, versez une cuillère à soupe du mélange carré frais - cinq baies, déposez une gambas aux graines de sésame cuite et finissez par un filet de miel.
+  servez sans attendre.
+
+
+source marmiton
+">
     
       <img src="/recettes/images/mon_amuse_bouche_de_gambas.jpg" alt="Mon Amuse-bouche de Gambas" class="recette-card-img" />
     
@@ -525,7 +987,27 @@
     </div>
   </a>
 
-  <a class="recette-card" href="/recettes/recettes/pain-de-mie/">
+  <a class="recette-card" href="/recettes/recettes/pain-de-mie/" data-title="pain de mie" data-tags="pain,boulangerie,salé" data-content="pain de mie
+
+ingrédients
+
+  900 g de farine
+  2 cuillères à soupe de sucre ou de miel
+  18 g de sel
+  350 ml de lait
+  250 ml d’eau
+  60 g de beurre
+
+
+préparation
+tous les ingrédients sauf beurre et levure 2 min vitesse 2 au pétrisseur. attendre un peu, puis rajouter beurre et levure ; 10 min de pétrissage vitesse 4.
+
+laisser monter jusqu’à ce que la pâte ait doublé de volume. puis dresser dans deux plats à cake.
+
+attendre de nouveau 1h.
+
+cuisson 25 min à 180°c.
+">
     
     <div class="recette-card-content">
       <h3>Pain de mie</h3>
@@ -543,7 +1025,114 @@
     </div>
   </a>
 
-  <a class="recette-card" href="/recettes/recettes/pain-de-mie-brioche-t65/">
+  <a class="recette-card" href="/recettes/recettes/pain-de-mie-brioche-t65/" data-title="pain de mie légèrement brioché – version t65 bio" data-tags="pain,boulangerie,t65,bio" data-content="🥖 pain de mie légèrement brioché – version t65 bio
+
+🌾 ingrédients (pour un moule à cake standard)
+
+
+  farine de blé t65 bio : 500 g
+  lait tiède (30–35 °c) : 265 ml
+  œuf entier : 1 (≈ 55 g)
+  beurre doux mou : 60 g
+  sucre : 25 g
+  sel : 10 g
+  levure boulangère sèche instantanée : 8 g
+(ou 20 g de levure fraîche émiettée)
+
+
+
+
+⚙️ préparation (au kitchenaid avec crochet pétrisseur)
+
+1️⃣ activation et mélange initial
+
+  dans la cuve, verse :
+    
+      le lait tiède,
+      la levure,
+      le sucre.
+mélange et laisse reposer 5 minutes si tu utilises de la levure fraîche.
+    
+  
+  ajoute la farine, le sel (à distance de la levure) et l’œuf.
+  pétris 5 minutes à vitesse 1-2 jusqu’à obtenir une pâte homogène.
+
+
+2️⃣ incorporation du beurre
+
+  ajoute le beurre mou en petits morceaux, un à un, pendant que le robot tourne à vitesse 2.
+  continue à pétrir 15 à 18 minutes.
+    
+      la pâte doit devenir lisse, souple et légèrement brillante.
+      si elle reste granuleuse, prolonge encore 2–3 min.
+      elle doit s’étirer sans se casser (test de la vitre).
+    
+  
+
+
+
+
+🌡️ 3️⃣ première pousse
+
+  couvre la cuve d’un film plastique ou d’un torchon humide.
+  laisse pousser 2 h à 2 h 30 dans un endroit tiède (25–28 °c).
+    
+      la pâte doit doubler de volume.
+    
+  
+
+
+💡 astuce : dans un four éteint avec un bol d’eau chaude, la levée est idéale.
+
+
+
+🧮 4️⃣ façonnage
+
+  dégaze la pâte doucement.
+  étale-la en rectangle et roule-la serrée pour former un boudin.
+  dépose dans un moule à cake beurré ou chemisé.
+
+
+
+
+⏲️ 5️⃣ deuxième pousse
+
+  laisse pousser 45 à 60 min, jusqu’à ce que la pâte arrive au bord du moule.
+
+
+
+
+🔥 6️⃣ cuisson
+
+  préchauffe le four à 180 °c (chaleur tournante).
+  dore au lait ou à l’œuf battu.
+  
+    enfourne 25 à 30 min jusqu’à ce que le dessus soit doré.
+  
+  démoule aussitôt et laisse refroidir sur grille.
+
+
+
+
+🌟 résultat attendu
+
+  mie souple et moelleuse, légèrement briochée.
+  saveur plus riche et rustique qu’avec une t45.
+  se conserve 2–3 jours dans un linge propre ou boîte hermétique.
+
+
+
+
+🧠 astuces réussite (spécial t65)
+
+  pétrissage long = gluten fort → mie élastique.
+  si la pâte te semble ferme, ajoute 1 c. à s. de lait pendant le pétrissage.
+  pour une texture plus filante : ajoute 10 g de gluten pur à la farine.
+  évite de trancher le pain chaud : laisse refroidir pour fixer la mie.
+
+
+
+">
     
     <div class="recette-card-content">
       <h3>Pain de mie légèrement brioché – version T65 bio</h3>
@@ -563,7 +1152,129 @@
     </div>
   </a>
 
-  <a class="recette-card" href="/recettes/recettes/pain-de-mie-japonais/">
+  <a class="recette-card" href="/recettes/recettes/pain-de-mie-japonais/" data-title="pain de mie japonais (shokupan)" data-tags="pain,boulangerie,japonais,shokupan,t65,bio" data-content="🍶 pain de mie japonais (shokupan) – version t65 bio et kitchenaid
+
+🌾 ingrédients (pour un moule à cake standard)
+
+🌸 tangzhong (pré-gélatinisation)
+
+  farine t65 : 25 g
+  lait : 125 ml
+
+
+🍞 pâte principale
+
+  farine t65 bio : 475 g
+  lait tiède (30–35 °c) : 140 ml
+  œuf entier : 1 (≈ 55 g)
+  sucre : 40 g
+  sel : 9 g
+  beurre doux mou : 50 g
+  levure boulangère sèche instantanée : 8 g
+(ou 20 g de levure fraîche émiettée)
+  tangzhong (préparé plus haut)
+
+
+
+
+🥣 étape 1 – préparer le tangzhong
+
+  dans une petite casserole, mélange 25 g de farine avec 125 ml de lait froid au fouet.
+  fais chauffer à feu doux tout en remuant jusqu’à épaississement (texture proche d’une béchamel lisse).
+  retire du feu, filme au contact et laisse refroidir à température ambiante.
+
+
+💡 astuce : ce roux doit être lisse, sans grumeaux, et tiède au moment du pétrissage.
+
+
+
+⚙️ étape 2 – préparer la pâte (au kitchenaid)
+
+  verse dans la cuve :
+    
+      le lait tiède,
+      la levure,
+      le sucre.
+laisse reposer 5 minutes pour activer.
+    
+  
+  ajoute la farine, le sel, l’œuf et le tangzhong refroidi.
+  pétris 5 minutes à vitesse 1-2 jusqu’à obtenir une pâte homogène.
+  ajoute ensuite le beurre mou en morceaux, petit à petit.
+  continue à pétrir 15 à 20 minutes jusqu’à ce que la pâte devienne :
+    
+      souple,
+      lisse et brillante,
+      et s’étire facilement sans se déchirer (test de la vitre).
+    
+  
+
+
+🧠 astuce : la t65 demande souvent 2–3 minutes de pétrissage supplémentaires par rapport à une t45.
+
+
+
+🌡️ étape 3 – première pousse
+
+  couvre la cuve et laisse lever 2 h à 2 h 30 dans un endroit tiède (25–28 °c).
+    
+      la pâte doit doubler de volume.
+    
+  
+
+
+
+
+🧮 étape 4 – façonnage
+
+  dégaze délicatement la pâte.
+  divise-la en 3 boules égales, étale chaque boule en un rectangle et roule-la sur elle-même.
+  dispose les trois rouleaux côte à côte dans le moule à cake beurré ou chemisé.
+    
+      ce façonnage donne la jolie forme en “nuage” typique du shokupan.
+    
+  
+
+
+
+
+⏲️ étape 5 – deuxième pousse
+
+  laisse pousser 1 h à 1 h 15, jusqu’à ce que la pâte atteigne le haut du moule.
+(ne dépasse pas trop, sinon elle risque de retomber à la cuisson.)
+
+
+
+
+🔥 étape 6 – cuisson
+
+  préchauffe le four à 180 °c (chaleur tournante).
+  dore au lait ou à l’œuf battu.
+  enfourne 30 à 35 min jusqu’à une belle couleur dorée uniforme.
+  démoule aussitôt et laisse refroidir sur grille.
+
+
+
+
+🌟 résultat attendu
+
+  mie ultra moelleuse, filante, humide sans être collante.
+  goût délicatement sucré et beurré.
+  se conserve 3 à 4 jours sous film ou torchon, reste souple longtemps.
+
+
+
+
+🧠 conseils supplémentaires
+
+  pour un moelleux maximal, ne réduis pas le sucre : il retient l’humidité.
+  si la pâte colle trop au début, ne farine pas, prolonge le pétrissage.
+  tu peux remplacer 20 ml de lait par de la crème liquide pour une version plus riche.
+  pour une version 100 % bio : levure fraîche + beurre bio doux + lait entier bio = excellent résultat.
+
+
+
+">
     
     <div class="recette-card-content">
       <h3>Pain de mie japonais (Shokupan)</h3>
@@ -587,7 +1298,26 @@
     </div>
   </a>
 
-  <a class="recette-card" href="/recettes/recettes/pain-depice/">
+  <a class="recette-card" href="/recettes/recettes/pain-depice/" data-title="pain d'épice" data-tags="pain d'épice,miel,sucré" data-content="pain d’épice
+
+(ingrédients pour deux pains d’épices)
+
+ingrédients
+
+  450 g de miel
+  100 g de sucre brun
+  600 g de farine de seigle
+  1 sachet levure chimique
+  anis, muscade, cannelle, gingembre, 4 épices (1 cc de chaque)
+  4 œufs
+  3 carottes râpées
+  250 cl lait
+  beurre : 150 g
+
+
+préparation
+faites chauffer le miel à la casserole avec le beurre, le lait et les épices. mélangez la farine avec la levure chimique. ajoutez le mélange chaud (en remuant idéalement avec une cuillère en bois). incorporez petit à petit 4 œufs, amalgamer le tout. préchauffez le four à 160°c (thermostat 5-6). versez la préparation dans deux moules à cake bien beurrés et farinés. enfournez et laissez cuire pendant 1h. démoulez le pain d’épices lorsqu’il a totalement refroidi. attendez 24 heures au minimum avant de le déguster (le mieux est de le filmer).
+">
     
     <div class="recette-card-content">
       <h3>Pain d'épice</h3>
@@ -605,7 +1335,23 @@
     </div>
   </a>
 
-  <a class="recette-card" href="/recettes/recettes/pate-brisee-sucree/">
+  <a class="recette-card" href="/recettes/recettes/pate-brisee-sucree/" data-title="pâte brisée sucrée" data-tags="pâte,brisée,sucré" data-content="pâte brisée sucrée
+
+par exemple pour faire une tarte aux pommes. source = bacpro besançon
+
+ingrédients
+
+  250 g farine
+  125 g beurre
+  25 g sucre
+  5 g sel
+  50 g eau
+  1 jaune d’œuf
+
+
+préparation
+mélanger les ingrédients secs en sablant. puis intégrer eau et jaune d’œuf. laisser minimum une demi-heure au frigo en filmant.
+">
     
     <div class="recette-card-content">
       <h3>Pâte brisée sucrée</h3>
@@ -623,7 +1369,16 @@
     </div>
   </a>
 
-  <a class="recette-card" href="/recettes/recettes/pate-pour-beignets-fish-and-chips/">
+  <a class="recette-card" href="/recettes/recettes/pate-pour-beignets-fish-and-chips/" data-title="pâte pour beignets fish and chips" data-tags="beignets,fish and chips,pâte,salé" data-content="pâte pour beignets fish and chips
+
+ingrédients
+
+  1 œuf
+  125 g de farine
+  12,5 cl de bière
+  sel
+
+">
     
     <div class="recette-card-content">
       <h3>Pâte pour beignets fish and chips</h3>
@@ -643,7 +1398,26 @@
     </div>
   </a>
 
-  <a class="recette-card" href="/recettes/recettes/rice-crispies-bar/">
+  <a class="recette-card" href="/recettes/recettes/rice-crispies-bar/" data-title="rice crispies bar" data-tags="rice crispies,barres,sucré" data-content="rice crispies bar
+
+cette recette nous a été transmise par notre assistante américaine elise hébergée pendant le confinement de 2020.
+
+ingrédients
+
+  45 g de beurre
+  300 g de marshmallows
+  160 à 170 g de rice crispies
+
+
+instructions
+
+  graisser un moule de 30 par 15 avec du beurre.
+  dans une grande casserole, fondre le beurre et les marshmallows.
+  quand le mélange est fondu, ajouter les céréales hors du feu.
+  bien mélanger puis transvaser dans le moule.
+  aplatir et laisser refroidir.
+
+">
     
     <div class="recette-card-content">
       <h3>Rice crispies bar</h3>
@@ -661,7 +1435,28 @@
     </div>
   </a>
 
-  <a class="recette-card" href="/recettes/recettes/risotto-cepes/">
+  <a class="recette-card" href="/recettes/recettes/risotto-cepes/" data-title="risotto aux cèpes et aux éclats de noix" data-tags="risotto,cèpes,noix,automne,plat principal,recette facile,végétarien,noël" data-content="ingrédients (4 personnes)
+
+  300 g de riz arborio
+  300 g de cèpes frais ou surgelés
+  1 oignon
+  1 litre de bouillon de légumes chaud
+  50 g de parmesan râpé (ou levure nutritionnelle pour version vegan)
+  50 g de noix concassées
+  2 c. à soupe d’huile d’olive
+  sel, poivre
+
+
+préparation
+
+  émincer l’oignon et le faire revenir dans l’huile d’olive.
+  ajouter les cèpes et cuire 5 minutes.
+  ajouter le riz et le nacrer (1-2 min).
+  verser le bouillon chaud louche par louche, en remuant jusqu’à absorption.
+  quand le riz est crémeux et cuit, ajouter le parmesan et les noix concassées.
+  rectifier l’assaisonnement et servir chaud.
+
+">
     
     <div class="recette-card-content">
       <h3>Risotto aux cèpes et aux éclats de noix</h3>
@@ -689,7 +1484,23 @@
     </div>
   </a>
 
-  <a class="recette-card" href="/recettes/recettes/rouleaux-courgette-noix-fromage-frais/">
+  <a class="recette-card" href="/recettes/recettes/rouleaux-courgette-noix-fromage-frais/" data-title="rouleaux de courgette grillée au fromage frais et aux noix" data-tags="entrée,végétarien,facile,rapide,courgette,fromage frais,noix,noël" data-content="ingrédients (4 personnes)
+
+  2 courgettes
+  150 g de fromage frais type ricotta
+  50 g de noix concassées
+  huile d’olive
+  sel, poivre, basilic
+
+
+préparation
+
+  couper les courgettes en fines lamelles dans la longueur et les griller 2-3 min de chaque côté.
+  mélanger le fromage frais avec les noix et le basilic ciselé, saler et poivrer.
+  étaler un peu de mélange fromage-noix sur chaque lamelle de courgette et rouler.
+  maintenir avec un cure-dent et servir frais.
+
+">
     
     <div class="recette-card-content">
       <h3>Rouleaux de courgette grillée au fromage frais et aux noix</h3>
@@ -717,7 +1528,27 @@
     </div>
   </a>
 
-  <a class="recette-card" href="/recettes/recettes/salade-lentilles-agrumes/">
+  <a class="recette-card" href="/recettes/recettes/salade-lentilles-agrumes/" data-title="salade de lentilles aux agrumes, grenade et herbes fraîches" data-tags="salade,lentilles,agrumes,grenade,recette facile,végétarien,noël" data-content="ingrédients (4 personnes)
+
+  200 g de lentilles vertes
+  1 orange
+  1 pamplemousse
+  ½ grenade
+  persil et coriandre frais
+  2 c. à soupe d’huile d’olive
+  1 c. à soupe de vinaigre balsamique
+  sel et poivre
+
+
+préparation
+
+  cuire les lentilles dans de l’eau bouillante salée 20 minutes, égoutter et laisser refroidir.
+  prélever les suprêmes d’orange et de pamplemousse.
+  mélanger lentilles, agrumes et graines de grenade dans un saladier.
+  ajouter l’huile, le vinaigre, sel, poivre et les herbes ciselées.
+  servir frais.
+
+">
     
     <div class="recette-card-content">
       <h3>Salade de lentilles aux agrumes, grenade et herbes fraîches</h3>
@@ -743,7 +1574,26 @@
     </div>
   </a>
 
-  <a class="recette-card" href="/recettes/recettes/tartare-betterave-pomme-granny/">
+  <a class="recette-card" href="/recettes/recettes/tartare-betterave-pomme-granny/" data-title="tartare de betterave et pomme granny smith, sauce aux noix" data-tags="entrée,végétarien,facile,rapide,betterave,pomme,végétarien,noël" data-content="ingrédients (4 personnes)
+
+  2 betteraves cuites
+  1 pomme granny smith
+  2 c. à soupe de noix concassées
+  2 c. à soupe de yaourt nature ou yaourt végétal
+  1 c. à soupe de moutarde
+  1 c. à soupe d’huile de noix
+  sel, poivre, ciboulette
+
+
+préparation
+
+  éplucher et couper les betteraves et la pomme en petits dés.
+  mélanger le yaourt, la moutarde et l’huile de noix pour la sauce.
+  dans un saladier, mélanger betterave et pomme avec la sauce.
+  saler, poivrer et ajouter la ciboulette ciselée.
+  servir frais, décoré avec les noix concassées.
+
+">
     
     <div class="recette-card-content">
       <h3>Tartare de betterave et pomme granny smith, sauce aux noix</h3>
@@ -771,7 +1621,27 @@
     </div>
   </a>
 
-  <a class="recette-card" href="/recettes/recettes/tarte-a-la-citrouille/">
+  <a class="recette-card" href="/recettes/recettes/tarte-a-la-citrouille/" data-title="tarte à la citrouille" data-tags="tarte,citrouille,sucré" data-content="tarte à la citrouille
+
+ingrédients
+
+  1 pâte brisée ou sablée
+  150 g de sucre
+  1 sachet de sucre vanillé
+  sel
+  800 g de citrouille
+  2 œufs entiers
+  2 jaunes d’œuf
+  20 cl de crème fraîche liquide
+
+
+préparation
+faîtes cuire votre citrouille à la vapeur pendant 15 à 20 min. une fois cuite, en faire une purée. suite à cela, ajouter la crème, les œufs, le sucre, la pincée de sel (attention à ne pas cuire les œufs).
+
+une fois le mélange bien homogène, il doit avoir l’air liquide. déroulez votre pâte dans un petit moule à tarte. piquez-la avec une fourchette. versez le mélange dans le plat à tarte.
+
+enfournez pendant 30 à 40 min suivant la puissance de votre four. déguster de préférence froid.
+">
     
     <div class="recette-card-content">
       <h3>Tarte à la citrouille</h3>
@@ -789,7 +1659,29 @@
     </div>
   </a>
 
-  <a class="recette-card" href="/recettes/recettes/tarte-a-la-rhubarbe-meringuee/">
+  <a class="recette-card" href="/recettes/recettes/tarte-a-la-rhubarbe-meringuee/" data-title="tarte à la rhubarbe meringuée" data-tags="tarte,rhubarbe,meringue,sucré" data-content="tarte à la rhubarbe meringuée
+
+pour une grande tarte :
+
+ingrédients
+
+  pâte brisée sucrée (à partir de 300 g de farine, 100 g beurre, 50 g eau, sel, sucre)
+  1,2 kg de rhubarbe
+  2 œufs entiers + 2 jaunes pour le flan
+  1 sachet sucre vanillé
+  2 cuillères soupe maïzena (pas trop grosses)
+  30 cl crème fraîche
+  sucre : 75 g pour la macération, 100 g dans le flan
+  meringue : 2 blancs (voire plus) et 40 g de sucre par blanc
+
+
+préparation
+la veille, laver les tiges, puis les éplucher 1 peau sur 2 (les 2 peaux gardées rendent la rhubarbe moins fibreuse). couper les tiges en bâtonnets de 2 cm de long après avoir fendu la tige en 2 ou 4 selon sa grosseur, saupoudrer de sucre et laisser macérer 1 heure (moi je le fais souvent la veille).
+
+le lendemain : battre les œufs entier, les jaunes, le sachet de sucre vanillé, les restant de sucre, la crème et la maïzena. étaler la pâte brisée. mettre ce flan sur la rhubarbe, et enfourner pour 30 min à 220°c.
+
+battre les blancs en neige. quand la neige est formée, ajouter le sucre par petites quantités, en continuant de battre. lorsque la tarte est cuite, baisser le four à 110°c (thermostat 3-4). mettre les blancs en neige sucrés dans la poche à douille, sortir la tarte du four et la garnir de cette meringue en commençant par le centre en cercles concentriques ou toute autre décoration à votre convenance. laisser cuire au moins 1 h.
+">
     
     <div class="recette-card-content">
       <h3>Tarte à la rhubarbe meringuée</h3>
@@ -809,7 +1701,24 @@
     </div>
   </a>
 
-  <a class="recette-card" href="/recettes/recettes/tarte-amandine-poires-chocolat/">
+  <a class="recette-card" href="/recettes/recettes/tarte-amandine-poires-chocolat/" data-title="tarte amandine poires chocolat" data-tags="tarte,amande,poire,chocolat,sucré" data-content="tarte amandine poires chocolat
+
+ingrédients
+
+  une grande boîte de poires williams
+  150 g de chocolat noir
+  1 rouleau de pâte feuilletée
+  125 g de poudre d’amande
+  100 g de beurre
+  100 g de sucre
+  2 œufs
+
+
+préparation
+mélanger le beurre mou avec le sucre, la poudre d’amande. battre les œufs et les rajouter au mélange.
+faire fondre le chocolat noir et l’étaler sur la pâte feuilletée. disposer les poires coupées en quartier, puis recouvrir du mélange.
+four moyen 15 minutes.
+">
     
     <div class="recette-card-content">
       <h3>Tarte amandine poires chocolat</h3>
@@ -831,7 +1740,43 @@
     </div>
   </a>
 
-  <a class="recette-card" href="/recettes/recettes/tarte-au-citron-copine-maman/">
+  <a class="recette-card" href="/recettes/recettes/tarte-au-citron-copine-maman/" data-title="tarte au citron (copine maman)" data-tags="tarte,citron,meringue,sucré" data-content="tarte au citron (copine maman)
+
+pour 6 personnes (indication : multiplier par 1,5 les quantités de crème)
+
+pâte
+
+  250 g de farine
+  125 g de beurre
+  4 cuillères à soupe d’eau
+  ou utiliser la pâte mn
+
+
+crème
+
+  2 cuillères à soupe de maïzena
+  150 g de sucre
+  4 jaunes d’œufs
+  2 citrons non traités
+  125 g de beurre
+  50 g d’amande en poudre
+
+
+meringue
+
+  4 blancs d’œufs
+  100 g de sucre glace
+
+
+préparation
+faire la pâte et la laisser reposer 1 h. l’étaler. mettre de l’alu dans le fond et recouvrir d’une couche de haricots blancs ou chaîne spéciale ou cailloux. faire cuire 10 à 15 min th 7 (210°c).
+
+travailler les 4 jaunes d’œufs avec 150 g de sucre. le mélange doit être blanc et mousseux. ajouter le zeste des citrons, les amandes en poudre, le beurre fondu tiède, le jus des citrons. délayer les 2 c. de maïzena dans un peu d’eau et ajouter délicatement à la préparation (attention aux grumeaux).
+
+garnir la tarte avec la crème, faire cuire 20 min th 6.
+
+battre les blancs d’œufs avec un peu de sel. avant qu’ils soient trop fermes, ajouter les 100 g de sucre glace. recouvrir la tarte de ces blancs avec une poche à douille en cercle concentrique. remettre au four 10 min (légèrement doré).
+">
     
     <div class="recette-card-content">
       <h3>Tarte au citron (copine maman)</h3>
@@ -851,7 +1796,37 @@
     </div>
   </a>
 
-  <a class="recette-card" href="/recettes/recettes/tatin-d-endives-aux-marrons/">
+  <a class="recette-card" href="/recettes/recettes/tatin-d-endives-aux-marrons/" data-title="tatin d'endives aux marrons" data-tags="fêtes,noël,tatin d'endives aux marrons,tarte tatin salée,pâte feuilletée,endive,marrons,fromage de chèvre,beurre salé,miel liquide,sucre,poivre,sel,facile,bon marché" data-content="
+tatin d’endives aux marrons
+
+ingrédients
+
+
+  1 pâtes feuilletées
+  1 kg d’endive
+  250 g de marrons au naturel
+  250 g de fromage de chèvre frais ou ricotta ou mélange boursin et fromage blanc
+  40 g de beurre salé
+  2 cuillères à soupe de miel liquide peu parfume
+  2 cuillères de sucre
+  poivre
+  sel
+
+
+préparation
+
+
+  eliminez les feuilles extérieures des endives puis coupez-les en deux dans le sens de la longueur. coupez la base dure de chaque demi-endive.
+  faites chauffez le beurre avec le miel. ajoutez les endives et le sucre. faites mijoter à feu dous, en remuant régulièrement,jusqu’à ce que les endives ne rendent plus d’eau et soient confites (environ 30 mn.
+  beurrez un moule à tarte. disposez harmonieusement les endives dans le moule. disposez dessus les châtaignes coupées en deux.
+  emiettez le fromage de chèvre sur les légumes. salez, poivrez.
+  couvrez avec la pâte feuilletée en rentrant les bords à l’intérieur du moule.
+  faites cuire 30 mn th 180°c jusqu’à ce que la pâte soit dorée.
+  retournez la tatin sur un plat de service et servez aussitôt.
+
+
+source
+">
     
     <div class="recette-card-content">
       <h3>Tatin d'endives aux marrons</h3>
@@ -893,7 +1868,24 @@
     </div>
   </a>
 
-  <a class="recette-card" href="/recettes/recettes/tiramisu/">
+  <a class="recette-card" href="/recettes/recettes/tiramisu/" data-title="tiramisu" data-tags="tiramisu,mascarpone,sucré" data-content="tiramisu
+
+(pour 8 à 10 personnes, grand plat à gratin)
+
+ingrédients
+
+  1 kg de mascarpone
+  8 œufs (ou 9 si petits)
+  100 g sucre poudre
+  4 sachets sucre vanillé
+  environ 40 biscuits cuillère
+  quelques cuillères de cacao en poudre (100%)
+  café
+
+
+préparation
+mélanger les jaunes et les sucres jusqu’à blanchiment. incorporer la mascarpone, puis 2/3 des blancs battus en neige avec une pincée de sel (la recette traditionnelle met tous les blancs, ce qui dégrade le goût). étaler au fond du plat les biscuits trempés dans du café, puis la moitié de l’appareil. renouveler une deuxième fois. parsemer de cacao. laisser reposer une demi-journée.
+">
     
     <div class="recette-card-content">
       <h3>Tiramisu</h3>
@@ -911,7 +1903,33 @@
     </div>
   </a>
 
-  <a class="recette-card" href="/recettes/recettes/truffes-au-chocolat/">
+  <a class="recette-card" href="/recettes/recettes/truffes-au-chocolat/" data-title="truffes au chocolat" data-tags="truffes au chocolat,truffes en chocolat,chocolat noir,beurre doux,jaune d'oeuf,sucre vanillé,sucre glace,cacao,très facile,moyen,rapide" data-content="
+
+truffes au chocolat
+
+ingrédients
+
+
+  250 g de chocolat noir de bonne qualité
+  100 g de beurre doux
+  2 jaunes d’oeuf
+  7.5 g de sucre vanillé
+  80 g de sucre glace
+  50 g de cacao
+
+
+préparation
+
+
+  casser le chocolat en petits morceaux dans un plat résistant à la chaleur. le faire fondre au bain-marie.
+  ajouter progressivement le beurre coupé en petits dés. mélanger.
+  quand le beurre a bien fondu dans le chocolat, retirer le plat du feu, y ajouter les jaunes d’oeuf, le sucre vanillé (il apporte du croquant, si vous souhaitez une texture lisse, ajoutez 10 g de sucre glace et 1 goutte de vanille liquide) et le sucre glace. bien mélanger le tout.
+  mettre la pâte au frigo pendant au moins une heure afin qu’elle se solidifie.
+  ensuite, former des petites boulettes de pâte à la main, les rouler dans le cacao puis les disposer sur un plat.
+
+
+source marmiton
+">
     
       <img src="https://assets.afcdn.com/recipe/20221003/135679_w1024h576c1cx1030cy1112cxt0cyt669cxb1414cyb1702.jpg" alt="Truffes au chocolat" class="recette-card-img" />
     
@@ -947,7 +1965,28 @@
     </div>
   </a>
 
-  <a class="recette-card" href="/recettes/recettes/veloute-potimarron-coco-chataignes/">
+  <a class="recette-card" href="/recettes/recettes/veloute-potimarron-coco-chataignes/" data-title="velouté de potimarron au lait de coco et éclats de châtaignes" data-tags="velouté,potimarron,coco,châtaignes,automne,soupe,recette facile,noël,végétarien" data-content="ingrédients (4 personnes)
+•	1 potimarron moyen
+•	1 oignon
+•	2 gousses d’ail
+•	400 ml de lait de coco
+•	500 ml de bouillon de légumes
+•	100 g de châtaignes cuites
+•	huile d’olive
+•	sel, poivre, muscade
+
+
+préparation
+1.	éplucher et couper le potimarron en cubes.
+2.	émincer l’oignon et l’ail, les faire revenir dans une casserole avec un peu d’huile d’olive.
+3.	ajouter le potimarron et faire revenir 5 minutes.
+4.	verser le bouillon de légumes et cuire 20 minutes à feu moyen jusqu’à ce que le potimarron soit tendre.
+5.	mixer le tout avec le lait de coco.
+6.	assaisonner avec sel, poivre et une pincée de muscade.
+7.	servir chaud, parsemer d’éclats de châtaignes grillées.
+
+
+">
     
     <div class="recette-card-content">
       <h3>Velouté de potimarron au lait de coco et éclats de châtaignes</h3>
@@ -977,7 +2016,28 @@
     </div>
   </a>
 
-  <a class="recette-card" href="/recettes/recettes/visitandine/">
+  <a class="recette-card" href="/recettes/recettes/visitandine/" data-title="visitandine" data-tags="visitandine,amande,sucré" data-content="visitandine
+
+ingrédients
+
+  6 blancs d’œufs en neige
+  150 g d’amandes
+  150 g de farine
+  250 g de sucre
+  150 g beurre
+
+
+préparation
+mélanger le beurre ramolli (pas fondu) + le sucre. ajouter les blancs en neige. ajouter la poudre d’amande mélangée à la farine. il ne faut surtout pas “bien mélanger” dans le mélange final, c’est le secret de la recette :  il peut même rester de la farine mal amalgamée dans la préparation. cuire 25/30 minutes à feu doux (170 degrés).
+
+remarques
+
+  la quantité initiale de sucre était de 300 g, mais je la réduis à 250 g ce qui me paraît suffisant.
+  de même j’ai augmenté la quantité d’amandes à 150 g au lieu de 125 g.
+  on peut ajouter un peu de rhum ou d’extrait d’amande amère pour parfumer.
+  on peut éventuellement adjoindre un peu de jaune d’oeuf (testé avec 2 jaunes) si on manque de blancs, pour ne pas gâcher. j’ai testé avec 4 blancs + deux oeufs entiers (bien sûr on sépare le blanc du jaune).
+
+">
     
     <div class="recette-card-content">
       <h3>Visitandine</h3>
@@ -995,7 +2055,29 @@
     </div>
   </a>
 
-  <a class="recette-card" href="/recettes/recettes/wellington-champignons-marrons/">
+  <a class="recette-card" href="/recettes/recettes/wellington-champignons-marrons/" data-title="wellington végétarien aux champignons et aux marrons" data-tags="plat principal,végétarien,pâte feuilletée,champignons,marrons,noël" data-content="ingrédients (4-6 personnes)
+
+  1 pâte feuilletée
+  500 g de champignons de paris ou forestiers
+  150 g de marrons cuits
+  1 oignon
+  2 gousses d’ail
+  2 c. à soupe de crème ou crème végétale
+  1 c. à soupe de moutarde
+  1 œuf (ou lait végétal pour dorure)
+  huile d’olive, sel, poivre, herbes (thym, persil)
+
+
+préparation
+
+  émincer oignon et ail, les faire revenir avec un peu d’huile.
+  ajouter les champignons hachés et cuire 10 minutes.
+  ajouter les marrons hachés, la crème, sel, poivre et herbes. laisser refroidir.
+  étaler la pâte feuilletée, déposer la farce au centre et replier la pâte pour former un boudin.
+  badigeonner de jaune d’œuf ou lait végétal.
+  cuire 25-30 min à 200°c jusqu’à ce que la pâte soit dorée.
+
+">
     
     <div class="recette-card-content">
       <h3>Wellington végétarien aux champignons et aux marrons</h3>
@@ -1021,387 +2103,85 @@
 
 </div>
 
-<script>
-const searchInput = document.getElementById("searchInput");
-const searchResults = document.getElementById("searchResults");
-
-let recettes = [
-
-  {
-    "title": "Appareil à crème prise",
-    "url": "/recettes/recettes/appareil-a-creme-prise/",
-    "content": "Appareil à crème prise\n\nPar exemple pour recouvrir les pommes dans une tarte aux pommes\n\nIngrédients\n\n  2 œufs entiers\n  1 jaune d’œuf\n  50 g de sucre en poudre\n  200 g de lait\n  100 g de crème double\n  extrait de vanille\n\n\nPréparation\nMélanger tous les ingrédients, puis verser dans la tarte.\n",
-    "tags": ["crème","tarte","sucré"]
-  },
-
-  {
-    "title": "Brownie au chocolat",
-    "url": "/recettes/recettes/brownie-au-chocolat/",
-    "content": "Brownie au chocolat\n\n(Recette de Maud, du grand pâtissier)\n\nIngrédients\n\n  200 g de beurre doux\n  40 g d’huile neutre\n  460 g de chocolat noir\n  150 g de farine\n  6 œufs\n  180 g de sucre\n  1 pincée de sel\n  100 g de noix de pécan ou noisettes ou pépites de chocolat\n\n\nPréparation\n\n  Fouettez les œufs et le sucre, avec un fouet électrique environ 5 min.\n  Faites fondre le chocolat noir et le beurre, en mélangeant les deux ensemble puis ajoutez l’huile.\n  Ajoutez au mélange œufs sucre qui doit avoir doublé de volume et mélangez à la maryse.\n  Ajoutez la farine et le sel et mélangez.\n  Beurrez le moule et versez la pâte.\n  Ajoutez des noisettes et des noix de pécan sur le dessus.\n  Enfournez 15 min dans un four préchauffé à 180°C.\n\n",
-    "tags": ["brownie","chocolat","sucré"]
-  },
-
-  {
-    "title": "Broyé du Poitou",
-    "url": "/recettes/recettes/broye-du-poitou/",
-    "content": "Broyé du Poitou\n\nPour 1 grand moule et un moyen\n\nIngrédients\n\n  1,2 kg de farine\n  600 g de beurre\n  550 g de sucre\n  1 blanc d’œuf (garder le jaune pour le vernis)\n  10 à 15 g de sel\n\n",
-    "tags": ["broyé","poitou","gâteau","sucré"]
-  },
-
-  {
-    "title": "Cake aux fruits confits",
-    "url": "/recettes/recettes/cake-aux-fruits-confits/",
-    "content": "Cake aux fruits confits\n\nSource\n\nIngrédients pour un moule à cake de 22 cm\n\nIngrédients\n\n  3 œufs (150 g environ)\n  125 g de sucre glace ou de sucre en poudre\n  125 g de beurre demi-sel\n  160 g de farine tamisée\n  1/3 de sachet de levure chimique\n  100 g de raisins de Corinthe\n  100 g de cerises confites\n  50 g de fruits confits\n  4 cuillerées à soupe de rhum (remplacé par le thé ou de la fleur d’oranger)\n  1 sachet de thé\n\n\nPréparation\n\n  Préchauffer le four à 200°C.\n  Faire macérer les raisins secs dans un bol d’eau infusé d’un sachet de thé citron ou orange afin de gonfler.\n  Crémer le beurre ramolli et le sucre au fouet jusqu’à ce que le mélange blanchisse.\n  Ajouter les œufs un par un, puis incorporer la farine et la levure chimique. Travailler bien le mélange en ruban.\n  Égoutter puis sécher les raisins gonflés dans du papier absorbant puis farinez-les en retirant l’excédent.\n  Incorporer alors tous les petits morceaux de fruits confits à la pâte en mélangeant bien la préparation.\n  Verser dans un moule à cake beurré ou chemisé de papier sulfurisé.\n  Avant d’enfourner, réduire la température du four à 180°C et cuire le cake pour 45 à 50 minutes environ.\n  Si nécessaire, couvrir le cake d’un papier cuisson ou aluminium si sa surface est déjà bien dorée et que l’intérieur manque de cuisson.\n  Pour vérifier sa cuisson, piquer avec la pointe d’un couteau ou cure-dent le centre du cake.\n  À la sortie du four, badigeonner éventuellement d’un sirop de sucre parfumé ou d’un nappage neutre.\n\n",
-    "tags": ["cake","fruits confits","sucré"]
-  },
-
-  {
-    "title": "Cake de Sophie aux olives",
-    "url": "/recettes/recettes/cake-de-sophie-aux-olives/",
-    "content": "Cake de Sophie aux olives\n\nIngrédients\n\n  3 œufs\n  150 g de farine\n  1 sachet de levure\n  10 cl d’huile de tournesol\n  12,5 cl de lait\n  100 g de gruyère râpé\n  200 g de jambon de Paris\n  75 g d’olives vertes\n  sel, poivre\n\n\nPréparation\nCuire à 180°C pendant 45 minutes.\n",
-    "tags": ["cake","olives","jambon","salé"]
-  },
-
-  {
-    "title": "Cheesecake",
-    "url": "/recettes/recettes/cheesecake/",
-    "content": "Cheesecake\n\nPour la croûte :\n\n  200 g de biscuits à thé émiettés\n  80 g de beurre fondu\n\n\nPréchauffer le four à 175°C. Mélanger les biscuits écrasés et le beurre fondu dans un moule 24 cm, tasser avec un verre, cuire 10 à 15 minutes. Sortir la croûte du four et augmenter la température à 225°C.\n\nPour la crème :\n\n  550 g de Philadelphia\n  150 g de sucre en poudre\n  pincée de sel\n  40 g de farine\n  36 cl de crème fraîche épaisse\n  5 œufs moyens\n  1 jaune d’œuf\n  1/2 cuillère à café d’extrait de vanille\n\n\nEn respectant l’ordre des ingrédients, mélanger, verser sur la croûte. Enfourner 10 minutes. Sans ouvrir le four, baisser la température à 120°C et prolonger la cuisson de 1h ou 1h15. La crème doit rester légèrement tremblotante au milieu. Laisser refroidir au réfrigérateur pendant au moins 4 heures.\n",
-    "tags": ["cheesecake","fromage","sucré"]
-  },
-
-  {
-    "title": "Clafoutis",
-    "url": "/recettes/recettes/clafoutis/",
-    "content": "Clafoutis\n\nIngrédients\n\n  1 kg de fruits (cerises, abricots, …)\n  3 œufs entiers + 3 jaunes d’œuf\n  150 g sucre\n  150 g farine\n  90 g beurre fondu\n  vanille (éventuellement)\n  375 g lait\n  pincée de sel\n\n\nPréparation\nDisposer les fruits dans un grand moule beurré.\nMélanger progressivement les ingrédients puis verser sur les fruits.\nCuire 45 minutes à 180°C.\n",
-    "tags": ["clafoutis","fruits","sucré"]
-  },
-
-  {
-    "title": "Cookies",
-    "url": "/recettes/recettes/cookies/",
-    "content": "Cookies\n\nPour deux plaques :\n\nIngrédients\n\n  3 œufs\n  230 g sucre\n  250 g beurre\n  450 g farine\n  300 g pépites de chocolat\n  3 sachets de sucre vanillé\n  1 sachet de levure chimique\n  1 cc sel\n\n\nPréparation\nBeurre ramolli + sucre + œufs et sucre vanillé + farine, levure et sel + chocolat. Bien mélanger et former de petites boules. Cuisson une dizaine de minutes à 180°C.\n",
-    "tags": ["cookies","chocolat","sucré"]
-  },
-
-  {
-    "title": "Cookies au KitchenAid",
-    "url": "/recettes/recettes/cookies-au-kitchenaid/",
-    "content": "Cookies au KitchenAid\n\nIngrédients\n\n  700 g de farine\n  400 g de beurre\n  200 g de sucre roux\n  100 g de sucre blanc\n  2 œufs\n  400 g de chocolat\n  levure chimique\n  sel\n\n\nPréparation\nMélanger dans le KitchenAid le beurre et le sucre jusqu’à ce que le mélange devienne crémeux. Une fois le mélange crémeux, il faudra y ajouter l’œuf, la farine, le sel et le bicarbonate de soude et mélanger le tout. La pâte doit être bien amalgamée avant de pouvoir y ajouter les pépites de chocolat.\n\nRouler un boudin de 5 cm de diamètre, et laisser reposer au frais.\n\nPréchauffer à 180°C. Cuisson 10 minutes.\n",
-    "tags": ["cookies","chocolat","sucré"]
-  },
-
-  {
-    "title": "Crème pâtissière façon mémé Arlette",
-    "url": "/recettes/recettes/creme-patissiere-fa%C3%A7on-meme-arlette/",
-    "content": "Crème pâtissière façon mémé Arlette\n\nIngrédients\n\n  2 jaunes d’œuf + 1 œuf entier\n  100 g sucre en poudre\n  75 g farine\n  1/2 l de lait\n  sucre vanillé\n  50 g beurre\n\n\nPréparation\nBattre les œufs + sucre. Incorporer la farine. Bouillir lait + vanille. Verser sur la préparation. Réchauffer jusqu’à épaississement. Rajouter le beurre hors du feu (ne plus remettre sur le feu).\n",
-    "tags": ["crème","pâtissière","sucré"]
-  },
-
-  {
-    "title": "Far breton",
-    "url": "/recettes/recettes/far-breton/",
-    "content": "Far breton\n\nIngrédients\n\n  220 g farine\n  110 g sucre poudre\n  1 sachet de sucre vanillé\n  3/4 litre lait\n  5 œufs\n  20 g beurre fondu\n  400 g pruneau\n\n\nPréparation\nTravailler comme une pâte à crêpe. C’est très liquide mais à la cuisson devient normal ! Cuisson environ 1 heure à 180°C.\n",
-    "tags": ["far","breton","pruneau","sucré"]
-  },
-
-  {
-    "title": "Feuilles de brick aux amandes",
-    "url": "/recettes/recettes/feuilles-de-brick-aux-amandes/",
-    "content": "Feuilles de brick aux amandes\n\nPour 18 à 20 pièces (10 feuilles de brick)\n\nIngrédients\n\n  250 g poudre d’amande\n  170 g sucre\n  3 œufs\n\n\nPréparation\nFourrer les demi-feuilles de brick, plier, dorer à la poêle. Avec un pinceau, recouvrir de miel chaud et laisser refroidir.\n",
-    "tags": ["brick","amandes","sucré"]
-  },
-
-  {
-    "title": "Financiers",
-    "url": "/recettes/recettes/financiers/",
-    "content": "Financiers\n\nIngrédients\n\n  75 g de farine\n  225 g de sucre poudre\n  110 g de beurre fondu\n  125 g de poudre d’amande\n  6 blancs d’œufs\n  1 goutte de rhum\n  1 pincée de sel\n\n\nPréparation\nPréchauffer le four à 190°C.\nMélanger tous les ingrédients sauf le beurre (inutile de monter les blancs en neige). Puis ajouter le beurre et mélanger. Verser dans des moules à financiers bien beurrés.\nCuire 15 minutes à 190°C.\n",
-    "tags": ["financiers","amande","sucré"]
-  },
-
-  {
-    "title": "Fondant au chocolat",
-    "url": "/recettes/recettes/fondant-au-chocolat/",
-    "content": "Fondant au chocolat\n\nIngrédients\n\n  5 œufs\n  5 cuillères à soupe de sucre\n  3 cuillères à soupe de farine ou maïzena\n  125 g de beurre\n  1 tablette de chocolat noir\n\n\nPréparation\nFaire fondre le beurre avec le chocolat. Ajouter au reste déjà mélangé. Cuisson environ 10 ou 15 minutes à 180°C.\n",
-    "tags": ["fondant","chocolat","sucré"]
-  },
-
-  {
-    "title": "Fondue au fromage",
-    "url": "/recettes/recettes/fondue-fromage/",
-    "content": "Fondue au fromage\n\nPour 4 personnes :\n\nIngrédients\n\n  350 g de comté\n  350 g d’abondance\n  3 ou 4 gousses d’ail\n  40 cl litre de vin blanc sec\n  1 cuillère à soupe de maïzena ou de farine\n  pain de campagne ou baguette coupé en morceaux\n  poivre\n\n\nPréparation\n\n  Frotter le caquelon avec les gousses d’ail coupées en deux, puis récupérer les gousses pour les découper finement et les ajouter au vin blanc\n  Faire chauffer le vin blanc dans le caquelon\n  Ajouter le fromage râpé petit à petit en remuant constamment\n  Incorporer  la maïzena ou la farine diluée dans un peu de vin blanc\n  Remuer jusqu’à ce que le mélange soit homogène et onctueux\n  Poivrer selon le goût\n  Servir avec des morceaux de pain à tremper dans le fromage fondu\n\n",
-    "tags": ["fondue","fromage","salé"]
-  },
-
-  {
-    "title": "Galette des Rois",
-    "url": "/recettes/recettes/galette-des-rois/",
-    "content": "Galette des Rois\n\nIngrédients\n\n  250 g de poudre d’amande\n  200 g de sucre\n  180 g de beurre mou\n  un bouchon de rhum\n  3 œufs\n  une pincée de sel\n  Deux pâtes feuilletées\n\n\nPréparation\nMélanger le tout et déposer sur un cercle de pâte feuilletée sur une plaque en laissant environ 2 cm non recouvert au pourtour de la pâte. Déposer la fève. Mettre de l’eau sur ce pourtour et coller dessus le deuxième cercle. Glaçage au jaune d’œuf pur. Four à 180°C et baisser à la fin de la cuisson (on peut mettre un peu de sucre glace en fin de cuisson pour caraméliser).\n",
-    "tags": ["galette","amande","rois","sucré"]
-  },
-
-  {
-    "title": "Galettes de blé noir",
-    "url": "/recettes/recettes/galettes-de-ble-noir/",
-    "content": "Galettes de blé noir\n\nIngrédients\n\n  250 g de farine de blé noir\n  1/2 cuillère à soupe de sel\n  1 œuf\n  0,5 l d’eau\n  0,25 l de lait\n\n\nPréparation\nVerser la farine dans une terrine en formant une fontaine.\nY ajouter au centre le sel et l’œuf.\nVerser peu à peu eau et lait tout en délayant jusqu’à obtention d’une pâte lisse et onctueuse.\nLaisser reposer une heure.\n\nGarnitures : œuf/jambon/fromage ; beurre-sucre ; crème et saumon fumé\n",
-    "tags": ["crêpe","blé noir","salé"]
-  },
-
-  {
-    "title": "Gâteau au yaourt (recette de Géraldine)",
-    "url": "/recettes/recettes/gateau-au-yaourt-geraldine/",
-    "content": "Gâteau au yaourt (recette de Géraldine)\n\nIngrédients\n\n  1 pot de yaourt\n  3 œufs\n  2 pots de sucre\n  1 paquet de sucre vanillé\n  3/4 de pot d’huile\n  3 pots de farine\n  1 paquet de levure chimique\n\n\nPréparation\nCuire 30 à 35 min à th=225°C. NB : meilleur si beurre fondu à la place de l’huile.\n",
-    "tags": ["gâteau","yaourt","sucré"]
-  },
-
-  {
-    "title": "Gaufres Lyonnaises",
-    "url": "/recettes/recettes/gaufres-lyonnaises/",
-    "content": "Gaufres Lyonnaises\n\nIngrédients\n\n  500 g farine\n  une pincée de sel\n  30 g de sucre\n  10 g de levure\n  125 g beurre\n  3 à 4 œufs\n  bière, lait, eau : total 3/4 de litre\n\n",
-    "tags": ["gaufres","lyon","sucré"]
-  },
-
-  {
-    "title": "Gougères au fromage",
-    "url": "/recettes/recettes/gougeres-au-fromage/",
-    "content": "Gougères au fromage\n\nIngrédients (pour 8 personnes)\n\n  1 cuillère à café de sel\n  1 cuillère à café de sel\n  150 g de gruyère râpé\n  150 g de beurre\n  300 g de farine\n  50 cl d’eau\n  8 oeufs\n\n\nFaire une pâte à choux en faisant fondre dans une casserole le beurre, l’eau, le sel. Porter à ébullition.\n\nRetirer du feu et ajouter la farine d’un seul coup en travaillant vivement à la spatule.\n\nRemettre sur le feu et dessécher la pâte jusqu’à ce qu’elle se détache de la casserole.\n\nRetirer du feu, laissez tiédir.\n\nIncorporer les 8 oeufs, un à un, en mélangeant bien à la spatule.\n\nAjouter à cette pâte le gruyère râpé.\n\nDisposer en petites boules sur une plaque beurrée.\n\nFaire cuire à four chaud (210 degrés), jusqu’à ce que ça ait gonflé et que ce soit un peu doré (environ 25 min).\n\nPetite astuce : à la fin de la cuisson (pas avant !), ouvrir légèrement la porte du four pour faire sortir la vapeur, puis refermer la porte et laisser cuire quelques minutes. Cela assèche un peu les gougères et les rend plus croustillantes.\n",
-    "tags": ["gougères","fromage","apéritif","salé"]
-  },
-
-  {
-    "title": "Gratin de légumes racines et patate douce au parmesan",
-    "url": "/recettes/recettes/gratin-legumes-racines-patate-douce-parmesan/",
-    "content": "Ingrédients (4 personnes)\n\n  2 patates douces\n  2 carottes\n  2 panais\n  200 ml de crème (ou crème végétale)\n  100 g de parmesan râpé (ou fromage végétal)\n  2 gousses d’ail\n  Sel, poivre, noix de muscade\n\n\nPréparation\n\n  Préchauffer le four à 180°C.\n  Éplucher et couper tous les légumes en fines tranches.\n  Frotter un plat à gratin avec l’ail, puis disposer les légumes en couches.\n  Verser la crème, assaisonner et parsemer de parmesan.\n  Cuire 35-40 min jusqu’à ce que les légumes soient tendres et dorés.\n\n",
-    "tags": ["gratin","légumes racines","patate douce","parmesan","plat principal","recette facile","végétarien","noël"]
-  },
-
-  {
-    "title": "Madeleines aux épices",
-    "url": "/recettes/recettes/madeleines-aux-epices/",
-    "content": "Madeleines aux épices\n\nRecette “diététique”\n\nIngrédients\n\n  1 yaourt\n  2 œufs\n  1/2 sachet de levure chimique\n  1 pot de yaourt de sucre\n  2 pots de yaourt de farine\n  1/2 pot d’huile\n  2 cuillères à soupe de mélange pour pain d’épices\n\n\nPréparation\nMettre dans des moules à madeleine et cuire 15 minutes à 200°C. Baisser le four à 120°C pendant 3 minutes puis les sortir du four.\n",
-    "tags": ["madeleines","épices","sucré","diététique"]
-  },
-
-  {
-    "title": "Mini-Quiches sans pâte",
-    "url": "/recettes/recettes/mini-quiches-sans-pate/",
-    "content": "Mini-Quiches sans pâte\n\nRecette “diététique”\n\nIngrédients\n\n  100 ml de lait\n  2 œufs\n  40 g de farine blanche\n  40 g de champignons émincés\n  50 g de jambon\n  40 g de gruyère râpé\n  1 pincée de poivre\n\n\nPréparation\nFaire cuire 15 minutes à 200°C puis 2 minutes au grill.\n",
-    "tags": ["quiche","mini","diététique","salé"]
-  },
-
-  {
-    "title": "Moelleux à la carotte",
-    "url": "/recettes/recettes/moelleux-a-la-carotte/",
-    "content": "Moelleux à la carotte\n\nRecette “diététique” ; pour un cake.\n\nIngrédients\n\n  1 yaourt nature\n  2 pots de yaourt de farine\n  1/2 pot d’huile\n  3 œufs\n  180 g de carottes râpées\n  1 cuillère à soupe de noix de muscade (ou 1 cuillère à café de quatre épices)\n  1/2 sachet de levure chimique\n\n\nPréparation\nMélanger l’ensemble des ingrédients.\nFaire cuire dans un moule à cake environ 30 minutes à 180°C.\n",
-    "tags": ["cake","carotte","sucré","diététique"]
-  },
-
-  {
-    "title": "Mon Amuse-bouche de Gambas",
-    "url": "/recettes/recettes/mon-amuse-bouche-de-gambas/",
-    "content": "\n\nMon Amuse-bouche de Gambas\n\nIngrédients\n\n\n  6 gambas\n  3 carré frais\n  1 cuillères à soupe de miel\n  sésame\n  mélange 5 baies\n  2 cuillères à soupe d’huile d’olive\n\n\nPréparation\n\n\n  Otez les têtes des gambas et décortiquez-les jusqu’à ce qu’il ne reste que la queue.\n  Roulez les queues de gambas dans les graines de sesame et faites-les revenir dans l’huile d’olive de chaque côté pendant 2/3 minutes (suivant coloration).\n  Ecrasez les carrés frais à la fourchette et ajoutez-y généreusement du cinq-baies.\n  Dans des petits verres, versez une cuillère à soupe du mélange carré frais - cinq baies, déposez une gambas aux graines de sésame cuite et finissez par un filet de miel.\n  Servez sans attendre.\n\n\nSource Marmiton\n",
-    "tags": ["Mon Amuse-bouche de Gambas","bouchée ou amuse-bouche","gambas","carré frais","miel","sésame","mélange 5 baies","huile d'olive","facile","bon marché","rapide"]
-  },
-
-  {
-    "title": "Pain de mie",
-    "url": "/recettes/recettes/pain-de-mie/",
-    "content": "Pain de mie\n\nIngrédients\n\n  900 g de farine\n  2 cuillères à soupe de sucre ou de miel\n  18 g de sel\n  350 ml de lait\n  250 ml d’eau\n  60 g de beurre\n\n\nPréparation\nTous les ingrédients sauf beurre et levure 2 min vitesse 2 au pétrisseur. Attendre un peu, puis rajouter beurre et levure ; 10 min de pétrissage vitesse 4.\n\nLaisser monter jusqu’à ce que la pâte ait doublé de volume. Puis dresser dans deux plats à cake.\n\nAttendre de nouveau 1h.\n\nCuisson 25 min à 180°C.\n",
-    "tags": ["pain","boulangerie","salé"]
-  },
-
-  {
-    "title": "Pain de mie légèrement brioché – version T65 bio",
-    "url": "/recettes/recettes/pain-de-mie-brioche-t65/",
-    "content": "🥖 Pain de mie légèrement brioché – version T65 bio\n\n🌾 Ingrédients (pour un moule à cake standard)\n\n\n  Farine de blé T65 bio : 500 g\n  Lait tiède (30–35 °C) : 265 ml\n  Œuf entier : 1 (≈ 55 g)\n  Beurre doux mou : 60 g\n  Sucre : 25 g\n  Sel : 10 g\n  Levure boulangère sèche instantanée : 8 g\n(ou 20 g de levure fraîche émiettée)\n\n\n\n\n⚙️ Préparation (au KitchenAid avec crochet pétrisseur)\n\n1️⃣ Activation et mélange initial\n\n  Dans la cuve, verse :\n    \n      le lait tiède,\n      la levure,\n      le sucre.\nMélange et laisse reposer 5 minutes si tu utilises de la levure fraîche.\n    \n  \n  Ajoute la farine, le sel (à distance de la levure) et l’œuf.\n  Pétris 5 minutes à vitesse 1-2 jusqu’à obtenir une pâte homogène.\n\n\n2️⃣ Incorporation du beurre\n\n  Ajoute le beurre mou en petits morceaux, un à un, pendant que le robot tourne à vitesse 2.\n  Continue à pétrir 15 à 18 minutes.\n    \n      La pâte doit devenir lisse, souple et légèrement brillante.\n      Si elle reste granuleuse, prolonge encore 2–3 min.\n      Elle doit s’étirer sans se casser (test de la vitre).\n    \n  \n\n\n\n\n🌡️ 3️⃣ Première pousse\n\n  Couvre la cuve d’un film plastique ou d’un torchon humide.\n  Laisse pousser 2 h à 2 h 30 dans un endroit tiède (25–28 °C).\n    \n      La pâte doit doubler de volume.\n    \n  \n\n\n💡 Astuce : dans un four éteint avec un bol d’eau chaude, la levée est idéale.\n\n\n\n🧮 4️⃣ Façonnage\n\n  Dégaze la pâte doucement.\n  Étale-la en rectangle et roule-la serrée pour former un boudin.\n  Dépose dans un moule à cake beurré ou chemisé.\n\n\n\n\n⏲️ 5️⃣ Deuxième pousse\n\n  Laisse pousser 45 à 60 min, jusqu’à ce que la pâte arrive au bord du moule.\n\n\n\n\n🔥 6️⃣ Cuisson\n\n  Préchauffe le four à 180 °C (chaleur tournante).\n  Dore au lait ou à l’œuf battu.\n  \n    Enfourne 25 à 30 min jusqu’à ce que le dessus soit doré.\n  \n  Démoule aussitôt et laisse refroidir sur grille.\n\n\n\n\n🌟 Résultat attendu\n\n  Mie souple et moelleuse, légèrement briochée.\n  Saveur plus riche et rustique qu’avec une T45.\n  Se conserve 2–3 jours dans un linge propre ou boîte hermétique.\n\n\n\n\n🧠 Astuces réussite (spécial T65)\n\n  Pétrissage long = gluten fort → mie élastique.\n  Si la pâte te semble ferme, ajoute 1 c. à s. de lait pendant le pétrissage.\n  Pour une texture plus filante : ajoute 10 g de gluten pur à la farine.\n  Évite de trancher le pain chaud : laisse refroidir pour fixer la mie.\n\n\n\n",
-    "tags": ["pain","boulangerie","T65","bio"]
-  },
-
-  {
-    "title": "Pain de mie japonais (Shokupan)",
-    "url": "/recettes/recettes/pain-de-mie-japonais/",
-    "content": "🍶 Pain de mie japonais (Shokupan) – version T65 bio et KitchenAid\n\n🌾 Ingrédients (pour un moule à cake standard)\n\n🌸 Tangzhong (pré-gélatinisation)\n\n  Farine T65 : 25 g\n  Lait : 125 ml\n\n\n🍞 Pâte principale\n\n  Farine T65 bio : 475 g\n  Lait tiède (30–35 °C) : 140 ml\n  Œuf entier : 1 (≈ 55 g)\n  Sucre : 40 g\n  Sel : 9 g\n  Beurre doux mou : 50 g\n  Levure boulangère sèche instantanée : 8 g\n(ou 20 g de levure fraîche émiettée)\n  Tangzhong (préparé plus haut)\n\n\n\n\n🥣 Étape 1 – Préparer le Tangzhong\n\n  Dans une petite casserole, mélange 25 g de farine avec 125 ml de lait froid au fouet.\n  Fais chauffer à feu doux tout en remuant jusqu’à épaississement (texture proche d’une béchamel lisse).\n  Retire du feu, filme au contact et laisse refroidir à température ambiante.\n\n\n💡 Astuce : ce roux doit être lisse, sans grumeaux, et tiède au moment du pétrissage.\n\n\n\n⚙️ Étape 2 – Préparer la pâte (au KitchenAid)\n\n  Verse dans la cuve :\n    \n      le lait tiède,\n      la levure,\n      le sucre.\nLaisse reposer 5 minutes pour activer.\n    \n  \n  Ajoute la farine, le sel, l’œuf et le Tangzhong refroidi.\n  Pétris 5 minutes à vitesse 1-2 jusqu’à obtenir une pâte homogène.\n  Ajoute ensuite le beurre mou en morceaux, petit à petit.\n  Continue à pétrir 15 à 20 minutes jusqu’à ce que la pâte devienne :\n    \n      souple,\n      lisse et brillante,\n      et s’étire facilement sans se déchirer (test de la vitre).\n    \n  \n\n\n🧠 Astuce : la T65 demande souvent 2–3 minutes de pétrissage supplémentaires par rapport à une T45.\n\n\n\n🌡️ Étape 3 – Première pousse\n\n  Couvre la cuve et laisse lever 2 h à 2 h 30 dans un endroit tiède (25–28 °C).\n    \n      La pâte doit doubler de volume.\n    \n  \n\n\n\n\n🧮 Étape 4 – Façonnage\n\n  Dégaze délicatement la pâte.\n  Divise-la en 3 boules égales, étale chaque boule en un rectangle et roule-la sur elle-même.\n  Dispose les trois rouleaux côte à côte dans le moule à cake beurré ou chemisé.\n    \n      Ce façonnage donne la jolie forme en “nuage” typique du shokupan.\n    \n  \n\n\n\n\n⏲️ Étape 5 – Deuxième pousse\n\n  Laisse pousser 1 h à 1 h 15, jusqu’à ce que la pâte atteigne le haut du moule.\n(Ne dépasse pas trop, sinon elle risque de retomber à la cuisson.)\n\n\n\n\n🔥 Étape 6 – Cuisson\n\n  Préchauffe le four à 180 °C (chaleur tournante).\n  Dore au lait ou à l’œuf battu.\n  Enfourne 30 à 35 min jusqu’à une belle couleur dorée uniforme.\n  Démoule aussitôt et laisse refroidir sur grille.\n\n\n\n\n🌟 Résultat attendu\n\n  Mie ultra moelleuse, filante, humide sans être collante.\n  Goût délicatement sucré et beurré.\n  Se conserve 3 à 4 jours sous film ou torchon, reste souple longtemps.\n\n\n\n\n🧠 Conseils supplémentaires\n\n  Pour un moelleux maximal, ne réduis pas le sucre : il retient l’humidité.\n  Si la pâte colle trop au début, ne farine pas, prolonge le pétrissage.\n  Tu peux remplacer 20 ml de lait par de la crème liquide pour une version plus riche.\n  Pour une version 100 % bio : levure fraîche + beurre bio doux + lait entier bio = excellent résultat.\n\n\n\n",
-    "tags": ["pain","boulangerie","japonais","shokupan","T65","bio"]
-  },
-
-  {
-    "title": "Pain d&#39;épice",
-    "url": "/recettes/recettes/pain-depice/",
-    "content": "Pain d’épice\n\n(Ingrédients pour deux pains d’épices)\n\nIngrédients\n\n  450 g de miel\n  100 g de sucre brun\n  600 g de farine de seigle\n  1 sachet levure chimique\n  anis, muscade, cannelle, gingembre, 4 épices (1 cc de chaque)\n  4 œufs\n  3 carottes râpées\n  250 cl lait\n  beurre : 150 g\n\n\nPréparation\nFaites chauffer le miel à la casserole avec le beurre, le lait et les épices. Mélangez la farine avec la levure chimique. Ajoutez le mélange chaud (en remuant idéalement avec une cuillère en bois). Incorporez petit à petit 4 œufs, amalgamer le tout. Préchauffez le four à 160°C (thermostat 5-6). Versez la préparation dans deux moules à cake bien beurrés et farinés. Enfournez et laissez cuire pendant 1h. Démoulez le pain d’épices lorsqu’il a totalement refroidi. Attendez 24 heures au minimum avant de le déguster (le mieux est de le filmer).\n",
-    "tags": ["pain d'épice","miel","sucré"]
-  },
-
-  {
-    "title": "Pâte brisée sucrée",
-    "url": "/recettes/recettes/pate-brisee-sucree/",
-    "content": "Pâte brisée sucrée\n\nPar exemple pour faire une tarte aux pommes. Source = BacPro Besançon\n\nIngrédients\n\n  250 g farine\n  125 g beurre\n  25 g sucre\n  5 g sel\n  50 g eau\n  1 jaune d’œuf\n\n\nPréparation\nMélanger les ingrédients secs en sablant. Puis intégrer eau et jaune d’œuf. Laisser minimum une demi-heure au frigo en filmant.\n",
-    "tags": ["pâte","brisée","sucré"]
-  },
-
-  {
-    "title": "Pâte pour beignets fish and chips",
-    "url": "/recettes/recettes/pate-pour-beignets-fish-and-chips/",
-    "content": "Pâte pour beignets fish and chips\n\nIngrédients\n\n  1 œuf\n  125 g de farine\n  12,5 cl de bière\n  sel\n\n",
-    "tags": ["beignets","fish and chips","pâte","salé"]
-  },
-
-  {
-    "title": "Rice crispies bar",
-    "url": "/recettes/recettes/rice-crispies-bar/",
-    "content": "Rice crispies bar\n\nCette recette nous a été transmise par notre assistante américaine Elise hébergée pendant le confinement de 2020.\n\nIngrédients\n\n  45 g de beurre\n  300 g de marshmallows\n  160 à 170 g de rice crispies\n\n\nInstructions\n\n  Graisser un moule de 30 par 15 avec du beurre.\n  Dans une grande casserole, fondre le beurre et les marshmallows.\n  Quand le mélange est fondu, ajouter les céréales hors du feu.\n  Bien mélanger puis transvaser dans le moule.\n  Aplatir et laisser refroidir.\n\n",
-    "tags": ["rice crispies","barres","sucré"]
-  },
-
-  {
-    "title": "Risotto aux cèpes et aux éclats de noix",
-    "url": "/recettes/recettes/risotto-cepes/",
-    "content": "Ingrédients (4 personnes)\n\n  300 g de riz arborio\n  300 g de cèpes frais ou surgelés\n  1 oignon\n  1 litre de bouillon de légumes chaud\n  50 g de parmesan râpé (ou levure nutritionnelle pour version vegan)\n  50 g de noix concassées\n  2 c. à soupe d’huile d’olive\n  Sel, poivre\n\n\nPréparation\n\n  Émincer l’oignon et le faire revenir dans l’huile d’olive.\n  Ajouter les cèpes et cuire 5 minutes.\n  Ajouter le riz et le nacrer (1-2 min).\n  Verser le bouillon chaud louche par louche, en remuant jusqu’à absorption.\n  Quand le riz est crémeux et cuit, ajouter le parmesan et les noix concassées.\n  Rectifier l’assaisonnement et servir chaud.\n\n",
-    "tags": ["risotto","cèpes","noix","automne","plat principal","recette facile","végétarien","noël"]
-  },
-
-  {
-    "title": "Rouleaux de courgette grillée au fromage frais et aux noix",
-    "url": "/recettes/recettes/rouleaux-courgette-noix-fromage-frais/",
-    "content": "Ingrédients (4 personnes)\n\n  2 courgettes\n  150 g de fromage frais type ricotta\n  50 g de noix concassées\n  Huile d’olive\n  Sel, poivre, basilic\n\n\nPréparation\n\n  Couper les courgettes en fines lamelles dans la longueur et les griller 2-3 min de chaque côté.\n  Mélanger le fromage frais avec les noix et le basilic ciselé, saler et poivrer.\n  Étaler un peu de mélange fromage-noix sur chaque lamelle de courgette et rouler.\n  Maintenir avec un cure-dent et servir frais.\n\n",
-    "tags": ["entrée","végétarien","facile","rapide","courgette","fromage frais","noix","noël"]
-  },
-
-  {
-    "title": "Salade de lentilles aux agrumes, grenade et herbes fraîches",
-    "url": "/recettes/recettes/salade-lentilles-agrumes/",
-    "content": "Ingrédients (4 personnes)\n\n  200 g de lentilles vertes\n  1 orange\n  1 pamplemousse\n  ½ grenade\n  Persil et coriandre frais\n  2 c. à soupe d’huile d’olive\n  1 c. à soupe de vinaigre balsamique\n  Sel et poivre\n\n\nPréparation\n\n  Cuire les lentilles dans de l’eau bouillante salée 20 minutes, égoutter et laisser refroidir.\n  Prélever les suprêmes d’orange et de pamplemousse.\n  Mélanger lentilles, agrumes et graines de grenade dans un saladier.\n  Ajouter l’huile, le vinaigre, sel, poivre et les herbes ciselées.\n  Servir frais.\n\n",
-    "tags": ["salade","lentilles","agrumes","grenade","recette facile","végétarien","noël"]
-  },
-
-  {
-    "title": "Tartare de betterave et pomme granny smith, sauce aux noix",
-    "url": "/recettes/recettes/tartare-betterave-pomme-granny/",
-    "content": "Ingrédients (4 personnes)\n\n  2 betteraves cuites\n  1 pomme granny smith\n  2 c. à soupe de noix concassées\n  2 c. à soupe de yaourt nature ou yaourt végétal\n  1 c. à soupe de moutarde\n  1 c. à soupe d’huile de noix\n  Sel, poivre, ciboulette\n\n\nPréparation\n\n  Éplucher et couper les betteraves et la pomme en petits dés.\n  Mélanger le yaourt, la moutarde et l’huile de noix pour la sauce.\n  Dans un saladier, mélanger betterave et pomme avec la sauce.\n  Saler, poivrer et ajouter la ciboulette ciselée.\n  Servir frais, décoré avec les noix concassées.\n\n",
-    "tags": ["entrée","végétarien","facile","rapide","betterave","pomme","végétarien","noël"]
-  },
-
-  {
-    "title": "Tarte à la citrouille",
-    "url": "/recettes/recettes/tarte-a-la-citrouille/",
-    "content": "Tarte à la citrouille\n\nIngrédients\n\n  1 pâte brisée ou sablée\n  150 g de sucre\n  1 sachet de sucre vanillé\n  sel\n  800 g de citrouille\n  2 œufs entiers\n  2 jaunes d’œuf\n  20 cl de crème fraîche liquide\n\n\nPréparation\nFaîtes cuire votre citrouille à la vapeur pendant 15 à 20 min. Une fois cuite, en faire une purée. Suite à cela, ajouter la crème, les œufs, le sucre, la pincée de sel (attention à ne pas cuire les œufs).\n\nUne fois le mélange bien homogène, il doit avoir l’air liquide. Déroulez votre pâte dans un petit moule à tarte. Piquez-la avec une fourchette. Versez le mélange dans le plat à tarte.\n\nEnfournez pendant 30 à 40 min suivant la puissance de votre four. Déguster de préférence froid.\n",
-    "tags": ["tarte","citrouille","sucré"]
-  },
-
-  {
-    "title": "Tarte à la rhubarbe meringuée",
-    "url": "/recettes/recettes/tarte-a-la-rhubarbe-meringuee/",
-    "content": "Tarte à la rhubarbe meringuée\n\nPour une grande tarte :\n\nIngrédients\n\n  Pâte brisée sucrée (à partir de 300 g de farine, 100 g beurre, 50 g eau, sel, sucre)\n  1,2 kg de rhubarbe\n  2 œufs entiers + 2 jaunes pour le flan\n  1 sachet sucre vanillé\n  2 cuillères soupe maïzena (pas trop grosses)\n  30 cl crème fraîche\n  sucre : 75 g pour la macération, 100 g dans le flan\n  Meringue : 2 blancs (voire plus) et 40 g de sucre par blanc\n\n\nPréparation\nLa veille, laver les tiges, puis les éplucher 1 peau sur 2 (les 2 peaux gardées rendent la rhubarbe moins fibreuse). Couper les tiges en bâtonnets de 2 cm de long après avoir fendu la tige en 2 ou 4 selon sa grosseur, saupoudrer de sucre et laisser macérer 1 heure (moi je le fais souvent la veille).\n\nLe lendemain : battre les œufs entier, les jaunes, le sachet de sucre vanillé, les restant de sucre, la crème et la maïzena. Étaler la pâte brisée. Mettre ce flan sur la rhubarbe, et enfourner pour 30 min à 220°C.\n\nBattre les blancs en neige. Quand la neige est formée, ajouter le sucre par petites quantités, en continuant de battre. Lorsque la tarte est cuite, baisser le four à 110°C (thermostat 3-4). Mettre les blancs en neige sucrés dans la poche à douille, sortir la tarte du four et la garnir de cette meringue en commençant par le centre en cercles concentriques ou toute autre décoration à votre convenance. Laisser cuire au moins 1 h.\n",
-    "tags": ["tarte","rhubarbe","meringue","sucré"]
-  },
-
-  {
-    "title": "Tarte amandine poires chocolat",
-    "url": "/recettes/recettes/tarte-amandine-poires-chocolat/",
-    "content": "Tarte amandine poires chocolat\n\nIngrédients\n\n  Une grande boîte de poires Williams\n  150 g de chocolat noir\n  1 rouleau de pâte feuilletée\n  125 g de poudre d’amande\n  100 g de beurre\n  100 g de sucre\n  2 œufs\n\n\nPréparation\nMélanger le beurre mou avec le sucre, la poudre d’amande. Battre les œufs et les rajouter au mélange.\nFaire fondre le chocolat noir et l’étaler sur la pâte feuilletée. Disposer les poires coupées en quartier, puis recouvrir du mélange.\nFour moyen 15 minutes.\n",
-    "tags": ["tarte","amande","poire","chocolat","sucré"]
-  },
-
-  {
-    "title": "Tarte au citron (copine maman)",
-    "url": "/recettes/recettes/tarte-au-citron-copine-maman/",
-    "content": "Tarte au citron (copine maman)\n\nPour 6 personnes (indication : multiplier par 1,5 les quantités de crème)\n\nPâte\n\n  250 g de farine\n  125 g de beurre\n  4 cuillères à soupe d’eau\n  ou utiliser la pâte MN\n\n\nCrème\n\n  2 cuillères à soupe de maïzena\n  150 g de sucre\n  4 jaunes d’œufs\n  2 citrons non traités\n  125 g de beurre\n  50 g d’amande en poudre\n\n\nMeringue\n\n  4 blancs d’œufs\n  100 g de sucre glace\n\n\nPréparation\nFaire la pâte et la laisser reposer 1 h. L’étaler. Mettre de l’alu dans le fond et recouvrir d’une couche de haricots blancs ou chaîne spéciale ou cailloux. Faire cuire 10 à 15 min th 7 (210°C).\n\nTravailler les 4 jaunes d’œufs avec 150 g de sucre. Le mélange doit être blanc et mousseux. Ajouter le zeste des citrons, les amandes en poudre, le beurre fondu tiède, le jus des citrons. Délayer les 2 c. de maïzena dans un peu d’eau et ajouter délicatement à la préparation (attention aux grumeaux).\n\nGarnir la tarte avec la crème, faire cuire 20 min th 6.\n\nBattre les blancs d’œufs avec un peu de sel. Avant qu’ils soient trop fermes, ajouter les 100 g de sucre glace. Recouvrir la tarte de ces blancs avec une poche à douille en cercle concentrique. Remettre au four 10 min (légèrement doré).\n",
-    "tags": ["tarte","citron","meringue","sucré"]
-  },
-
-  {
-    "title": "Tatin d&#39;endives aux marrons",
-    "url": "/recettes/recettes/tatin-d-endives-aux-marrons/",
-    "content": "\nTatin d’endives aux marrons\n\nIngrédients\n\n\n  1 pâtes feuilletées\n  1 kg d’endive\n  250 g de marrons au naturel\n  250 g de fromage de chèvre FRAIS ou Ricotta ou Mélange Boursin et fromage blanc\n  40 g de beurre salé\n  2 cuillères à soupe de miel liquide PEU PARFUME\n  2 cuillères de sucre\n  poivre\n  sel\n\n\nPréparation\n\n\n  Eliminez les feuilles extérieures des endives puis coupez-les en deux dans le sens de la longueur. Coupez la base dure de chaque demi-endive.\n  Faites chauffez le beurre avec le miel. Ajoutez les endives et le sucre. Faites mijoter à feu dous, en remuant régulièrement,jusqu’à ce que les endives ne rendent plus d’eau et soient confites (environ 30 mn.\n  Beurrez un moule à tarte. Disposez harmonieusement les endives dans le moule. Disposez dessus les châtaignes coupées en deux.\n  Emiettez le fromage de chèvre sur les légumes. Salez, poivrez.\n  Couvrez avec la pâte feuilletée en rentrant les bords à l’intérieur du moule.\n  Faites cuire 30 mn th 180°C jusqu’à ce que la pâte soit dorée.\n  Retournez la tatin sur un plat de service et servez aussitôt.\n\n\nSource\n",
-    "tags": ["Fêtes","Noël","Tatin d'endives aux marrons","tarte tatin salée","pâte feuilletée","endive","marrons","fromage de chèvre","beurre salé","miel liquide","sucre","poivre","sel","facile","bon marché"]
-  },
-
-  {
-    "title": "Tiramisu",
-    "url": "/recettes/recettes/tiramisu/",
-    "content": "Tiramisu\n\n(pour 8 à 10 personnes, grand plat à gratin)\n\nIngrédients\n\n  1 kg de mascarpone\n  8 œufs (ou 9 si petits)\n  100 g sucre poudre\n  4 sachets sucre vanillé\n  Environ 40 biscuits cuillère\n  Quelques cuillères de cacao en poudre (100%)\n  Café\n\n\nPréparation\nMélanger les jaunes et les sucres jusqu’à blanchiment. Incorporer la mascarpone, puis 2/3 des blancs battus en neige avec une pincée de sel (la recette traditionnelle met tous les blancs, ce qui dégrade le goût). Étaler au fond du plat les biscuits trempés dans du café, puis la moitié de l’appareil. Renouveler une deuxième fois. Parsemer de cacao. Laisser reposer une demi-journée.\n",
-    "tags": ["tiramisu","mascarpone","sucré"]
-  },
-
-  {
-    "title": "Truffes au chocolat",
-    "url": "/recettes/recettes/truffes-au-chocolat/",
-    "content": "\n\nTruffes au chocolat\n\nIngrédients\n\n\n  250 g de chocolat noir de bonne qualité\n  100 g de beurre doux\n  2 jaunes d’oeuf\n  7.5 g de sucre vanillé\n  80 g de sucre glace\n  50 g de cacao\n\n\nPréparation\n\n\n  Casser le chocolat en petits morceaux dans un plat résistant à la chaleur. Le faire fondre au bain-marie.\n  Ajouter progressivement le beurre coupé en petits dés. Mélanger.\n  Quand le beurre a bien fondu dans le chocolat, retirer le plat du feu, y ajouter les jaunes d’oeuf, le sucre vanillé (il apporte du croquant, si vous souhaitez une texture lisse, ajoutez 10 g de sucre glace et 1 goutte de vanille liquide) et le sucre glace. Bien mélanger le tout.\n  Mettre la pâte au frigo pendant au moins une heure afin qu’elle se solidifie.\n  Ensuite, former des petites boulettes de pâte à la main, les rouler dans le cacao puis les disposer sur un plat.\n\n\nSource Marmiton\n",
-    "tags": ["Truffes au chocolat","truffes en chocolat","chocolat noir","beurre doux","jaune d'oeuf","sucre vanillé","sucre glace","cacao","très facile","moyen","rapide"]
-  },
-
-  {
-    "title": "Velouté de potimarron au lait de coco et éclats de châtaignes",
-    "url": "/recettes/recettes/veloute-potimarron-coco-chataignes/",
-    "content": "Ingrédients (4 personnes)\n•\t1 potimarron moyen\n•\t1 oignon\n•\t2 gousses d’ail\n•\t400 ml de lait de coco\n•\t500 ml de bouillon de légumes\n•\t100 g de châtaignes cuites\n•\tHuile d’olive\n•\tSel, poivre, muscade\n\n\nPréparation\n1.\tÉplucher et couper le potimarron en cubes.\n2.\tÉmincer l’oignon et l’ail, les faire revenir dans une casserole avec un peu d’huile d’olive.\n3.\tAjouter le potimarron et faire revenir 5 minutes.\n4.\tVerser le bouillon de légumes et cuire 20 minutes à feu moyen jusqu’à ce que le potimarron soit tendre.\n5.\tMixer le tout avec le lait de coco.\n6.\tAssaisonner avec sel, poivre et une pincée de muscade.\n7.\tServir chaud, parsemer d’éclats de châtaignes grillées.\n\n\n",
-    "tags": ["velouté","potimarron","coco","châtaignes","automne","soupe","recette facile","noël","végétarien"]
-  },
-
-  {
-    "title": "Visitandine",
-    "url": "/recettes/recettes/visitandine/",
-    "content": "Visitandine\n\nIngrédients\n\n  6 blancs d’œufs en neige\n  150 g d’amandes\n  150 g de farine\n  250 g de sucre\n  150 g beurre\n\n\nPréparation\nMélanger le beurre ramolli (pas fondu) + le sucre. Ajouter les blancs en neige. Ajouter la poudre d’amande mélangée à la farine. Il ne faut surtout pas “bien mélanger” dans le mélange final, c’est le secret de la recette :  il peut même rester de la farine mal amalgamée dans la préparation. Cuire 25/30 minutes à feu doux (170 degrés).\n\nRemarques\n\n  La quantité initiale de sucre était de 300 g, mais je la réduis à 250 g ce qui me paraît suffisant.\n  De même j’ai augmenté la quantité d’amandes à 150 g au lieu de 125 g.\n  On peut ajouter un peu de rhum ou d’extrait d’amande amère pour parfumer.\n  On peut éventuellement adjoindre un peu de jaune d’oeuf (testé avec 2 jaunes) si on manque de blancs, pour ne pas gâcher. J’ai testé avec 4 blancs + deux oeufs entiers (bien sûr on sépare le blanc du jaune).\n\n",
-    "tags": ["visitandine","amande","sucré"]
-  },
-
-  {
-    "title": "Wellington végétarien aux champignons et aux marrons",
-    "url": "/recettes/recettes/wellington-champignons-marrons/",
-    "content": "Ingrédients (4-6 personnes)\n\n  1 pâte feuilletée\n  500 g de champignons de Paris ou forestiers\n  150 g de marrons cuits\n  1 oignon\n  2 gousses d’ail\n  2 c. à soupe de crème ou crème végétale\n  1 c. à soupe de moutarde\n  1 œuf (ou lait végétal pour dorure)\n  Huile d’olive, sel, poivre, herbes (thym, persil)\n\n\nPréparation\n\n  Émincer oignon et ail, les faire revenir avec un peu d’huile.\n  Ajouter les champignons hachés et cuire 10 minutes.\n  Ajouter les marrons hachés, la crème, sel, poivre et herbes. Laisser refroidir.\n  Étaler la pâte feuilletée, déposer la farce au centre et replier la pâte pour former un boudin.\n  Badigeonner de jaune d’œuf ou lait végétal.\n  Cuire 25-30 min à 200°C jusqu’à ce que la pâte soit dorée.\n\n",
-    "tags": ["plat principal","végétarien","pâte feuilletée","champignons","marrons","noël"]
-  }
-
-];
-
-// Debounce function
-function debounce(fn, delay) {
-  let timer = null;
-  return (...args) => {
-    clearTimeout(timer);
-    timer = setTimeout(() => fn(...args), delay);
-  };
-}
-
-// Highlight helper
-function highlight(text, query) {
-  if (!query) return text;
-  const regex = new RegExp(`(${query})`, "gi");
-  return text.replace(regex, "<mark>$1</mark>");
-}
-
-// Update search results
-function updateSearch() {
-  const q = searchInput.value.toLowerCase();
-  searchResults.innerHTML = "";
-
-  if (q.trim() === "") return;
-
-  const filtered = recettes.filter(r =>
-    r.title.toLowerCase().includes(q) ||
-    r.content.toLowerCase().includes(q) ||
-    (r.tags && r.tags.some(t => t.toLowerCase().includes(q)))
-  );
-
-  if (filtered.length === 0) {
-    searchResults.innerHTML = "<li>Aucune recette trouvée</li>";
-    return;
-  }
-
-  filtered.forEach(r => {
-    const li = document.createElement("li");
-    li.innerHTML = `
-      <a href="${r.url}">
-        <strong>${highlight(r.title, q)}</strong>
-      </a><br>
-      <small>${r.tags ? highlight(r.tags.join(", "), q) : ""}</small>
-    `;
-    searchResults.appendChild(li);
-  });
-}
-
-searchInput.addEventListener("input", debounce(updateSearch, 150));
-</script>
-
 
     </main>
+    
+    <script>
+    (function() {
+      const searchInput = document.getElementById("headerSearchInput");
+      const clearBtn = document.getElementById("clearSearchBtn");
+      const recetteCards = document.getElementById("recetteCards");
+      const recettesTitle = document.getElementById("recettes-title");
+      
+      function debounce(fn, delay) {
+        let timer = null;
+        return (...args) => {
+          clearTimeout(timer);
+          timer = setTimeout(() => fn(...args), delay);
+        };
+      }
+      
+      function filterRecipes() {
+        if (!recetteCards) return; // Pas sur la page d'accueil
+        
+        const q = searchInput.value.toLowerCase().trim();
+        const cards = recetteCards.querySelectorAll('.recette-card');
+        let visibleCount = 0;
+        
+        if (q === "") {
+          // Afficher toutes les cartes
+          cards.forEach(card => {
+            card.style.display = '';
+          });
+          if (recettesTitle) recettesTitle.textContent = 'Toutes mes recettes';
+          if (clearBtn) clearBtn.style.display = 'none';
+          return;
+        }
+        
+        // Filtrer les cartes
+        cards.forEach(card => {
+          const title = card.dataset.title || '';
+          const tags = card.dataset.tags || '';
+          const content = card.dataset.content || '';
+          
+          if (title.includes(q) || tags.includes(q) || content.includes(q)) {
+            card.style.display = '';
+            visibleCount++;
+          } else {
+            card.style.display = 'none';
+          }
+        });
+        
+        // Mettre à jour le titre
+        if (recettesTitle) {
+          if (visibleCount === 0) {
+            recettesTitle.textContent = 'Aucune recette trouvée';
+          } else if (visibleCount === 1) {
+            recettesTitle.textContent = '1 recette trouvée';
+          } else {
+            recettesTitle.textContent = `${visibleCount} recettes trouvées`;
+          }
+        }
+        
+        if (clearBtn) clearBtn.style.display = 'flex';
+      }
+      
+      function clearSearch() {
+        searchInput.value = '';
+        filterRecipes();
+        searchInput.focus();
+      }
+      
+      if (searchInput) {
+        searchInput.addEventListener("input", debounce(filterRecipes, 200));
+      }
+      
+      if (clearBtn) {
+        clearBtn.addEventListener("click", clearSearch);
+        clearBtn.style.display = 'none'; // Caché par défaut
+      }
+    })();
+    </script>
     <footer class="site-footer">
   <div class="footer-col-wrapper">
     <div class="footer-col">

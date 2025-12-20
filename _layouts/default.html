@@ -20,8 +20,7 @@ layout: null
         </a>
         <div class="search-bar">
           <input type="text" id="headerSearchInput" placeholder="Rechercher une recette..." />
-          <button type="button">🔍</button>
-          <ul id="headerSearchResults" class="header-search-results"></ul>
+          <button type="button" id="clearSearchBtn">✖</button>
         </div>
       </div>
     </header>
@@ -32,18 +31,9 @@ layout: null
     <script>
     (function() {
       const searchInput = document.getElementById("headerSearchInput");
-      const searchResults = document.getElementById("headerSearchResults");
-      
-      let recettes = [
-      {% for recette in site.recettes %}
-        {
-          "title": {{ recette.title | jsonify }},
-          "url": "{{ recette.url | relative_url }}",
-          "content": {{ recette.content | strip_html | jsonify }},
-          "tags": {{ recette.tags | jsonify }}
-        }{% unless forloop.last %},{% endunless %}
-      {% endfor %}
-      ];
+      const clearBtn = document.getElementById("clearSearchBtn");
+      const recetteCards = document.getElementById("recetteCards");
+      const recettesTitle = document.getElementById("recettes-title");
       
       function debounce(fn, delay) {
         let timer = null;
@@ -53,62 +43,65 @@ layout: null
         };
       }
       
-      function highlight(text, query) {
-        if (!query) return text;
-        const regex = new RegExp(`(${query})`, "gi");
-        return text.replace(regex, "<mark>$1</mark>");
-      }
-      
-      function updateSearch() {
+      function filterRecipes() {
+        if (!recetteCards) return; // Pas sur la page d'accueil
+        
         const q = searchInput.value.toLowerCase().trim();
-        searchResults.innerHTML = "";
+        const cards = recetteCards.querySelectorAll('.recette-card');
+        let visibleCount = 0;
         
         if (q === "") {
-          searchResults.style.display = "none";
+          // Afficher toutes les cartes
+          cards.forEach(card => {
+            card.style.display = '';
+          });
+          if (recettesTitle) recettesTitle.textContent = 'Toutes mes recettes';
+          if (clearBtn) clearBtn.style.display = 'none';
           return;
         }
         
-        const filtered = recettes.filter(r =>
-          r.title.toLowerCase().includes(q) ||
-          r.content.toLowerCase().includes(q) ||
-          (r.tags && r.tags.some(t => t.toLowerCase().includes(q)))
-        );
-        
-        if (filtered.length === 0) {
-          searchResults.innerHTML = "<li class='no-results'>Aucune recette trouvée</li>";
-          searchResults.style.display = "block";
-          return;
-        }
-        
-        filtered.slice(0, 8).forEach(r => {
-          const li = document.createElement("li");
-          li.innerHTML = `
-            <a href="${r.url}">
-              <strong>${highlight(r.title, q)}</strong>
-              ${r.tags ? '<br><small>' + highlight(r.tags.join(", "), q) + '</small>' : ''}
-            </a>
-          `;
-          searchResults.appendChild(li);
+        // Filtrer les cartes
+        cards.forEach(card => {
+          const title = card.dataset.title || '';
+          const tags = card.dataset.tags || '';
+          const content = card.dataset.content || '';
+          
+          if (title.includes(q) || tags.includes(q) || content.includes(q)) {
+            card.style.display = '';
+            visibleCount++;
+          } else {
+            card.style.display = 'none';
+          }
         });
         
-        searchResults.style.display = "block";
+        // Mettre à jour le titre
+        if (recettesTitle) {
+          if (visibleCount === 0) {
+            recettesTitle.textContent = 'Aucune recette trouvée';
+          } else if (visibleCount === 1) {
+            recettesTitle.textContent = '1 recette trouvée';
+          } else {
+            recettesTitle.textContent = `${visibleCount} recettes trouvées`;
+          }
+        }
+        
+        if (clearBtn) clearBtn.style.display = 'flex';
       }
       
-      searchInput.addEventListener("input", debounce(updateSearch, 200));
+      function clearSearch() {
+        searchInput.value = '';
+        filterRecipes();
+        searchInput.focus();
+      }
       
-      // Fermer les résultats quand on clique ailleurs
-      document.addEventListener("click", function(e) {
-        if (!searchInput.contains(e.target) && !searchResults.contains(e.target)) {
-          searchResults.style.display = "none";
-        }
-      });
+      if (searchInput) {
+        searchInput.addEventListener("input", debounce(filterRecipes, 200));
+      }
       
-      // Rouvrir les résultats si on focus l'input et qu'il y a du contenu
-      searchInput.addEventListener("focus", function() {
-        if (searchInput.value.trim() !== "") {
-          updateSearch();
-        }
-      });
+      if (clearBtn) {
+        clearBtn.addEventListener("click", clearSearch);
+        clearBtn.style.display = 'none'; // Caché par défaut
+      }
     })();
     </script>
     {% include footer.html %}
