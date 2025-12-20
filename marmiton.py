@@ -184,10 +184,32 @@ def main():
         print("Usage: python marmiton.py <url>")
         sys.exit(1)
     url = sys.argv[1]
+
     title, md_content = extract_marmiton_recipe_selenium(url)
     filename = slugify(title) + '.md'
     outdir = os.path.join(os.path.dirname(__file__), '_recettes')
     os.makedirs(outdir, exist_ok=True)
+    # Télécharger l'image si présente
+    import re
+    image_url_match = re.search(r'image: "([^"]+)"', md_content)
+    if image_url_match:
+        image_url = image_url_match.group(1)
+        if image_url.startswith('http'):
+            import requests
+            img_ext = os.path.splitext(image_url)[1].split('?')[0]
+            if not img_ext or len(img_ext) > 5:
+                img_ext = '.jpg'
+            image_filename = f"images/{slugify(title)}{img_ext}"
+            image_path = os.path.join(os.path.dirname(__file__), image_filename)
+            try:
+                r = requests.get(image_url, timeout=10)
+                if r.status_code == 200:
+                    with open(image_path, 'wb') as imgf:
+                        imgf.write(r.content)
+                    # Remplacer l'URL par le chemin local dans le markdown
+                    md_content = md_content.replace(image_url, image_filename)
+            except Exception as e:
+                print(f"Erreur lors du téléchargement de l'image : {e}")
     outfile = os.path.join(outdir, filename)
     with open(outfile, 'w', encoding='utf-8') as f:
         f.write(md_content)
