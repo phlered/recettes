@@ -13,7 +13,7 @@ ingredients:
   - "2 cuillères à soupe d'huile d'olive"
 tags: [Mon Amuse-bouche de Gambas, bouchée ou amuse-bouche, gambas, carré frais, miel, sésame, mélange 5 baies, huile d'olive, facile, bon marché, rapide]
 ---
-![illustration de la recette](images/mon_amuse_bouche_de_gambas.jpg)
+![illustration de la recette]({{ site.baseurl }}/images/mon_amuse_bouche_de_gambas.jpg)
 
 # Mon Amuse-bouche de Gambas
 
