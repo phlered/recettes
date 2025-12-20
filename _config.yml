@@ -1,8 +1,6 @@
 title: Accueil
 description: Recettes testées et approuvées
-theme: minima
-minima:
-  skin: dark
+
 
 url: "https://phlered.github.io"
 baseurl: "/recettes"
@@ -20,6 +18,7 @@ include:
 collections:
   recettes:
     output: true
+    permalink: /recettes/:name/
 
 header_pages:
   - about.md

@@ -1,20 +1,15 @@
----
-# Ce layout surcharge minima pour permettre le mode sombre, un header personnalisé et un fond visuel.
-layout: null
----
-
 <!DOCTYPE html>
 <html lang="fr">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+    <title>Pâte pour beignets fish and chips</title>
+    <link rel="stylesheet" href="/recettes/assets/main.css">
   </head>
   <body>
     <header class="site-header">
       <div class="header-content">
-        <a href="{{ '/' | relative_url }}" class="logo-btn">
+        <a href="/recettes/" class="logo-btn">
           <img src="/images/logo.png" alt="Logo" class="site-logo" />
         </a>
         <form class="search-bar" action="/search.html" method="get">
@@ -24,8 +19,24 @@ layout: null
       </div>
     </header>
     <main class="site-main recette-main">
-      {{ content }}
+      <h1 id="pâte-pour-beignets-fish-and-chips">Pâte pour beignets fish and chips</h1>
+
+<h2 id="ingrédients">Ingrédients</h2>
+<ul>
+  <li>1 œuf</li>
+  <li>125 g de farine</li>
+  <li>12,5 cl de bière</li>
+  <li>sel</li>
+</ul>
+
     </main>
-    {% include footer.html %}
+    <footer class="site-footer">
+  <div class="footer-col-wrapper">
+    <div class="footer-col">
+      <a href="/recettes/" class="footer-home">Retour à l'accueil</a>
+    </div>
+  </div>
+</footer>
+
   </body>
 </html>

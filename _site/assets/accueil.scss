@@ -1,0 +1,11 @@
+/* Accentue le contraste du lien "Accueil" dans le header */
+.header-home {
+  color: #fff !important;
+  font-weight: bold;
+  text-shadow: 0 1px 4px #0008;
+}
+
+.header-home:hover {
+  color: #ffd700 !important;
+  text-shadow: 0 2px 8px #000a;
+}

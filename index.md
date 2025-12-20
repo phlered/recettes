@@ -1,3 +1,8 @@
+---
+layout: default
+title: Accueil
+---
+
 # Accueil
 
 Bienvenue sur le site de recettes !
@@ -8,10 +13,7 @@ Bienvenue sur le site de recettes !
     {% endfor %}
   </ul>
 </div>
----
-layout: default
-title: Accueil
----
+
 
 <h1>🍽️ Mes recettes maison</h1>
 
