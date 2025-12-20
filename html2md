@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Script d'appel html2md <url>
+DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PYTHON="/opt/homebrew/bin/python3.12"
+$PYTHON "$DIR/html2md.py" "$1"
