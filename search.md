@@ -6,15 +6,20 @@ permalink: /search/
 
 <h1>🔍 Recherche</h1>
 
-<input type="text" id="searchInput"
-       placeholder="Tapez un ingrédient, un tag, un mot-clé…"
-       style="width:100%; padding:10px; margin-bottom: 20px;">
+
+<div class="search-bar-group">
+  <input type="text" id="searchInput"
+    placeholder="Tapez un ingrédient, un tag, un mot-clé…">
+  <button id="clearSearch" type="button" class="btn-main" title="Effacer la recherche">✖</button>
+</div>
 
 <ul id="results"></ul>
 
 <script>
+
 const searchInput = document.getElementById("searchInput");
 const results = document.getElementById("results");
+const clearBtn = document.getElementById("clearSearch");
 
 let recettes = [
 {% for recette in site.recettes %}
@@ -68,5 +73,11 @@ function updateSearch() {
     });
 }
 
+
 searchInput.addEventListener("input", debounce(updateSearch, 150));
+clearBtn.addEventListener("click", () => {
+  searchInput.value = "";
+  updateSearch();
+  searchInput.focus();
+});
 </script>
