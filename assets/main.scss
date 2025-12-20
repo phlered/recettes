@@ -1,3 +1,115 @@
+// ...existing code...
+.recette-main {
+  max-height: calc(100vh - 80px);
+  overflow-y: auto;
+  background: rgba(255,255,255,0.04);
+  border-radius: 12px;
+  box-shadow: 0 2px 8px #0002;
+  padding: 32px 24px;
+}
+// ...existing code...
+.recettes-scroll {
+  max-height: calc(100vh - 160px);
+  overflow-y: auto;
+  background: rgba(255,255,255,0.04);
+  border-radius: 12px;
+  box-shadow: 0 2px 8px #0002;
+  padding: 24px 16px;
+  margin-top: 16px;
+}
+.recettes-scroll ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.recettes-scroll li {
+  margin-bottom: 12px;
+  font-size: 1.1rem;
+}
+.recettes-scroll a {
+  color: #8fb8ff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.recettes-scroll a:hover {
+  color: #ffd700;
+}
+// ...existing code...
+
+// Bandeau fixe en haut
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #222c3a;
+  box-shadow: 0 2px 8px #0006;
+  z-index: 1000;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.logo-btn {
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+
+.site-logo {
+  height: 48px;
+  width: auto;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.site-logo:hover {
+  transform: scale(1.08);
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.search-bar input {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: none;
+  font-size: 1rem;
+  background: #fff;
+  color: #222c3a;
+}
+.search-bar button {
+  background: #8fb8ff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  color: #222c3a;
+  transition: background 0.2s;
+}
+.search-bar button:hover {
+  background: #ffd700;
+}
+
+// Zone de contenu sous le bandeau
+.site-main {
+  margin-top: 80px;
+  padding: 0 16px;
+  min-height: calc(100vh - 80px);
+  overflow-y: auto;
+}
 /* Boutons stylisés */
 .btn-main {
   background: linear-gradient(90deg, #ffd700 60%, #ffb300 100%);

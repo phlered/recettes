@@ -1,3 +1,13 @@
+# Accueil
+
+Bienvenue sur le site de recettes !
+<div class="recettes-scroll">
+  <ul>
+    {% for recette in site.recettes %}
+      <li><a href="{{ recette.url }}">{{ recette.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
 ---
 layout: default
 title: Accueil
