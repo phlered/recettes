@@ -204,6 +204,8 @@
   gap: 24px;
   justify-content: center;
   margin-top: 24px;
+  width: 100%;
+  box-sizing: border-box;
 }
 .recette-card {
   display: flex;
@@ -325,6 +327,8 @@
 body {
   background-color: #0f1117;
   color: #e8ecf2;
+  margin: 0;
+  overflow-x: hidden;
 }
 
 a { color: #8fb8ff; }
