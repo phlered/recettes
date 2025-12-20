@@ -3,18 +3,6 @@ layout: default
 title: Accueil
 ---
 
-# Accueil
-
-Bienvenue sur le site de recettes !
-<div class="recettes-scroll">
-  <ul>
-    {% for recette in site.recettes %}
-      <li><a href="{{ recette.url }}">{{ recette.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
-
-
 <h1>🍽️ Mes recettes maison</h1>
 
 <div class="search-box">
@@ -50,7 +38,6 @@ Bienvenue sur le site de recettes !
 <script>
 const searchInput = document.getElementById("searchInput");
 const searchResults = document.getElementById("searchResults");
-const allRecettes = document.getElementById("allRecettes");
 
 let recettes = [
 {% for recette in site.recettes %}
@@ -84,7 +71,6 @@ function updateSearch() {
   const q = searchInput.value.toLowerCase();
   searchResults.innerHTML = "";
   allRecettes.style.display = q.trim() === "" ? "block" : "none";
-
   if (q.trim() === "") return;
 
   const filtered = recettes.filter(r =>
