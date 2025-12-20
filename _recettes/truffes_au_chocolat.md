@@ -13,7 +13,7 @@ ingredients:
   - "50 g de cacao"
 tags: [Truffes au chocolat, truffes en chocolat, chocolat noir, beurre doux, jaune d'oeuf, sucre vanillé, sucre glace, cacao, très facile, moyen, rapide]
 ---
-![illustration de la recette](https://assets.afcdn.com/recipe/20221003/135679_w1024h576c1cx1030cy1112cxt0cyt669cxb1414cyb1702.jpg)
+![illustration de la recette]({{ site.baseurl }}/images/truffes_au_chocolat.jpeg)
 
 # Truffes au chocolat
 
