@@ -1,4 +1,6 @@
-// ...existing code...
+---
+---
+
 .recette-main {
   max-height: calc(100vh - 80px);
   overflow-y: auto;
@@ -256,10 +258,6 @@
   color: #ffd700 !important;
   text-shadow: 2px 2px 8px #222;
 }
----
----
-@import "minima";
-
 
 /* Global dark tweaks */
 body {
