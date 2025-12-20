@@ -25,7 +25,7 @@ body.accueil .recette-card {
 body.recette-page .site-main {
   padding: 16px;
   overflow-y: visible;
-  margin-top: 120px;
+  margin-top: 180px;
 }
 
 body.recette-page .recette-main {
@@ -45,7 +45,7 @@ body.recette-page .recette-main {
 @media (max-width: 700px) {
   body.recette-page .site-main {
     padding: 8px;
-    margin-top: 84px;
+    margin-top: 140px;
   }
   body.recette-page .recette-main {
     width: 90vw;
