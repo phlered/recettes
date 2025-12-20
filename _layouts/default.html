@@ -17,7 +17,7 @@ layout: null
         <a href="{{ '/' | relative_url }}" class="logo-btn">
           🍽️ Mes Recettes
         </a>
-        <form class="search-bar" action="/search.html" method="get">
+        <form class="search-bar" action="{{ '/search/' | relative_url }}" method="get">
           <input type="text" name="q" placeholder="Rechercher une recette..." />
           <button type="submit">🔍</button>
         </form>
