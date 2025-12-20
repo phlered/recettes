@@ -1,0 +1,5 @@
+#!/bin/bash
+# Script d'appel pour extraction Marmiton
+DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PYTHON="/opt/homebrew/bin/python3.12"
+$PYTHON "$DIR/marmiton.py" "$1"
