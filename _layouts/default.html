@@ -15,12 +15,13 @@ layout: null
   <body>
     <header class="site-header">
       <div class="header-content">
-        <a href="{{ '/' | relative_url }}" class="logo-btn">
-          🍽️ Mes Recettes
+        <a href="{{ '/' | relative_url }}" class="logo-btn" aria-label="Retour à l'accueil">
+          <span class="logo-icon" aria-hidden="true">🏠</span>
+          <span class="logo-text">Mes recettes</span>
         </a>
         <div class="search-bar">
           <input type="text" id="headerSearchInput" placeholder="Rechercher une recette..." />
-          <button type="button" id="clearSearchBtn">✖</button>
+          <button type="button" id="clearSearchBtn" aria-label="Effacer la recherche">✖</button>
         </div>
       </div>
     </header>
