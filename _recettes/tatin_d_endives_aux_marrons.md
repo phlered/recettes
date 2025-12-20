@@ -17,7 +17,7 @@ tags: [Fêtes, Noël, Tatin d'endives aux marrons, tarte tatin salée, pâte feu
 ---
 
 
-![illustration de la recette](../images/tatin_d_endives_aux_marrons.jpeg)
+![illustration de la recette]({{ site.baseurl }}/images/tatin_d_endives_aux_marrons.jpeg)
 # Tatin d'endives aux marrons
 
 ## Ingrédients
