@@ -29,30 +29,36 @@ body.accueil .recette-card {
 // Pages de recettes (carte géante)
 // =====================
 body.recette-page .site-main {
-  display: flex;
-  justify-content: center;
-  padding: 16px;
+  padding: 16px; // pas de flex: flux vertical conservé
+  overflow-y: visible; // défilement global non bloqué
+  margin-top: 120px; // décalage suffisant sous le header pour afficher le titre en entier
 }
 
 body.recette-page .recette-main {
   width: 100%;
   max-width: 980px;
-  background: rgba(20,22,30,0.92);
+  background: rgba(30,32,40,0.82); // même alpha que les cartes de l'accueil
   border-radius: 16px;
   box-shadow: 0 8px 24px #0008;
   padding: 24px 20px;
+  margin: 0 auto; // centre horizontalement sans changer le flux
+  display: block; // garantit le flux vertical
+  column-count: 1; // aucune mise en colonnes
+  max-height: none; // pas de hauteur limitée
+  overflow-y: visible; // pas de scroll interne
 }
 
 @media (max-width: 700px) {
   body.recette-page .site-main {
     padding: 8px;
+    margin-top: 84px; // header mobile (64px) + marge de confort
   }
   body.recette-page .recette-main {
     width: 90vw;           // Occupe ~90% de la largeur sur téléphone
-    min-height: calc(90vh - 72px); // Grande carte, laisse voir le fond autour
-    background: rgba(20,22,30,0.9);
+    background: rgba(30,32,40,0.82); // identique à l'accueil
     border-radius: 18px;
     padding: 20px 16px;
+    margin: 0 auto;        // fond visible sur les bords
   }
 }
 .recettes-scroll ul {
@@ -387,6 +393,12 @@ body::before {
 
 // Page d'accueil : fond presque nu (image très visible autour des cartes)
 body.accueil::before {
+  background: linear-gradient(180deg, #0f111733 0%, #0f111733 100%), url("{{ '/images/truffes_au_chocolat.jpeg' | relative_url }}") center/cover no-repeat;
+  opacity: 0.96;
+}
+
+// Pages recettes : même transparence que l'accueil pour le fond
+body.recette-page::before {
   background: linear-gradient(180deg, #0f111733 0%, #0f111733 100%), url("{{ '/images/truffes_au_chocolat.jpeg' | relative_url }}") center/cover no-repeat;
   opacity: 0.96;
 }

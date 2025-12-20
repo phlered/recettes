@@ -23,30 +23,36 @@ body.accueil .recette-card {
 }
 
 body.recette-page .site-main {
-  display: flex;
-  justify-content: center;
   padding: 16px;
+  overflow-y: visible;
+  margin-top: 120px;
 }
 
 body.recette-page .recette-main {
   width: 100%;
   max-width: 980px;
-  background: rgba(20, 22, 30, 0.92);
+  background: rgba(30, 32, 40, 0.82);
   border-radius: 16px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5333333333);
   padding: 24px 20px;
+  margin: 0 auto;
+  display: block;
+  column-count: 1;
+  max-height: none;
+  overflow-y: visible;
 }
 
 @media (max-width: 700px) {
   body.recette-page .site-main {
     padding: 8px;
+    margin-top: 84px;
   }
   body.recette-page .recette-main {
     width: 90vw;
-    min-height: calc(90vh - 72px);
-    background: rgba(20, 22, 30, 0.9);
+    background: rgba(30, 32, 40, 0.82);
     border-radius: 18px;
     padding: 20px 16px;
+    margin: 0 auto;
   }
 }
 .recettes-scroll ul {
@@ -397,6 +403,11 @@ body::before {
 }
 
 body.accueil::before {
+  background: linear-gradient(180deg, rgba(15, 17, 23, 0.2) 0%, rgba(15, 17, 23, 0.2) 100%), url("/recettes/images/truffes_au_chocolat.jpeg") center/cover no-repeat;
+  opacity: 0.96;
+}
+
+body.recette-page::before {
   background: linear-gradient(180deg, rgba(15, 17, 23, 0.2) 0%, rgba(15, 17, 23, 0.2) 100%), url("/recettes/images/truffes_au_chocolat.jpeg") center/cover no-repeat;
   opacity: 0.96;
 }
