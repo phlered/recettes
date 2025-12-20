@@ -80,4 +80,12 @@ clearBtn.addEventListener("click", () => {
   updateSearch();
   searchInput.focus();
 });
+
+// Lire le paramètre 'q' de l'URL et lancer la recherche
+const urlParams = new URLSearchParams(window.location.search);
+const queryParam = urlParams.get('q');
+if (queryParam) {
+  searchInput.value = queryParam;
+  updateSearch();
+}
 </script>
