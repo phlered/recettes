@@ -12,6 +12,7 @@ from selenium.webdriver.chrome.service import Service
 import re
 import json
 import requests
+from deep_translator import GoogleTranslator
 
 def extract_blogger_recipe(url):
     """
@@ -164,6 +165,14 @@ def extract_blogger_recipe(url):
     # Limiter à 20 étapes max
     if len(steps) > 20:
         steps = steps[:20]
+    
+    # 5. Traduction en français si nécessaire
+    lang = detect_language(title)
+    if lang != 'fr':
+        print(f"Traduction en français...")
+        title = translate_to_french(title)
+        ingredients = [translate_to_french(ing) for ing in ingredients]
+        steps = [translate_to_french(step) for step in steps]
 
     # Bloc YAML
     yaml = [
@@ -203,6 +212,41 @@ def slugify(text):
     text = text.lower()
     text = re.sub(r'[^a-z0-9]+', '_', text)
     return text.strip('_')
+
+def detect_language(text):
+    """
+    Détecte si le texte est en anglais ou français
+    """
+    # Utiliser des mots clés simples pour détecter la langue
+    english_words = {'the', 'for', 'and', 'in', 'of', 'to', 'with', 'a', 'is', 'are', 'mix', 'add', 'bake', 'heat', 'cook'}
+    french_words = {'le', 'la', 'et', 'de', 'à', 'un', 'une', 'mélanger', 'ajouter', 'cuire', 'chauffer', 'cuisiner', 'pour', 'avec'}
+    
+    text_lower = text.lower()
+    english_count = sum(1 for word in english_words if word in text_lower)
+    french_count = sum(1 for word in french_words if word in text_lower)
+    
+    # Par défaut, supposer anglais si on a des mots anglais
+    if english_count > french_count:
+        return 'en'
+    return 'fr'
+
+def translate_to_french(text):
+    """
+    Traduit un texte en français s'il n'est pas déjà en français
+    """
+    if not text or len(text) < 5:
+        return text
+    
+    try:
+        lang = detect_language(text)
+        if lang != 'fr':
+            translator = GoogleTranslator(source='en', target='fr')
+            translated = translator.translate(text)
+            return translated
+        return text
+    except Exception:
+        # Fallback silencieux - retourner le texte original en cas d'erreur
+        return text
 
 def main():
     if len(sys.argv) != 2:
