@@ -37,17 +37,12 @@ ingredients:
 
 ## Préparation
 
-### Pour le sirop :
-
-1. Remuer l'eau et le sucre dans une petite casserole et chauffer. Après avoir bouilli pendant 5 minutes, verser le jus de citron, bouillir 30 secondes de plus. Éteindre le feu et laisser refroidir.
-
-### Pour le gâteau à la semoule :
-
-2. Dans un grand bol, mélanger les œufs, le sucre et le zeste de citron jusqu'à ce qu'ils soient légers et mousseux, environ 4 minutes.
-3. Ajouter l'huile, puis la semoule, la farine et la levure. Mélanger à basse vitesse jusqu'à ce que tout soit incorporé.
-4. Graisser un moule de 20 x 28 cm ou similaire. Verser le mélange de gâteau et cuire dans un four préchauffé à 170°C jusqu'à ce qu'il soit doré et levé.
-5. Après 5 minutes à la sortie du four, verser lentement le sirop refroidi et attendre qu'il soit entièrement imbibé.
-6. Saupoudrer généreusement de noix de coco râpée non sucrée et servir.
+1. Stir water and sugar in a small pan and heat. After boiling for 5 minutes pour dropped lemon juice boil 30 seconds more. Turn off the heat and let it cool.
+2. In a big bowl mix eggs, sugar, and lemon rind until light and fluffy about 4 minutes.
+3. Add oil, then semolina, flour, and baking powder. Mix on low until everything is corporated.
+4. Grease 20 x 28 cm or similar size pan. Pour the cake mixture over and bake in a preheated 170C degree oven until golden brown and risen.
+5. After 5 minutes taking out from the oven pour the cooled syrup slowly and wait until it soaks all of it.
+6. Sprinkle unsweetened grated coconut generously and serve
 
 _Merci à Boris pour le partage_
 
