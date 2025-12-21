@@ -49,4 +49,6 @@ ingredients:
 5. Après 5 minutes à la sortie du four, verser lentement le sirop refroidi et attendre qu'il soit entièrement imbibé.
 6. Saupoudrer généreusement de noix de coco râpée non sucrée et servir.
 
+_Merci à Boris pour le partage_
+
 [Source Recettes B](https://recettesb.blogspot.com/2023/08/fluffy-turkish-cake-revani-with-syrup.html)
