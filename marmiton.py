@@ -207,7 +207,7 @@ def main():
                     with open(image_path, 'wb') as imgf:
                         imgf.write(r.content)
                     # Remplacer l'URL par le chemin local dans le markdown
-                    md_content = md_content.replace(image_url, image_filename)
+                    md_content = md_content.replace(image_url, f"{{{{ site.baseurl }}}}/{image_filename}")
             except Exception as e:
                 print(f"Erreur lors du téléchargement de l'image : {e}")
     outfile = os.path.join(outdir, filename)
