@@ -175,6 +175,9 @@ def extract_marmiton_recipe_selenium(url):
 
 def slugify(text):
     import re
+    import unicodedata
+    # Supprimer les accents: NFKD -> ASCII sans diacritiques
+    text = unicodedata.normalize('NFKD', text).encode('ascii', 'ignore').decode('ascii')
     text = text.lower()
     text = re.sub(r'[^a-z0-9]+', '_', text)
     return text.strip('_')
