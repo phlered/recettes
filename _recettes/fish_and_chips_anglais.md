@@ -27,7 +27,7 @@ tags: [poisson, frit, anglais, pâte]
 
 # Pâte à fish and chips croustillante
 
-![Fish and Chips](/images/fish_and_chips.jpg)
+![Fish and Chips]({{ site.baseurl }}/images/fish_and_chips.jpg)
 
 **Pas d'œuf** : pour garder le croustillant typique. C'est la clé de la recette ultime !
 
