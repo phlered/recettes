@@ -19,7 +19,7 @@ ingredients:
   - "1 olives noires"
 tags: [Hérisson apéro, apéro pas cher, pain, fromage frais, curry, basilic frais, menthe, melon, jambon cru, tomates cerise, feta, pastèque, mini mozzarella, olives noires, très facile, bon marché, rapide]
 ---
-![illustration de la recette](images/h_risson_ap_ro.jpg)
+![illustration de la recette]({{ site.baseurl }}/images/h_risson_ap_ro.jpg)
 
 # Hérisson apéro
 
