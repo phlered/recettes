@@ -35,6 +35,13 @@ ingredients:
 
 ## Préparation
 
+1. Verser le lait dans une casserole avec la vanille et chauffer à 60 °C.
+2. Le lait ne doit pas bouillir (donc on ne doit pas dépasser les 80 °C).
+3. Parallèlement, dans un saladier, blanchir au fouet manuel les oeufs et les jaunes mélangés au sucre.
+4. Ajouter la farine, la fécule et le sel.
+5. Mélanger puis incorporer lentement le lait tiédi tout en mélangeant.
+6. Préchauffer le four à 230 °C (chaleur tournante).
+7. Beurrer le moule rectangulaire de 28x20cm (avec une partie du beurre de la
 
 ## Notes
 
