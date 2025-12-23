@@ -23,13 +23,26 @@ ingredients:
 
 ## Préparation
 
-1. Coupez l'oignon en très petits dés. Salez et frottez bien jusqu'à ce que le jus de l'oignon sorte. Ajoutez-le aux feuilles d'épinards avec les flocons de piment rouge et le poivre noir.
-2. Mélangez le tout en frottant les épinards avec le mélange d'oignons salés pour réduire les feuilles.
-3. Ajoutez enfin du fromage blanc turc ou du fromage feta si vous en utilisez (c'est facultatif) et mélangez.
-4. Continuez à pétrir en ajoutant plus de farine si nécessaire jusqu'à obtenir une pâte lisse et non collante pendant environ 2-3 minutes.
-5. Coupez la pâte en 10 morceaux. Rouler en boules, couvrir d'un torchon propre et humide. Je l'ai d'abord recouvert d'un sac de congélation et d'un torchon. Laissez reposer jusqu'à ce que vous fassiez la garniture.
-6. Mettez la garniture aux épinards sur la moitié de la pâte, pliez l'autre moitié et scellez bien sur les côtés. Commencez à cuire le gözleme sur une plaque chauffante ou une poêle antiadhésive. Après avoir cuit un côté pendant environ une minute ou jusqu'à ce qu'il soit dur et que certaines couleurs, retournez-le et badigeonnez-le de beurre ou arrosez-le d'huile végétale ou d'huile d'olive et retournez-le après 1 minute.
-7. Badigeonnez l'autre côté et continuez à cuire les deux côtés en tournant de temps en temps jusqu'à ce qu'il y ait des taches dorées sur le dessus pendant environ 4 à 5 minutes. Répétez les mêmes étapes avec les pâtons restants et la garniture. Conservez les gözlemes cuits dans une autre casserole en recouvrant le dessus d'un grand couvercle ou d'un plateau pour le garder humide.
+1. Pour le remplissage : Coupez les épinards lavés et bien égouttés en petits morceaux.
+2. S'il y a encore de l'eau, vous pouvez en presser un peu pour en sortir le plus possible.
+3. Transférez-le dans un grand bol.
+4. Salez et frottez bien jusqu'à ce que le jus de l'oignon sorte.
+5. Ajoutez-le aux feuilles d'épinards avec les flocons de piment rouge et le poivre noir. Mélangez le tout en frottant les épinards avec le mélange d'oignons salés pour réduire les feuilles.
+6. Ajoutez enfin du fromage blanc turc ou du fromage feta si vous en utilisez (c'est facultatif) et mélangez.
+7. Pour la pâte : Dans le bol d'un mixeur ou dans un grand bol, ajoutez l'eau tiède, le lait, le sel et moins de 3 tasses de farine et commencez à mélanger.
+8. Continuez à pétrir en ajoutant plus de farine si nécessaire jusqu'à obtenir une pâte lisse et non collante pendant environ 2-3 minutes. Coupez la pâte en 10 morceaux.
+9. Rouler en boules, couvrir d'un torchon propre et humide.
+10. Je l'ai d'abord recouvert d'un sac de congélation et d'un torchon.
+11. Let it rest until you make the filling.
+12. Mettez un morceau de pâte sur le plan de travail fariné.
+13. Étalez avec un rouleau à pâtisserie en bougeant après chaque roulage en vous assurant qu'il ne colle pas au plan de travail.
+14. La pâte doit avoir environ 1 mm d'épaisseur.
+15. Traditionnellement, nous utilisons « oklava », mais vous pouvez également utiliser un rouleau à pâtisserie.
+16. Mettez la garniture aux épinards sur la moitié de la pâte, pliez l'autre moitié et scellez bien sur les côtés.
+17. Commencez à cuire le gözleme sur une plaque chauffante ou une poêle antiadhésive.
+18. Après avoir cuit un côté pendant environ une minute ou jusqu'à ce qu'il soit dur et que certaines couleurs, retournez-le et badigeonnez-le de beurre ou arrosez-le d'huile végétale ou d'huile d'olive et retournez-le après 1 minute.
+19. Badigeonnez l'autre côté et continuez à cuire les deux côtés en tournant de temps en temps jusqu'à ce qu'il y ait des taches dorées sur le dessus pendant environ 4 à 5 minutes.
+20. Répétez les mêmes étapes avec les pâtons restants et la garniture.
 
 ## Notes
 
