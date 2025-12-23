@@ -7,15 +7,15 @@ image: "images/g_teau_turc_moelleux_revani_au_sirop.jpg"
 ingredients:
   - "1+1/2 tasse de sucre"
   - "2 tasses d'eau"
-  - "1/2 cuillère à café lemon juice"
+  - "1/2 cuillère à café de jus de citron"
   - "4 œufs à température ambiante"
   - "1/2 tasse de sucre"
-  - "1 lemon or orange rind or vanilla"
-  - "1 cuillère à soupe vegetable oil"
+  - "1 zeste de citron ou d'orange ou vanille"
+  - "1 cuillère à soupe d'huile végétale"
   - "1/2 tasse de farine de semoule"
   - "3/4 tasse de farine tout usage"
   - "1 paquet de levure chimique (2 cuillères à café)"
-  - "about 1/3 tasse unsweetened grated coconut"
+  - "environ 1/3 tasse de noix de coco râpée non sucrée"
 ---
 ![illustration de la recette](images/g_teau_turc_moelleux_revani_au_sirop.jpg)
 
@@ -25,15 +25,15 @@ ingredients:
 
 - 1+1/2 tasse de sucre
 - 2 tasses d'eau
-- 1/2 cuillère à café lemon juice
+- 1/2 cuillère à café de jus de citron
 - 4 œufs à température ambiante
 - 1/2 tasse de sucre
-- 1 lemon or orange rind or vanilla
-- 1 cuillère à soupe vegetable oil
+- 1 zeste de citron ou d'orange ou vanille
+- 1 cuillère à soupe d'huile végétale
 - 1/2 tasse de farine de semoule
 - 3/4 tasse de farine tout usage
 - 1 paquet de levure chimique (2 cuillères à café)
-- about 1/3 tasse unsweetened grated coconut
+- environ 1/3 tasse de noix de coco râpée non sucrée
 
 ## Préparation
 
@@ -42,7 +42,7 @@ ingredients:
 3. Ajouter l'huile, puis la semoule, la farine et la levure chimique. Mélanger à feu doux jusqu'à ce que tout soit homogène.
 4. Beurrer un moule de 20 x 28 cm ou de taille similaire. Versez le mélange à gâteau dessus et faites cuire au four préchauffé à 170°C jusqu'à ce qu'il soit doré et levé.
 5. Après 5 minutes à la sortie du four, versez lentement le sirop refroidi et attendez qu'il imbibe la totalité.
-6. Sprinkle unsweetened grated coconut generously and serve
+6. Saupoudrer généreusement de noix de coco râpée non sucrée et servir
 
 _Merci à Boris pour le partage_
 
