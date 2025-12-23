@@ -8,10 +8,10 @@ ingredients:
   - "Pour la pâte :"
   - "250 ml (1 tasse) d'eau tiède"
   - "3-4 cs lait"
-  - "1 cc sel"
+  - "1 cc de sel"
   - "420 g (3 tasses) ou plus de farine T55"
   - "Pour la garniture :"
-  - "500 g d'épinards frais, lavés et bien séchés"
+  - "500 g épinards frais, lavés et bien séchés"
   - "2 oignons moyens"
   - "1 cc de piment rouge en poudre et sel pour chaque gozleme"
   - "200 g de fromage frais sec type feta"
@@ -27,11 +27,11 @@ ingredients:
 
 - 250 ml (1 tasse) d'eau tiède
 - 3-4 cs lait
-- 1 cc sel
+- 1 cc de sel
 - 420 g (3 tasses) ou plus de farine T55
 ### Pour la garniture :
 
-- 500 g d'épinards frais, lavés et bien séchés
+- 500 g épinards frais, lavés et bien séchés
 - 2 oignons moyens
 - 1 cc de piment rouge en poudre et sel pour chaque gozleme
 - 200 g de fromage frais sec type feta
@@ -49,7 +49,7 @@ ingredients:
 8. Continuez à pétrir en ajoutant plus de farine si nécessaire jusqu'à obtenir une pâte lisse et non collante pendant environ 2-3 minutes. Coupez la pâte en 10 morceaux.
 9. Rouler en boules, couvrir d'un torchon propre et humide.
 10. Je l'ai d'abord recouvert d'un sac de congélation et d'un torchon.
-11. Let it rest until you make the filling.
+11. Laissez reposer jusqu'à ce que vous fassiez la garniture.
 12. Mettez un morceau de pâte sur le plan de travail fariné.
 13. Étalez avec un rouleau à pâtisserie en bougeant après chaque roulage en vous assurant qu'il ne colle pas au plan de travail.
 14. La pâte doit avoir environ 1 mm d'épaisseur.
