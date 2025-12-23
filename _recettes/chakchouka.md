@@ -43,8 +43,15 @@ ingredients:
 
 ## Préparation
 
-1. Casser un œuf dans un bol, faire un trou dans la compotée et l'y verser. Répéter pour chaque œuf. Couvrir et cuire 6 à 8 minutes à feu moyen, en fait jusqu'à la cuisson désirée des œufs.
-2. Facultatif: verser un peu de miel pour adoucir, des dés de fêta et de la coriandre fraîche ciselée.
+1. Dans une poêle à fond épais, chauffer l’huile d’olive sans la fumer, et y faire revenir l’oignon à feu moyen pendant 2 minutes.
+2. Ajouter les poivrons et prolonger la cuisson.
+3. Ajouter l'ail et les épices, bien mélanger et faire revenir pendant 3 minutes à feu moyen/doux en mélangeant régulièrement.
+4. Ajouter les tomates, le sel et le poivre et mélanger.
+5. Ajouter la carotte et la coriandre et cuire à feu moyen à découvert pour obtenir une compotée.
+6. Casser un œuf dans un bol, faire un trou dans la compotée et l'y verser.
+7. Couvrir et cuire 6 à 8 minutes à feu moyen, en fait jusqu'à la cuisson désirée des œufs.
+8. Facultatif: verser un peu de miel pour adoucir, des dés de fêta et de la coriandre fraîche ciselée.
+9. Déguster sur des tranches de pain grillé.
 
 ## Notes
 
