@@ -5,10 +5,17 @@ source: "https://recettesb.blogspot.com/2023/08/turkish-gozleme-recipe-with-chee
 date: "2025-12-23"
 image: "{{ site.baseurl }}/images/gozleme_turque_au_fromage_et_aux_epinards.jpg"
 ingredients:
+  - "Pour la pâte :"
   - "250 ml (1 tasse) d'eau tiède"
   - "3-4 cs lait"
   - "1 cc sel"
   - "420 g (3 tasses) ou plus de farine T55"
+  - "Pour la garniture :"
+  - "500 g d'épinards frais, lavés et bien séchés"
+  - "2 oignons moyens"
+  - "1 cc de piment rouge en poudre et sel pour chaque gozleme"
+  - "200 g de fromage frais sec type feta"
+  - "3 cs de beurre ou d'huile végétale"
 ---
 ![illustration de la recette]({{ site.baseurl }}/images/gozleme_turque_au_fromage_et_aux_epinards.jpg)
 
@@ -16,10 +23,19 @@ ingredients:
 
 ## Ingrédients
 
+### Pour la pâte :
+
 - 250 ml (1 tasse) d'eau tiède
 - 3-4 cs lait
 - 1 cc sel
 - 420 g (3 tasses) ou plus de farine T55
+### Pour la garniture :
+
+- 500 g d'épinards frais, lavés et bien séchés
+- 2 oignons moyens
+- 1 cc de piment rouge en poudre et sel pour chaque gozleme
+- 200 g de fromage frais sec type feta
+- 3 cs de beurre ou d'huile végétale
 
 ## Préparation
 
