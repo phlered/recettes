@@ -6,7 +6,20 @@ date: "2025-12-23"
 image: "{{ site.baseurl }}/images/tarte_aux_oignons.jpg"
 ingredients:
   - "125 g de beurre à température ambiante"
-  - "200 g de farine type 55 (il faut une farine faible en gluten"
+  - "200 g de farine type 55 (il faut une farine faible en gluten pour ne pas que la pâte se rétracte à la cuisson)"
+  - "1/2 teaspoon de fleur de sel (3 g)"
+  - "30 g de lait froid (qui sort du frigo)"
+  - "1 jaune d'oeuf froid (qui sort aussi du frigo !)"
+  - "600 g d'oignons émincés"
+  - "150 g de crème liquide entière"
+  - "50 g de pain de mie (2 tranches sans croûte)"
+  - "80 g de vin blanc"
+  - "50 g d'huile d'olive"
+  - "1/2 cuillère à café de sel fin (3 g)"
+  - "1 tablespoon de farine (10 g)"
+  - "1 gros oeuf (60 g)"
+  - "Poivre du moulin"
+  - "+ éventuellement quelques branches de thym frais"
 ---
 ![illustration de la recette]({{ site.baseurl }}/images/tarte_aux_oignons.jpg)
 
@@ -15,7 +28,20 @@ ingredients:
 ## Ingrédients
 
 - 125 g de beurre à température ambiante
-- 200 g de farine type 55 (il faut une farine faible en gluten
+- 200 g de farine type 55 (il faut une farine faible en gluten pour ne pas que la pâte se rétracte à la cuisson)
+- 1/2 teaspoon de fleur de sel (3 g)
+- 30 g de lait froid (qui sort du frigo)
+- 1 jaune d'oeuf froid (qui sort aussi du frigo !)
+- 600 g d'oignons émincés
+- 150 g de crème liquide entière
+- 50 g de pain de mie (2 tranches sans croûte)
+- 80 g de vin blanc
+- 50 g d'huile d'olive
+- 1/2 cuillère à café de sel fin (3 g)
+- 1 tablespoon de farine (10 g)
+- 1 gros oeuf (60 g)
+- Poivre du moulin
+- + éventuellement quelques branches de thym frais
 
 ## Préparation
 
