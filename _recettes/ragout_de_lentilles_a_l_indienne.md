@@ -5,6 +5,7 @@ source: "https://recettesb.blogspot.com/2020/03/title-ragout-de-lentilles-lindie
 date: "2025-12-23"
 image: "{{ site.baseurl }}/images/ragout_de_lentilles_a_l_indienne.jpg"
 ingredients:
+  - "Ingrédients"
   - "180 ml de lentilles rouges"
   - "1 oignon"
   - "2 gousses d'ail"
@@ -14,7 +15,7 @@ ingredients:
   - "100 g cuillères à soupe de concentré de noix de coco"
   - "35 g cuillères à soupe de poudre de Colombo"
   - "1/2 cuillère à café de sel"
-  - '1 cuillère à café de piment chinois "ketchup"'
+  - "1 cuillère à café de piment chinois "ketchup""
   - "1 cube de bouillon de volaille"
   - "700 ml d'eau"
   - "1 jus de citron"
@@ -26,6 +27,7 @@ ingredients:
 
 ## Ingrédients
 
+- Ingrédients
 - 180 ml de lentilles rouges
 - 1 oignon
 - 2 gousses d'ail
