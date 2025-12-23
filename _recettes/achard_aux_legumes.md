@@ -41,6 +41,16 @@ ingredients:
 
 ## Préparation
 
+1. Rincez soigneusement les légumes et débitez-les en julienne.
+2. Hachez finement les oignons.
+3. Pilez ensemble l’ail, gingembre et séparément les graines de moutarde avec le fenugrec et le cumin.
+4. Faites rissoler les oignons, puis ajoutez le mélange ail/gingembre et enfin les autres épices dans l’huile chaude à feu moyen.
+5. Ajouter la poudre de curcuma puis en priorité les haricots verts (qui mettront un peu plus longtemps à cuire), mélangez soigneusement pendant 3 mn à feu doux et éteignez immédiatement le feu.
+6. Versez aussitôt ensuite tous les autres légumes, le piment vert en option et mélangez de manière homogène en saupoudrant du sel et couvrez.
+7. Vos achards sont presque prêts… Il ne reste plus qu’à bien laisser refroidir.
+8. Lorsque les légumes seront froids, faites chauffer le vinaigre que vous ajouterez aux légumes en mélangeant.
+9. Ajustez l’évaluation selon vos goûts.
+10. Conservation de ces achards de légumes réunionnais Mettez tout simplement ces achards de légumes réunionnais en pot afin de les conserver plusieurs jours au réfrigérateur.
 
 ## Notes
 
