@@ -23,8 +23,14 @@ ingredients:
 
 ## Préparation
 
-1. Presser la gousse d’ail, après avoir retirer le germe, et mixer-la avec la demie botte de menthe et une cuillère à soupe du yaourt déjà battu.
-2. Une fois que tout est bien mixé, mélanger le yaourt battu avec la menthe, l’ail et le concombre. Réserver 1h minimum au frais.
+1. Éplucher, égrainer (la partie centrale) et râper le concombre.
+2. Faire dégorger le concombre râpé avec 2 grosses pincées de sel.
+3. Laisser l’eau s’écouler dans une passoire pendant 1h.
+4. Pendant que le concombre dégorge, préparer le yaourt : Battez-le à la fourchette ou au fouet pendant 5 bonnes minutes.
+5. Presser la gousse d’ail, après avoir retirer le germe, et mixer-la avec la demie botte de menthe et une cuillère à soupe du yaourt déjà battu.
+6. Une fois que tout est bien mixé, mélanger le yaourt battu avec la menthe, l’ail et le concombre.
+7. Réserver 1h minimum au frais.
+8. Ajouter une pincée de piment rouge en poudre et servir bien frais.
 
 ## Notes
 
