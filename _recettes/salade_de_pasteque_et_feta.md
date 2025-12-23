@@ -5,10 +5,12 @@ source: "https://recettesb.blogspot.com/2020/03/title-salade-de-pasteque-et-feta
 date: "2025-12-23"
 image: "{{ site.baseurl }}/images/salade_de_pasteque_et_feta.jpg"
 ingredients:
+  - "Ingrédients"
   - "2 kg de pastèque bien froide (poids sans la peau)"
   - "280 g de feta"
   - "20 g de feuilles de basilic"
   - "1/2 oignon rouge émincé"
+  - "Huile d'olive"
 ---
 ![illustration de la recette]({{ site.baseurl }}/images/salade_de_pasteque_et_feta.jpg)
 
@@ -16,10 +18,12 @@ ingredients:
 
 ## Ingrédients
 
+- Ingrédients
 - 2 kg de pastèque bien froide (poids sans la peau)
 - 280 g de feta
 - 20 g de feuilles de basilic
 - 1/2 oignon rouge émincé
+- Huile d'olive
 
 ## Préparation
 
