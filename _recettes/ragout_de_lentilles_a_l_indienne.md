@@ -14,7 +14,7 @@ ingredients:
   - "100 g cuillères à soupe de concentré de noix de coco"
   - "35 g cuillères à soupe de poudre de Colombo"
   - "1/2 cuillère à café de sel"
-  - "1 cuillère à café de piment chinois "ketchup""
+  - '1 cuillère à café de piment chinois "ketchup"'
   - "1 cube de bouillon de volaille"
   - "700 ml d'eau"
   - "1 jus de citron"

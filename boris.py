@@ -116,7 +116,7 @@ def extract_blogger_recipe(url):
         
         # Chercher la section "Préparation" ou "Instructions"
         # Chercher tout ce qui commence par "Instructions" ou "For the"
-        instructions_pattern = r'(?:instructions?|préparation|étapes|directions)\s*[\:\n]*(.*?)(?=(?:notes?|ajouter un commentaire|publié|url|source|note|recette|comment))'
+        instructions_pattern = r'(?:instructions?|préparation|étapes|directions)\s*[\:\n]*(.*?)(?=(?:notes?|ajouter un commentaire|publié|url|source|note|recette|comment)|$)'
         instructions_match = re.search(instructions_pattern, full_text, re.IGNORECASE | re.DOTALL)
         
         if instructions_match:
