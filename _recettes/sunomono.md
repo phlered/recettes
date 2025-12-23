@@ -23,6 +23,14 @@ ingredients:
 
 ## Préparation
 
+1. Peler partiellement les concombres en laissant des lamelles de vert et les couper en tranches très fines.
+2. Ajouter le sel aux concombres et mélanger à la main.
+3. Réserver pendant 45 minutes, ou jusqu’à ce que les concombres soient mous.
+4. Transférer les concombres dans une passoire et en extraire le plus de liquide possible.
+5. Mélanger le jus de citron, le sucre et le vinaigre dans un grand bol jusqu'à ce que le sucre se dissolve.
+6. Ajouter le concombre égoutté et mélanger pour bien enrober.
+7. Verser dans des petits bols et garnir chaque portion de graines de sésame.
+8. Réserver au réfrigérateur pendant 1h30 avant de déguster.
 
 ## Notes
 
