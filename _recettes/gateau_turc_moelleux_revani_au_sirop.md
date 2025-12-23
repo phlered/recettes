@@ -8,7 +8,7 @@ ingredients:
   - "Pour le sirop :"
   - "1+1/2 tasse de sucre"
   - "2 tasses d'eau"
-  - "1/2 cuillère à café de jus de citron"
+  - "1/2 cuillère à café lemon juice"
   - "Pour le gâteau à la semoule"
   - "4 œufs à température ambiante"
   - "1/2 tasse de sucre"
@@ -29,7 +29,7 @@ ingredients:
 
 - 1+1/2 tasse de sucre
 - 2 tasses d'eau
-- 1/2 cuillère à café de jus de citron
+- 1/2 cuillère à café lemon juice
 ### Pour le gâteau à la semoule
 
 - 4 œufs à température ambiante
