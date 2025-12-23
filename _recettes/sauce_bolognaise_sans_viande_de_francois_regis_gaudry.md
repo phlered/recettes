@@ -5,10 +5,10 @@ source: "https://recettesb.blogspot.com/2023/07/sauce-bolognaise-sans-viande-de.
 date: "2025-12-23"
 image: "{{ site.baseurl }}/images/sauce_bolognaise_sans_viande_de_francois_regis_gaudry.jpg"
 ingredients:
+  - "Ingrédients"
   - "200 g de lentilles"
   - "2 carottes"
   - "2 branches de céleri"
-  - "½ oignon"
   - "3 gousses d'ail"
   - "25 cl d'eau + un fond"
   - "20 cl de jus de carotte"
@@ -26,10 +26,10 @@ ingredients:
 
 ## Ingrédients
 
+- Ingrédients
 - 200 g de lentilles
 - 2 carottes
 - 2 branches de céleri
-- ½ oignon
 - 3 gousses d'ail
 - 25 cl d'eau + un fond
 - 20 cl de jus de carotte
