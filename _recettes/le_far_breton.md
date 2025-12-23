@@ -5,6 +5,7 @@ source: "https://recettesb.blogspot.com/2020/11/le-far-breton.html?m=1"
 date: "2025-12-23"
 image: "{{ site.baseurl }}/images/le_far_breton.png"
 ingredients:
+  - "Ingrédients"
   - "450 g de lait entier"
   - "1,5 g de vanille bourbon en poudre"
   - "150 g d’oeufs entiers (environ 3 oeufs moyens)"
@@ -15,6 +16,7 @@ ingredients:
   - "3 g de sel fin"
   - "15 g de rhum"
   - "15 pruneaux"
+  - "60 g de beurre demi-sel (pour la cuisson)"
 ---
 ![illustration de la recette]({{ site.baseurl }}/images/le_far_breton.png)
 
@@ -22,6 +24,7 @@ ingredients:
 
 ## Ingrédients
 
+- Ingrédients
 - 450 g de lait entier
 - 1,5 g de vanille bourbon en poudre
 - 150 g d’oeufs entiers (environ 3 oeufs moyens)
@@ -32,6 +35,7 @@ ingredients:
 - 3 g de sel fin
 - 15 g de rhum
 - 15 pruneaux
+- 60 g de beurre demi-sel (pour la cuisson)
 
 ## Préparation
 
