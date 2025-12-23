@@ -1,0 +1,35 @@
+---
+layout: default
+title: "Raïta concombre et menthe"
+source: "https://recettesb.blogspot.com/2020/03/title-raita-concombre-et-menthe.html"
+date: "2025-12-23"
+image: "{{ site.baseurl }}/images/raita_concombre_et_menthe.jpg"
+ingredients:
+  - "3 yaourts à la grecque"
+  - "1 gousse d'ail"
+  - "1/2 bouteille de menthe fraîche"
+  - "1 concombre"
+---
+![illustration de la recette]({{ site.baseurl }}/images/raita_concombre_et_menthe.jpg)
+
+# Raïta concombre et menthe
+
+## Ingrédients
+
+- 3 yaourts à la grecque
+- 1 gousse d'ail
+- 1/2 bouteille de menthe fraîche
+- 1 concombre
+
+## Préparation
+
+1. Presser la gousse d’ail, après avoir retirer le germe, et mixer-la avec la demie botte de menthe et une cuillère à soupe du yaourt déjà battu.
+2. Une fois que tout est bien mixé, mélanger le yaourt battu avec la menthe, l’ail et le concombre. Réserver 1h minimum au frais.
+
+## Notes
+
+Raïta courgette : 300 g de courge butternut rapée + 1 filet d'huile + 2 yaourts + 1 pincée de canelle + 2 cm de gingembre rapé + 1 demi-botte de coriandre ciselée + sel. Raita carotte : 3 carottes rappées + 1 demi jus de citron + 1 pincée de cumin en poudre. Raïta menthe : 1 bouteille de menthe fraîche + 2 cm de gingembre rapé + 1 gousse d'ail. Tomate Raita : 2 tomates émondées et épépinées + 1 demi jus de citron + 1 demi botte de coriandre ciselée.
+
+_Merci à Boris pour le partage_
+
+[Source Recettes B](https://recettesb.blogspot.com/2020/03/title-raita-concombre-et-menthe.html)
