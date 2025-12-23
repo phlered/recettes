@@ -37,12 +37,16 @@ ingredients:
 
 ## Préparation
 
-1. Mélanger l'eau et le sucre dans une petite casserole et faire chauffer. Après 5 minutes d'ébullition, versez le jus de citron et faites bouillir encore 30 secondes. Éteignez le feu et laissez-le refroidir.
-2. Dans un grand bol, mélanger les œufs, le sucre et le zeste de citron jusqu'à consistance légère et mousseuse, environ 4 minutes.
-3. Ajouter l'huile, puis la semoule, la farine et la levure chimique. Mélanger à feu doux jusqu'à ce que tout soit homogène.
-4. Beurrer un moule de 20 x 28 cm ou de taille similaire. Versez le mélange à gâteau dessus et faites cuire au four préchauffé à 170 °C jusqu'à ce qu'il soit doré et levé.
-5. Après 5 minutes à la sortie du four, versez lentement le sirop refroidi et attendez qu'il imbibe la totalité.
-6. Saupoudrer généreusement de noix de coco râpée non sucrée et servir
+1. Pour le sirop : Mélanger l'eau et le sucre dans une petite casserole et faire chauffer.
+2. Après 5 minutes d'ébullition, versez le jus de citron et faites bouillir encore 30 secondes.
+3. Éteignez le feu et laissez-le refroidir.
+4. Pour le gâteau à la semoule : Dans un grand bol, mélanger les œufs, le sucre et le zeste de citron jusqu'à consistance légère et mousseuse, environ 4 minutes.
+5. Ajouter l'huile, puis la semoule, la farine et la levure chimique.
+6. Mélanger à feu doux jusqu'à ce que tout soit homogène.
+7. Beurrer un moule de 20 x 28 cm ou de taille similaire.
+8. Versez le mélange à gâteau dessus et faites cuire au four préchauffé à 170 °C jusqu'à ce qu'il soit doré et levé.
+9. Après 5 minutes à la sortie du four, versez lentement le sirop refroidi et attendez qu'il imbibe la totalité.
+10. Saupoudrer généreusement de noix de coco râpée non sucrée et servir
 
 ## Notes
 
