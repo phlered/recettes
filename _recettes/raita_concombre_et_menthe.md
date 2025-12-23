@@ -5,10 +5,12 @@ source: "https://recettesb.blogspot.com/2020/03/title-raita-concombre-et-menthe.
 date: "2025-12-23"
 image: "{{ site.baseurl }}/images/raita_concombre_et_menthe.jpg"
 ingredients:
+  - "Ingrédients"
   - "3 yaourts à la grecque"
   - "1 gousse d'ail"
   - "1/2 bouteille de menthe fraîche"
   - "1 concombre"
+  - "Poivre"
 ---
 ![illustration de la recette]({{ site.baseurl }}/images/raita_concombre_et_menthe.jpg)
 
@@ -16,10 +18,12 @@ ingredients:
 
 ## Ingrédients
 
+- Ingrédients
 - 3 yaourts à la grecque
 - 1 gousse d'ail
 - 1/2 bouteille de menthe fraîche
 - 1 concombre
+- Poivre
 
 ## Préparation
 
