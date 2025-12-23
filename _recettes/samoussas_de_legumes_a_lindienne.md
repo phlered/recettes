@@ -9,15 +9,15 @@ ingredients:
   - "8 Feuilles de Brick"
   - "1 Pomme de terre ou patate douce (environ 100-150 g epuchée)"
   - "1 Oignon"
-  - "1 carotte"
+  - "1 Carotte"
   - "1/4 - 1/2 Courgette (environ 80-100 g)"
   - "Huile d'olive - 1 filet + pour dorer"
-  - "Les épices (varier selon l'intensité désirée)"
+  - "Les épices (varier selon l'intensité désiré)"
   - "1 cc Curry"
   - "1 cc Curcuma"
   - "Poivre noir"
   - "1 CS Coriandre ciselée"
-  - "1 cc de cumin"
+  - "1 cc Cumin"
 ---
 ![illustration de la recette]({{ site.baseurl }}/images/samoussas_de_legumes_a_lindienne.jpg)
 
@@ -29,15 +29,15 @@ ingredients:
 - 8 Feuilles de Brick
 - 1 Pomme de terre ou patate douce (environ 100-150 g epuchée)
 - 1 Oignon
-- 1 carotte
+- 1 Carotte
 - 1/4 - 1/2 Courgette (environ 80-100 g)
 - Huile d'olive - 1 filet + pour dorer
-- Les épices (varier selon l'intensité désirée)
+- Les épices (varier selon l'intensité désiré)
 - 1 cc Curry
 - 1 cc Curcuma
 - Poivre noir
 - 1 CS Coriandre ciselée
-- 1 cc de cumin
+- 1 cc Cumin
 
 ## Préparation
 
