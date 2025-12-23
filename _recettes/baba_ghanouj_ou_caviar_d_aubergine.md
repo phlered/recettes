@@ -47,7 +47,7 @@ ingredients:
 
 ## Notes
 
-Le Baba ghanouj peut être conservé au frais pendant 5 jours.
+Le Baba ghanouj peut être conservé au frais durant 5 jours.
 
 _Merci à Boris pour le partage_
 
