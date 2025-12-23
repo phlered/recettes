@@ -5,6 +5,7 @@ source: "https://recettesb.blogspot.com/2020/03/title-tarte-normande-aux-pommes.
 date: "2025-12-23"
 image: "{{ site.baseurl }}/images/tarte_normande_aux_pommes.jpg"
 ingredients:
+  - "Ingrédients"
   - "250 g de farine"
   - "150 g de beurre"
   - "1/2 c-a- thé de sel"
@@ -24,6 +25,7 @@ ingredients:
 
 ## Ingrédients
 
+- Ingrédients
 - 250 g de farine
 - 150 g de beurre
 - 1/2 c-a- thé de sel
