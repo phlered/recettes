@@ -10,7 +10,7 @@ ingredients:
   - "1 bouquet de menthe fraîche"
   - "2 oignons nouveaux"
   - "2 à 3 tomates en grappe (les meilleures possible)"
-  - "2 à 3 càs de boulgour (gros ou fin, il s'agit de blé concassé, en épicerie, grandes surfaces ou magasin bio)"
+  - "2 à 3 càs de boulgour (gros ou fin, il s'agit de blé concassé, en épicerie, grande surfaces ou magasin bio)"
   - "le jus de 3 citrons jaunes"
   - "huile d'olive vierge extra et sel"
 ---
@@ -25,7 +25,7 @@ ingredients:
 - 1 bouquet de menthe fraîche
 - 2 oignons nouveaux
 - 2 à 3 tomates en grappe (les meilleures possible)
-- 2 à 3 càs de boulgour (gros ou fin, il s'agit de blé concassé, en épicerie, grandes surfaces ou magasin bio)
+- 2 à 3 càs de boulgour (gros ou fin, il s'agit de blé concassé, en épicerie, grande surfaces ou magasin bio)
 - le jus de 3 citrons jaunes
 - huile d'olive vierge extra et sel
 
