@@ -5,6 +5,7 @@ source: "https://recettesb.blogspot.com/2022/06/tarte-au-sucre-cedric-grolet.htm
 date: "2025-12-23"
 image: "{{ site.baseurl }}/images/tarte_au_sucre_cedric_grolet.jpg"
 ingredients:
+  - "Pour la pâte :"
   - "250 g de farine type 45"
   - "6 g de sel"
   - "10 g de levure de boulanger fraîche (ou un sachet de 5 g en granules)"
@@ -12,12 +13,19 @@ ingredients:
   - "30 g de sucre"
   - "125 g de beurre"
   - "37 g de lait entier (j'ai mis du demi-écrémé c'est pas dramatique)"
+  - "Pour la finition"
+  - "1 jaune d’œuf"
+  - "4 g de crème liquide entière"
+  - "20 g de beurre salé"
+  - "15 g de sucre roux non raffiné (j'ai mis de la vergeoise bien sûr !)"
 ---
 ![illustration de la recette]({{ site.baseurl }}/images/tarte_au_sucre_cedric_grolet.jpg)
 
 # Tarte au sucre Cédric Grolet
 
 ## Ingrédients
+
+### Pour la pâte :
 
 - 250 g de farine type 45
 - 6 g de sel
@@ -26,6 +34,12 @@ ingredients:
 - 30 g de sucre
 - 125 g de beurre
 - 37 g de lait entier (j'ai mis du demi-écrémé c'est pas dramatique)
+### Pour la finition
+
+- 1 jaune d’œuf
+- 4 g de crème liquide entière
+- 20 g de beurre salé
+- 15 g de sucre roux non raffiné (j'ai mis de la vergeoise bien sûr !)
 
 ## Préparation
 
