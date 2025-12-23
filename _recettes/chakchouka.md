@@ -8,7 +8,7 @@ ingredients:
   - "Ingrédients"
   - "1 gros oignon jaune coupé en dés"
   - "1 gros poivron rouge coupé en dés"
-  - "1 carotte rapée"
+  - "1 carotte râpée"
   - "800 gr de tomates concassées (fraîche ou boite)"
   - "4 à 5 œufs"
   - "3 gousses d'ail écrasées"
@@ -29,7 +29,7 @@ ingredients:
 - Ingrédients
 - 1 gros oignon jaune coupé en dés
 - 1 gros poivron rouge coupé en dés
-- 1 carotte rapée
+- 1 carotte râpée
 - 800 gr de tomates concassées (fraîche ou boite)
 - 4 à 5 œufs
 - 3 gousses d'ail écrasées
@@ -51,7 +51,7 @@ ingredients:
 6. Casser un œuf dans un bol, faire un trou dans la compotée et l'y verser.
 7. Couvrir et cuire 6 à 8 minutes à feu moyen, en fait jusqu'à la cuisson désirée des œufs.
 8. Facultatif: verser un peu de miel pour adoucir, des dés de fêta et de la coriandre fraîche ciselée.
-9. Déguster sur des tranches de pain grillé.
+9. Déguster sur des tranches de pain toasté.
 
 ## Notes
 
