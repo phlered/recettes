@@ -5,10 +5,14 @@ source: "https://recettesb.blogspot.com/2020/11/sunomono.html"
 date: "2025-12-23"
 image: "{{ site.baseurl }}/images/sunomono.png"
 ingredients:
+  - "Ingrédients"
   - "4 concombres"
   - "1 cuillère à soupe de sel"
   - "1 cuillère à café de gingembre finement haché"
   - "125 ml de vinaigre de riz"
+  - "2 cuillères à soupe de sucre semoule"
+  - "Pour le décor"
+  - "2 cuillères à soupe de graines de sésame blanc torréfié"
 ---
 ![illustration de la recette]({{ site.baseurl }}/images/sunomono.png)
 
@@ -16,10 +20,15 @@ ingredients:
 
 ## Ingrédients
 
+- Ingrédients
 - 4 concombres
 - 1 cuillère à soupe de sel
 - 1 cuillère à café de gingembre finement haché
 - 125 ml de vinaigre de riz
+- 2 cuillères à soupe de sucre semoule
+### Pour le décor
+
+- 2 cuillères à soupe de graines de sésame blanc torréfié
 
 ## Préparation
 
