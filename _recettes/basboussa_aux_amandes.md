@@ -49,7 +49,7 @@ ingredients:
 ## Préparation
 
 1. Préparation du sirop: Mélanger dans une casserole, le sucre, l'eau et le jus de citron et porter à ébullition.
-2. A partir de l'ébullition, il faut compter 15 minutes.
+2. A partir de l'ébullition il faut compter 15 minutes.
 3. Hors du feu ajouter l'eau de fleur d'oranger et le beurre , mélanger et laisser refroidir.
 4. Préparation de la basboussa: Dans un saladier mélanger le ingrédients sec ensembles.
 5. Rajouter le beurre et mélanger pour que les graines s'en imprégnent bien.
