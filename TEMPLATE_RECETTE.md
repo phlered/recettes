@@ -2,6 +2,7 @@
 layout: default
 title: Titre de la recette
 description: Description courte de la recette
+hide_footer_home: true
 category: [dessert/plat principal/entrée/pain/sauce]
 ingredients:
   - 100 g ingrédient 1
