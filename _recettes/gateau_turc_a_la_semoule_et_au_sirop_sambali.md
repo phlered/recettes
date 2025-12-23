@@ -5,9 +5,16 @@ source: "https://recettesb.blogspot.com/2023/08/turkish-semolina-cake-with-syrup
 date: "2025-12-23"
 image: "{{ site.baseurl }}/images/gateau_turc_a_la_semoule_et_au_sirop_sambali.jpg"
 ingredients:
-  - "2 tasses de sucre granulé"
+  - "Pour le sirop :"
+  - "2 tasses de sucre cristallisé"
   - "2 tasses d'eau"
   - "1 cuillère à soupe de jus de citron"
+  - "Pour le gâteau :"
+  - "1 tasse de sucre cristallisé"
+  - "1 tasse de lait"
+  - "2 tasses de farine de semoule"
+  - "1/2 cuillère à café de bicarbonate de soude"
+  - "Environ 1/2 tasse d'amandes"
 ---
 ![illustration de la recette]({{ site.baseurl }}/images/gateau_turc_a_la_semoule_et_au_sirop_sambali.jpg)
 
@@ -15,9 +22,18 @@ ingredients:
 
 ## Ingrédients
 
-- 2 tasses de sucre granulé
+### Pour le sirop :
+
+- 2 tasses de sucre cristallisé
 - 2 tasses d'eau
 - 1 cuillère à soupe de jus de citron
+### Pour le gâteau :
+
+- 1 tasse de sucre cristallisé
+- 1 tasse de lait
+- 2 tasses de farine de semoule
+- 1/2 cuillère à café de bicarbonate de soude
+- Environ 1/2 tasse d'amandes
 
 ## Préparation
 
