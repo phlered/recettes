@@ -34,6 +34,21 @@ ingredients:
 3. Cornez-moi tout ça pour faire une boule. Et filmez bien. Laissez pousser environ 2h (ce temps de pousse dépendra de la température ! Ça peut être plus). Il faut simplement que la pâte ait bien levé, et qu'elle soit remplie d'air.
 4. Normalement on doit l'abaisser au rouleau sur un plan de travail fariné, pour obtenir un disque de 17cm.
 5. Et ça part au four pour 15mn.
+6. Dans la cuve du robot, mettez la farine, le sucre, le sel et émiettez la levure, ou versez 5 g de granules.
+7. Ajoutez 125 g de beurre froid coupé en dés.
+8. Pétrissez pendant 10mn à vitesse 2.
+9. La pâte est archi collante et assez liquide, ce qui est normal.
+10. Ne paniquez pas, tout est sous contrôle.
+11. Cornez-moi tout ça pour faire une boule.
+12. Laissez pousser environ 2h (ce temps de pousse dépendra de la température !
+13. Il faut simplement que la pâte ait bien levé, et qu'elle soit remplie d'air.
+14. Je n'ai pas que ça à faire, alors je me suis aidée d'un cercle de 18cm, que j'ai déposé sur une plaque à pâtisserie perforée + Silpat.
+15. Ensuite j'ai bien dégazé la pâte, et je l'ai juste balancée dans le cercle, en appuyant partout et voilà.
+16. J'ai retiré le cercle de 18cm, et j'ai déposé le cercle de 22cm BEURRÉ.
+17. On peut utiliser un cercle à tarte, à entremets ou un cercle réglable.
+18. Ou tout simplement un moule.
+19. Le rond n'est pas parfait car la pâte était un peu trop chaude et s'est vite étalée !
+20. Laissez pousser dans le four éteint pendant au moins 1h.
 
 ## Notes
 
