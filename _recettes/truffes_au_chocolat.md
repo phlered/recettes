@@ -23,6 +23,10 @@ ingredients:
 
 ## Préparation
 
+1. Dans une casserole, faites fondre tout doucement le chocolat avec le beurre puis ajoutez la crème et le sucre glace.
+2. Laissez refroidir votre préparation puis la mettre au frigo pendant 2 heures.
+3. Au bout de ce temps, façonnez des petites boules avec la paume de vos mains et les passer dans le cacao amer.
+4. Les disposer sur une assiette et saupoudrez d'un peu de sucre glace.
 
 _Merci à Boris pour le partage_
 
