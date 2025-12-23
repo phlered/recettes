@@ -29,10 +29,21 @@ ingredients:
 
 ## Préparation
 
-1. Laver puis zester les deux citrons. Dans un cul-de-poule ou un saladier, mélanger le sucre et les zestes.
-2. Verser la pâte dans le moule et cuire 40 à 45 minutes à 150 °C. Pendant que le cake est au four, on prépare le sirop et le glaçage.
-3. Pour le glaçage :
-4. Mélanger le sucre glace et le jus de citron. Passer le glaçage au pinceau sur toutes les faces visibles du cake.
+1. Beurrer et fariner un moule à cake.
+2. Préchauffer le four à 150 °C.
+3. Pour la pâte : Laver puis zester les deux citrons.
+4. Dans un cul-de-poule ou un saladier, mélanger le sucre et les zestes.
+5. Ajouter les œufs et la crème liquide et mélanger.
+6. Tamiser la farine avec la levure chimique et incorporer à la préparation précédente.
+7. Dans une petite casserole faire tiédir l’huile d’olive.
+8. Ajouter l’huile tiède petit à petit à l’appareil sucre+zestes+crème+œufs+farine+levure.
+9. Ajouter éventuellement ce qui reste du jus d’un citron après avoir mis de côté les quantités nécessaires au sirop et au glaçage.
+10. Verser la pâte dans le moule et cuire 40 à 45 minutes à 150 °C.
+11. Pendant que le cake est au four, on prépare le sirop et le glaçage.
+12. Pour le sirop : Dans une petite casserole verser l’eau le sucre et le jus de citron et porter à ébullition.
+13. A la sortie du four, poser le cake sur une grille avec une assiette dessous et imbiber avec le sirop (j’ai utilisé un pinceau).
+14. Pour le glaçage : Mélanger le sucre glace et le jus de citron.
+15. Passer le glaçage au pinceau sur toutes les faces visibles du gâteau.
 
 ## Notes
 
