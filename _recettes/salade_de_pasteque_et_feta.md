@@ -23,6 +23,11 @@ ingredients:
 
 ## Préparation
 
+1. Détaillez la pastèque en tranches épaisses.
+2. Coupez assez grossièrement la feta ou émiettez-la à la main.
+3. Disposez tous les ingrédients, sauf l'huile d'olive, sur un plat et mélangez-les un peu.
+4. Arrosez d'un filet d'huile et servez.
+5. Ne pas de saler, car le sel est apporté ici par la feta.
 
 _Merci à Boris pour le partage_
 
