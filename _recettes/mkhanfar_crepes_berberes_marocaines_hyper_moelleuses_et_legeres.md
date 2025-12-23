@@ -5,6 +5,7 @@ source: "https://recettesb.blogspot.com/2022/03/mkhanfar-crepes-berberes-marocai
 date: "2025-12-23"
 image: "{{ site.baseurl }}/images/mkhanfar_crepes_berberes_marocaines_hyper_moelleuses_et_legeres.jpg"
 ingredients:
+  - "Ingrédients"
   - "250 g Semoule de blé dur (fino) ou semoule extra fine"
   - "200 g de farine"
   - "1 œuf"
@@ -19,6 +20,7 @@ ingredients:
 
 ## Ingrédients
 
+- Ingrédients
 - 250 g Semoule de blé dur (fino) ou semoule extra fine
 - 200 g de farine
 - 1 œuf
