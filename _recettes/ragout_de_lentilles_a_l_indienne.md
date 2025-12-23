@@ -43,6 +43,9 @@ ingredients:
 
 ## Préparation
 
+1. Faire revenir l'ail et l'oignon dans le beurre fondu Ajouter les navets et poursuivre la cuisson.
+2. Ne pas cesser de mélanger.
+3. Ajouter la tomate et la coco Ajouter le Colombo Ajouter les lentilles Ajouter le cube de bouillon de volaille Ajouter l'eau Ajouter le sel Faire mijoter à couvercle fermé 20 minutes Ajouter le piment 5 minutes avant la fin de cuisson Servir en parsemant de jus de citron et de persil ciselé Servir avec du riz
 
 _Merci à Boris pour le partage_
 
