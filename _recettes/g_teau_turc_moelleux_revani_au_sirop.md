@@ -44,6 +44,10 @@ ingredients:
 5. Après 5 minutes à la sortie du four, versez lentement le sirop refroidi et attendez qu'il imbibe la totalité.
 6. Saupoudrer généreusement de noix de coco râpée non sucrée et servir
 
+## Notes
+
+Le gâteau turc au sirop « Revani » est un gâteau moelleux et léger à base d'œufs, de semoule et d'un peu de farine. Il est également connu dans les pays du Moyen-Orient sous le nom de « Basboussa ».
+
 _Merci à Boris pour le partage_
 
 [Source Recettes B](https://recettesb.blogspot.com/2023/08/fluffy-turkish-cake-revani-with-syrup.html)
