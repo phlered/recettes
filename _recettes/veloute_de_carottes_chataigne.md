@@ -39,6 +39,17 @@ ingredients:
 
 ## Préparation
 
+1. Eplucher les carottes et les couper en rondelles.
+2. Emincer les échalotes et écraser les gousses d’ail.
+3. Dans une grande casserole, faire chauffer l’huile d’olive et y jeter les échalotes et les gousses d’ail.
+4. Laisser blondir à feu moyen, puis, ajouter les rondelles de carotte et les châtaignes en en conservant quelques-unes pour la décoration.
+5. Remuer le tout et mouiller avec le bouillon.
+6. Ajouter le curry, la muscade, le sel et le poivre.
+7. Couvrir et laisser cuire une trentaine de minutes en remuant de temps en temps.
+8. Ajouter la ciboulette en fin de cuisson.
+9. A l’aide d’un mixeur plongeant, mixer la soupe.
+10. Ajouter la crème liquide et mélanger le tout.
+11. Au moment de servir, déposer quelques brisures de châtaignes (préalablement réchauffées au micro-ondes) et quelques brins de ciboulette sur la soupe.
 
 _Merci à Boris pour le partage_
 
