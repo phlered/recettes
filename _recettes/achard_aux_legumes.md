@@ -8,7 +8,7 @@ ingredients:
   - "Ingrédients"
   - "1/2 chou blanc"
   - "4 carottes"
-  - "350 g haricots verts"
+  - "350 g de haricots verts"
   - "1/2 chou fleur"
   - "2 gros piments"
   - "1 oignon"
@@ -29,7 +29,7 @@ ingredients:
 - Ingrédients
 - 1/2 chou blanc
 - 4 carottes
-- 350 g haricots verts
+- 350 g de haricots verts
 - 1/2 chou fleur
 - 2 gros piments
 - 1 oignon
@@ -51,7 +51,7 @@ ingredients:
 6. Versez aussitôt ensuite tous les autres légumes, le piment vert en option et mélangez de manière homogène en saupoudrant du sel et couvrez.
 7. Vos achards sont presque prêts… Il ne reste plus qu’à bien laisser refroidir.
 8. Lorsque les légumes seront froids, faites chauffer le vinaigre que vous ajouterez aux légumes en mélangeant.
-9. Ajustez l’évaluation selon vos goûts.
+9. Ajustez l’assaisonnement selon vos goûts.
 10. Conservation de ces achards de légumes réunionnais Mettez tout simplement ces achards de légumes réunionnais en pot afin de les conserver plusieurs jours au réfrigérateur.
 
 ## Notes
