@@ -33,7 +33,12 @@ ingredients:
 
 ## Préparation
 
-1. Laisser refroidir pour qu'ils durcissent.
+1. Dans un saladier, mélanger tous les ingrédients secs.
+2. Quand les ingrédients sont bien amalgamés, ajouter l'huile de pépins de raisins et le sel et mélanger.
+3. Etaler très finement, sur quelques millimètres, entre deux feuilles de papier cuisson.
+4. Retirer la feuille du dessus.
+5. Enfourner dans un four préchauffé à 170 degrés chaleur tournante pendant 20 minutes.
+6. Laisser refroidir pour qu'ils durcissent.
 
 ## Notes
 
