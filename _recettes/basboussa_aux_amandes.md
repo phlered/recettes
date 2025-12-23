@@ -5,6 +5,7 @@ source: "https://recettesb.blogspot.com/2020/08/basboussa-aux-amandes.html?m=1"
 date: "2025-12-23"
 image: "{{ site.baseurl }}/images/basboussa_aux_amandes.png"
 ingredients:
+  - "Ingrédients"
   - "250 g de semoule moyenne"
   - "100 g de poudre d'amande"
   - "1 pot de yaourt nature de 125 g"
@@ -14,6 +15,12 @@ ingredients:
   - "1 oeuf entier"
   - "1 cc de levure chimique"
   - "¼ cc de sel"
+  - "Pour le sirop:"
+  - "250 g de sucre"
+  - "350 ml d'eau"
+  - "le jus d'un demi citron"
+  - "50 ml d'eau de fleur d'oranger"
+  - "1 cc de beurre"
 ---
 ![illustration de la recette]({{ site.baseurl }}/images/basboussa_aux_amandes.png)
 
@@ -21,6 +28,7 @@ ingredients:
 
 ## Ingrédients
 
+- Ingrédients
 - 250 g de semoule moyenne
 - 100 g de poudre d'amande
 - 1 pot de yaourt nature de 125 g
@@ -30,6 +38,13 @@ ingredients:
 - 1 oeuf entier
 - 1 cc de levure chimique
 - ¼ cc de sel
+### Pour le sirop:
+
+- 250 g de sucre
+- 350 ml d'eau
+- le jus d'un demi citron
+- 50 ml d'eau de fleur d'oranger
+- 1 cc de beurre
 
 ## Préparation
 
