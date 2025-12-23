@@ -8,7 +8,7 @@ ingredients:
   - "Pour le sirop :"
   - "2 tasses de sucre cristallisé"
   - "2 tasses d'eau"
-  - "1 cuillère à soupe de jus de citron"
+  - "1 cuillère à soupe lemon juice"
   - "Pour le gâteau :"
   - "1 tasse de sucre cristallisé"
   - "1 tasse de lait"
@@ -26,7 +26,7 @@ ingredients:
 
 - 2 tasses de sucre cristallisé
 - 2 tasses d'eau
-- 1 cuillère à soupe de jus de citron
+- 1 cuillère à soupe lemon juice
 ### Pour le gâteau :
 
 - 1 tasse de sucre cristallisé
@@ -45,7 +45,7 @@ ingredients:
 6. Éteignez le feu et laissez refroidir complètement.
 7. Pour le gâteau : Dans un bol de taille moyenne, ajoutez la farine de semoule, le sucre cristallisé, le bicarbonate de soude et le lait.
 8. Remuez le tout jusqu'à ce qu'il soit incorporé avec une spatule.
-9. Grease 30 cm in diameter round pan.
+9. Beurrer un moule rond de 30 cm de diamètre.
 10. Vous pouvez également utiliser des moules carrés ou rectangulaires de taille similaire.
 11. Assurez-vous qu'il n'est pas si gros.
 12. Sinon, votre dessert serait très maigre.
@@ -60,7 +60,7 @@ ingredients:
 
 ## Notes
 
-Enjoy!
+Apprécier!
 
 _Merci à Boris pour le partage_
 
