@@ -5,6 +5,7 @@ source: "https://recettesb.blogspot.com/2020/03/title-veloute-carotte-chataigne.
 date: "2025-12-23"
 image: "{{ site.baseurl }}/images/veloute_de_carottes_chataigne.jpg"
 ingredients:
+  - "Ingrédients"
   - "500 g de carottes"
   - "200 g de châtaignes cuites"
   - "3 échalote"
@@ -24,6 +25,7 @@ ingredients:
 
 ## Ingrédients
 
+- Ingrédients
 - 500 g de carottes
 - 200 g de châtaignes cuites
 - 3 échalote
