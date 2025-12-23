@@ -5,6 +5,7 @@ source: "https://recettesb.blogspot.com/2020/03/title-recette-camille-douce-et-b
 date: "2025-12-23"
 image: "{{ site.baseurl }}/images/camille_douce_et_bonne_comme_mulino_bianco.jpg"
 ingredients:
+  - "Ingrédients"
   - "167 g de carottes fraîches (mieux si elles sont très fraîches avec une tige verte et une couleur vive)"
   - "133 grammes de farine"
   - "133 grammes de sucre glace"
@@ -15,7 +16,7 @@ ingredients:
   - "2 œufs moyens"
   - "1 zeste d'orange"
   - "1 pincée de sel"
-  - "12 g de levure"
+  - "12 g de levure pour gâteaux"
 ---
 ![illustration de la recette]({{ site.baseurl }}/images/camille_douce_et_bonne_comme_mulino_bianco.jpg)
 
@@ -23,6 +24,7 @@ ingredients:
 
 ## Ingrédients
 
+- Ingrédients
 - 167 g de carottes fraîches (mieux si elles sont très fraîches avec une tige verte et une couleur vive)
 - 133 grammes de farine
 - 133 grammes de sucre glace
@@ -33,7 +35,7 @@ ingredients:
 - 2 œufs moyens
 - 1 zeste d'orange
 - 1 pincée de sel
-- 12 g de levure
+- 12 g de levure pour gâteaux
 
 ## Préparation
 
