@@ -5,9 +5,11 @@ source: "https://recettesb.blogspot.com/2023/08/fluffy-turkish-cake-revani-with-
 date: "2025-12-23"
 image: "{{ site.baseurl }}/images/gateau_turc_moelleux_revani_au_sirop.jpg"
 ingredients:
+  - "Pour le sirop :"
   - "1+1/2 tasse de sucre"
   - "2 tasses d'eau"
   - "1/2 cuillère à café de jus de citron"
+  - "Pour le gâteau à la semoule"
   - "4 œufs à température ambiante"
   - "1/2 tasse de sucre"
   - "1 zeste de citron ou d'orange ou vanille"
@@ -23,9 +25,13 @@ ingredients:
 
 ## Ingrédients
 
+### Pour le sirop :
+
 - 1+1/2 tasse de sucre
 - 2 tasses d'eau
 - 1/2 cuillère à café de jus de citron
+### Pour le gâteau à la semoule
+
 - 4 œufs à température ambiante
 - 1/2 tasse de sucre
 - 1 zeste de citron ou d'orange ou vanille
