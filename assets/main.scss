@@ -214,14 +214,6 @@ body.recette-page .recette-main h1:first-child {
   opacity: 0.5;
 }
 
-.nav-counter {
-  color: #e8ecf2;
-  font-size: 0.95rem;
-  min-width: 45px;
-  text-align: center;
-  font-weight: 500;
-}
-
 /* Masquer la barre de recherche sur les pages recettes */
 body.recette-page .search-bar {
   display: none !important;
@@ -424,10 +416,6 @@ body.recette-page .search-bar {
     padding: 6px 10px;
     font-size: 1rem;
     min-width: 40px;
-  }
-  .nav-counter {
-    min-width: 35px;
-    font-size: 0.85rem;
   }
   .site-main {
     margin-top: 72px;

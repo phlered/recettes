@@ -25,7 +25,6 @@ layout: null
         </div>
         <div class="recipe-nav" id="recipeNav" style="display: none;">
           <button type="button" id="prevRecipeBtn" class="nav-btn nav-prev" aria-label="Recette précédente">←</button>
-          <span id="navCounter" class="nav-counter"></span>
           <button type="button" id="nextRecipeBtn" class="nav-btn nav-next" aria-label="Recette suivante">→</button>
         </div>
       </div>
@@ -44,7 +43,6 @@ layout: null
       const recipeNav = document.getElementById("recipeNav");
       const prevBtn = document.getElementById("prevRecipeBtn");
       const nextBtn = document.getElementById("nextRecipeBtn");
-      const navCounter = document.getElementById("navCounter");
       
       const isRecipePage = document.body.classList.contains('recette-page');
       const isHomePage = !isRecipePage;
@@ -90,7 +88,6 @@ layout: null
         }
         
         recipeNav.style.display = 'flex';
-        navCounter.textContent = `${currentIndex + 1}/${history.length}`;
         
         prevBtn.disabled = currentIndex === 0;
         nextBtn.disabled = currentIndex === history.length - 1;
