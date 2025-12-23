@@ -5,10 +5,12 @@ source: "https://recettesb.blogspot.com/2020/03/title-truffes-au-chocolat-descri
 date: "2025-12-23"
 image: "{{ site.baseurl }}/images/truffes_au_chocolat.jpg"
 ingredients:
+  - "Ingrédients"
   - "200 g de chocolat noir"
   - "100 g de crème fraîche"
   - "20 g de beurre"
   - "30 g de sucre glace"
+  - "Un peu de cacao amer"
 ---
 ![illustration de la recette]({{ site.baseurl }}/images/truffes_au_chocolat.jpg)
 
@@ -16,10 +18,12 @@ ingredients:
 
 ## Ingrédients
 
+- Ingrédients
 - 200 g de chocolat noir
 - 100 g de crème fraîche
 - 20 g de beurre
 - 30 g de sucre glace
+- Un peu de cacao amer
 
 ## Préparation
 
