@@ -5,6 +5,7 @@ source: "https://recettesb.blogspot.com/2021/09/sables-de-conticcini.html?m=1"
 date: "2025-12-23"
 image: "{{ site.baseurl }}/images/sables_de_conticini.jpg"
 ingredients:
+  - "Ingrédients"
   - "3 jaunes d’œufs"
   - "100 g de sucre semoule"
   - "125 g de beurre"
@@ -19,6 +20,7 @@ ingredients:
 
 ## Ingrédients
 
+- Ingrédients
 - 3 jaunes d’œufs
 - 100 g de sucre semoule
 - 125 g de beurre
