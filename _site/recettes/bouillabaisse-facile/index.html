@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bouillabaisse facile</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍽️</text></svg>">
+    <link rel="stylesheet" href="/recettes/assets/main.css">
+  </head>
+  <body class="default bouillabaisse-facile recette-page">
+    <header class="site-header">
+      <div class="header-content">
+        <a href="/recettes/" class="logo-btn" aria-label="Retour à l'accueil">
+          <span class="logo-icon" aria-hidden="true">🏠</span>
+          <span class="logo-text">Mes recettes</span>
+        </a>
+        <div class="search-bar">
+          <input type="text" id="headerSearchInput" placeholder="Rechercher une recette..." />
+          <button type="button" id="clearSearchBtn" aria-label="Effacer la recherche">✖</button>
+        </div>
+      </div>
+    </header>
+    <main class="site-main recette-main">
+      <p><img src="/recettes/images/bouillabaisse_facile.jpg" alt="illustration de la recette" /></p>
+
+<h1 id="bouillabaisse-facile">Bouillabaisse facile</h1>
+
+<h2 id="ingrédients">Ingrédients</h2>
+
+<ul>
+  <li>6 pommes de terre</li>
+  <li>1 poireaux ou des oignons</li>
+  <li>1 boîtes de pulpe de tomate</li>
+  <li>ail</li>
+  <li>safran</li>
+  <li>poivre</li>
+  <li>sel</li>
+  <li>huile d’olive</li>
+  <li>vin blanc</li>
+  <li>4 filets de rascasse</li>
+  <li>500 g de moules</li>
+  <li>gambas (facultatif)</li>
+</ul>
+
+<h2 id="préparation">Préparation</h2>
+
+<ol>
+  <li>Mettre au fond d’une cocotte minute de l’huile d’olives, une couche de pommes de terre coupées en lamelles, une couches de poireau coupé en rondelles,une couche de tomates, recommencer, pommes de terre, poireau, tomates.</li>
+  <li>Couvrir aux trois quarts de vin blanc, mettre la dosette de safran et l’ail pressé.</li>
+  <li>Poser dessus les filets de poissons, les moules grattées et lavées, les gambas, sel et poivre.</li>
+  <li>Fermer la cocotte. Quand elle siffle, laisser cuire à feu doux 10 à 15 mn.</li>
+  <li>Ouvrir, c’est prêt et c’est bon!!</li>
+</ol>
+
+<p><a href="https://www.marmiton.org/recettes/recette_bouillabaisse-facile_16116.aspx">Source Marmiton</a></p>
+
+    </main>
+    
+    <script>
+    (function() {
+      const searchInput = document.getElementById("headerSearchInput");
+      const clearBtn = document.getElementById("clearSearchBtn");
+      const recetteCards = document.getElementById("recetteCards");
+      const recettesTitle = document.getElementById("recettes-title");
+      
+      function debounce(fn, delay) {
+        let timer = null;
+        return (...args) => {
+          clearTimeout(timer);
+          timer = setTimeout(() => fn(...args), delay);
+        };
+      }
+      
+      function filterRecipes() {
+        if (!recetteCards) return; // Pas sur la page d'accueil
+        
+        const q = searchInput.value.toLowerCase().trim();
+        const cards = recetteCards.querySelectorAll('.recette-card');
+        let visibleCount = 0;
+        
+        if (q === "") {
+          // Afficher toutes les cartes
+          cards.forEach(card => {
+            card.style.display = '';
+          });
+          if (recettesTitle) recettesTitle.textContent = 'Toutes mes recettes';
+          if (clearBtn) clearBtn.style.display = 'none';
+          return;
+        }
+        
+        // Filtrer les cartes
+        cards.forEach(card => {
+          const title = card.dataset.title || '';
+          const tags = card.dataset.tags || '';
+          const content = card.dataset.content || '';
+          
+          if (title.includes(q) || tags.includes(q) || content.includes(q)) {
+            card.style.display = '';
+            visibleCount++;
+          } else {
+            card.style.display = 'none';
+          }
+        });
+        
+        // Mettre à jour le titre
+        if (recettesTitle) {
+          if (visibleCount === 0) {
+            recettesTitle.textContent = 'Aucune recette trouvée';
+          } else if (visibleCount === 1) {
+            recettesTitle.textContent = '1 recette trouvée';
+          } else {
+            recettesTitle.textContent = `${visibleCount} recettes trouvées`;
+          }
+        }
+        
+        if (clearBtn) clearBtn.style.display = 'flex';
+      }
+      
+      function clearSearch() {
+        searchInput.value = '';
+        filterRecipes();
+        searchInput.focus();
+      }
+      
+      if (searchInput) {
+        searchInput.addEventListener("input", debounce(filterRecipes, 200));
+      }
+      
+      if (clearBtn) {
+        clearBtn.addEventListener("click", clearSearch);
+        clearBtn.style.display = 'none'; // Caché par défaut
+      }
+    })();
+    </script>
+    <footer class="site-footer">
+  <div class="footer-col-wrapper">
+    <div class="footer-col">
+      
+    </div>
+  </div>
+</footer>
+
+  </body>
+</html>

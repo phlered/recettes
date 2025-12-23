@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hérisson apéro</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍽️</text></svg>">
+    <link rel="stylesheet" href="/recettes/assets/main.css">
+  </head>
+  <body class="default hérisson-apéro recette-page">
+    <header class="site-header">
+      <div class="header-content">
+        <a href="/recettes/" class="logo-btn" aria-label="Retour à l'accueil">
+          <span class="logo-icon" aria-hidden="true">🏠</span>
+          <span class="logo-text">Mes recettes</span>
+        </a>
+        <div class="search-bar">
+          <input type="text" id="headerSearchInput" placeholder="Rechercher une recette..." />
+          <button type="button" id="clearSearchBtn" aria-label="Effacer la recherche">✖</button>
+        </div>
+      </div>
+    </header>
+    <main class="site-main recette-main">
+      <p><img src="/recettes/images/herisson_apero.jpg" alt="illustration de la recette" /></p>
+
+<h1 id="hérisson-apéro">Hérisson apéro</h1>
+
+<h2 id="ingrédients">Ingrédients</h2>
+
+<ul>
+  <li>1 pains de la taille souhaitée (type boule de campagne)</li>
+  <li>1 boîtes de fromage frais</li>
+  <li>curry</li>
+  <li>basilic frais</li>
+  <li>menthe fraîche</li>
+  <li>1 melons</li>
+  <li>2 paquets de jambon cru</li>
+  <li>tomates cerise</li>
+  <li>1 boîtes de feta</li>
+  <li>1 pastèque</li>
+  <li>mini mozzarella</li>
+  <li>1 olives noires</li>
+</ul>
+
+<h2 id="préparation">Préparation</h2>
+
+<ol>
+  <li>Poser le pain rond à plat. Si, comme ici, il est assez grand : tailler la taille directement à l’avant du pain, en triangle. Sinon, réaliser la tête dans un autre pain plus petit que vous pourrez fixer à l’avant grâce à un pique à brochette.</li>
+  <li>Recouvrir la tête de fromage frais fouetté avec une épice pour colorer légèrement (ici, du curry)</li>
+  <li>A l’aide d’une olive noire coupée en rondelles, faire le nez et les yeux du hérisson.</li>
+  <li>Préparer et piquer une première rangée régulière de mini-brochettes pastèque-feta-menthe.</li>
+  <li>Préparer et piquer une deuxième rangée régulière de mini-brochettes tomates cerises-basilic-mozzarella</li>
+  <li>Préparer et piquer une troisième rangée régulière de mini-brochettes melon-jambon</li>
+  <li>Recommencer jusqu’à ce qu’il n’y ait plus de place sur le pain</li>
+</ol>
+
+<p><a href="https://www.marmiton.org/recettes/recette_herisson-apero_372401.aspx">Source Marmiton</a></p>
+
+    </main>
+    
+    <script>
+    (function() {
+      const searchInput = document.getElementById("headerSearchInput");
+      const clearBtn = document.getElementById("clearSearchBtn");
+      const recetteCards = document.getElementById("recetteCards");
+      const recettesTitle = document.getElementById("recettes-title");
+      
+      function debounce(fn, delay) {
+        let timer = null;
+        return (...args) => {
+          clearTimeout(timer);
+          timer = setTimeout(() => fn(...args), delay);
+        };
+      }
+      
+      function filterRecipes() {
+        if (!recetteCards) return; // Pas sur la page d'accueil
+        
+        const q = searchInput.value.toLowerCase().trim();
+        const cards = recetteCards.querySelectorAll('.recette-card');
+        let visibleCount = 0;
+        
+        if (q === "") {
+          // Afficher toutes les cartes
+          cards.forEach(card => {
+            card.style.display = '';
+          });
+          if (recettesTitle) recettesTitle.textContent = 'Toutes mes recettes';
+          if (clearBtn) clearBtn.style.display = 'none';
+          return;
+        }
+        
+        // Filtrer les cartes
+        cards.forEach(card => {
+          const title = card.dataset.title || '';
+          const tags = card.dataset.tags || '';
+          const content = card.dataset.content || '';
+          
+          if (title.includes(q) || tags.includes(q) || content.includes(q)) {
+            card.style.display = '';
+            visibleCount++;
+          } else {
+            card.style.display = 'none';
+          }
+        });
+        
+        // Mettre à jour le titre
+        if (recettesTitle) {
+          if (visibleCount === 0) {
+            recettesTitle.textContent = 'Aucune recette trouvée';
+          } else if (visibleCount === 1) {
+            recettesTitle.textContent = '1 recette trouvée';
+          } else {
+            recettesTitle.textContent = `${visibleCount} recettes trouvées`;
+          }
+        }
+        
+        if (clearBtn) clearBtn.style.display = 'flex';
+      }
+      
+      function clearSearch() {
+        searchInput.value = '';
+        filterRecipes();
+        searchInput.focus();
+      }
+      
+      if (searchInput) {
+        searchInput.addEventListener("input", debounce(filterRecipes, 200));
+      }
+      
+      if (clearBtn) {
+        clearBtn.addEventListener("click", clearSearch);
+        clearBtn.style.display = 'none'; // Caché par défaut
+      }
+    })();
+    </script>
+    <footer class="site-footer">
+  <div class="footer-col-wrapper">
+    <div class="footer-col">
+      
+    </div>
+  </div>
+</footer>
+
+  </body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galette de pommes de terre polonaise</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍽️</text></svg>">
+    <link rel="stylesheet" href="/recettes/assets/main.css">
+  </head>
+  <body class="default galette-de-pommes-de-terre-polonaise recette-page">
+    <header class="site-header">
+      <div class="header-content">
+        <a href="/recettes/" class="logo-btn" aria-label="Retour à l'accueil">
+          <span class="logo-icon" aria-hidden="true">🏠</span>
+          <span class="logo-text">Mes recettes</span>
+        </a>
+        <div class="search-bar">
+          <input type="text" id="headerSearchInput" placeholder="Rechercher une recette..." />
+          <button type="button" id="clearSearchBtn" aria-label="Effacer la recherche">✖</button>
+        </div>
+      </div>
+    </header>
+    <main class="site-main recette-main">
+      <p><img src="/recettes/images/galette_de_pommes_de_terre_polonaise.jpg" alt="illustration de la recette" /></p>
+
+<h1 id="galette-de-pommes-de-terre-polonaise">Galette de pommes de terre polonaise</h1>
+
+<h2 id="ingrédients">Ingrédients</h2>
+
+<ul>
+  <li>3 pommes de terre farineuses</li>
+  <li>1 grosses cuillères à soupe de farine</li>
+  <li>1 oeufs</li>
+  <li>poivre (pas trop)</li>
+  <li>sel</li>
+</ul>
+
+<h2 id="préparation">Préparation</h2>
+
+<ol>
+  <li>Epluchez et râpez les pommes de terre finement.</li>
+  <li>Enlevez l’eau rendue avec une cuillère, puis y ajouter la farine, l’oeuf, le sel et le poivre si on veut manger les galettes salées (ne pas mettre de poivre et très peu de sel si l’on désire les manger sucrées).</li>
+  <li>Chauffez de l’huile dans une poêle et avec une cuillère à soupe faire des petits tas que l’on étale, les faire frire des deux côtés.</li>
+</ol>
+
+<p><a href="https://www.marmiton.org/recettes/recette_galette-de-pommes-de-terre-polonaise_14804.aspx">Source Marmiton</a></p>
+
+    </main>
+    
+    <script>
+    (function() {
+      const searchInput = document.getElementById("headerSearchInput");
+      const clearBtn = document.getElementById("clearSearchBtn");
+      const recetteCards = document.getElementById("recetteCards");
+      const recettesTitle = document.getElementById("recettes-title");
+      
+      function debounce(fn, delay) {
+        let timer = null;
+        return (...args) => {
+          clearTimeout(timer);
+          timer = setTimeout(() => fn(...args), delay);
+        };
+      }
+      
+      function filterRecipes() {
+        if (!recetteCards) return; // Pas sur la page d'accueil
+        
+        const q = searchInput.value.toLowerCase().trim();
+        const cards = recetteCards.querySelectorAll('.recette-card');
+        let visibleCount = 0;
+        
+        if (q === "") {
+          // Afficher toutes les cartes
+          cards.forEach(card => {
+            card.style.display = '';
+          });
+          if (recettesTitle) recettesTitle.textContent = 'Toutes mes recettes';
+          if (clearBtn) clearBtn.style.display = 'none';
+          return;
+        }
+        
+        // Filtrer les cartes
+        cards.forEach(card => {
+          const title = card.dataset.title || '';
+          const tags = card.dataset.tags || '';
+          const content = card.dataset.content || '';
+          
+          if (title.includes(q) || tags.includes(q) || content.includes(q)) {
+            card.style.display = '';
+            visibleCount++;
+          } else {
+            card.style.display = 'none';
+          }
+        });
+        
+        // Mettre à jour le titre
+        if (recettesTitle) {
+          if (visibleCount === 0) {
+            recettesTitle.textContent = 'Aucune recette trouvée';
+          } else if (visibleCount === 1) {
+            recettesTitle.textContent = '1 recette trouvée';
+          } else {
+            recettesTitle.textContent = `${visibleCount} recettes trouvées`;
+          }
+        }
+        
+        if (clearBtn) clearBtn.style.display = 'flex';
+      }
+      
+      function clearSearch() {
+        searchInput.value = '';
+        filterRecipes();
+        searchInput.focus();
+      }
+      
+      if (searchInput) {
+        searchInput.addEventListener("input", debounce(filterRecipes, 200));
+      }
+      
+      if (clearBtn) {
+        clearBtn.addEventListener("click", clearSearch);
+        clearBtn.style.display = 'none'; // Caché par défaut
+      }
+    })();
+    </script>
+    <footer class="site-footer">
+  <div class="footer-col-wrapper">
+    <div class="footer-col">
+      
+    </div>
+  </div>
+</footer>
+
+  </body>
+</html>

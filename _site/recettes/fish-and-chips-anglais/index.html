@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pâte à fish and chips croustillante</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍽️</text></svg>">
+    <link rel="stylesheet" href="/recettes/assets/main.css">
+  </head>
+  <body class="default pâte-à-fish-and-chips-croustillante recette-page">
+    <header class="site-header">
+      <div class="header-content">
+        <a href="/recettes/" class="logo-btn" aria-label="Retour à l'accueil">
+          <span class="logo-icon" aria-hidden="true">🏠</span>
+          <span class="logo-text">Mes recettes</span>
+        </a>
+        <div class="search-bar">
+          <input type="text" id="headerSearchInput" placeholder="Rechercher une recette..." />
+          <button type="button" id="clearSearchBtn" aria-label="Effacer la recherche">✖</button>
+        </div>
+      </div>
+    </header>
+    <main class="site-main recette-main">
+      <h1 id="pâte-à-fish-and-chips-croustillante">Pâte à fish and chips croustillante</h1>
+
+<p><img src="/recettes/images/fish_and_chips.jpg" alt="Fish and Chips" /></p>
+
+<p><strong>Pas d’œuf</strong> : pour garder le croustillant typique. C’est la clé de la recette ultime !</p>
+
+<h2 id="ingrédients">Ingrédients</h2>
+
+<ul>
+  <li>120 g de farine de blé</li>
+  <li>30 g de fécule de maïs (ou farine de riz → encore plus léger)</li>
+  <li>1 c. à café de levure chimique</li>
+  <li>1 petite pincée de sel</li>
+  <li>20 cl de bière blonde glacée (ou eau gazeuse bien froide)</li>
+  <li>(optionnel : 1 c. à soupe d’huile neutre)</li>
+</ul>
+
+<h2 id="préparation">Préparation</h2>
+
+<ol>
+  <li>Refroidir le liquide : mets la bière au congélateur 10–15 minutes avant.</li>
+  <li>Préparer la pâte : mélange rapidement farine + fécule + levure + sel. Ajoute la bière bien froide d’un coup, fouette brièvement (laisser quelques grumeaux).</li>
+  <li>Repos court : laisse reposer la pâte 10–15 minutes maximum au frigo.</li>
+  <li>Préparer le poisson :
+    <ul>
+      <li>Bien sécher les filets.</li>
+      <li>Les passer dans un peu de farine → la pâte adhère mieux.</li>
+    </ul>
+  </li>
+  <li>Cuisson :
+    <ul>
+      <li>Huile entre 170 °C et 180 °C.</li>
+      <li>Tremper chaque filet dans la pâte, égoutter légèrement, plonger délicatement dans l’huile.</li>
+      <li>Frire 5–7 min jusqu’à ce que la pâte soit bien dorée et croustillante.</li>
+    </ul>
+  </li>
+  <li>Égouttage : déposer sur une grille (pas sur du papier absorbant).</li>
+  <li>Maintien au chaud : si besoin, four à 90 °C porte entrouverte, pour garder le croustillant.</li>
+</ol>
+
+<h2 id="résultat">Résultat</h2>
+
+<ul>
+  <li>contrairement à la version française il n’y a pas d’oeufs</li>
+  <li>Une croûte fine mais hyper croustillante</li>
+  <li>Un poisson bien juteux à l’intérieur</li>
+  <li>Un goût neutre et léger, parfait avec vinaigre de malt ou sauce tartare</li>
+</ul>
+
+    </main>
+    
+    <script>
+    (function() {
+      const searchInput = document.getElementById("headerSearchInput");
+      const clearBtn = document.getElementById("clearSearchBtn");
+      const recetteCards = document.getElementById("recetteCards");
+      const recettesTitle = document.getElementById("recettes-title");
+      
+      function debounce(fn, delay) {
+        let timer = null;
+        return (...args) => {
+          clearTimeout(timer);
+          timer = setTimeout(() => fn(...args), delay);
+        };
+      }
+      
+      function filterRecipes() {
+        if (!recetteCards) return; // Pas sur la page d'accueil
+        
+        const q = searchInput.value.toLowerCase().trim();
+        const cards = recetteCards.querySelectorAll('.recette-card');
+        let visibleCount = 0;
+        
+        if (q === "") {
+          // Afficher toutes les cartes
+          cards.forEach(card => {
+            card.style.display = '';
+          });
+          if (recettesTitle) recettesTitle.textContent = 'Toutes mes recettes';
+          if (clearBtn) clearBtn.style.display = 'none';
+          return;
+        }
+        
+        // Filtrer les cartes
+        cards.forEach(card => {
+          const title = card.dataset.title || '';
+          const tags = card.dataset.tags || '';
+          const content = card.dataset.content || '';
+          
+          if (title.includes(q) || tags.includes(q) || content.includes(q)) {
+            card.style.display = '';
+            visibleCount++;
+          } else {
+            card.style.display = 'none';
+          }
+        });
+        
+        // Mettre à jour le titre
+        if (recettesTitle) {
+          if (visibleCount === 0) {
+            recettesTitle.textContent = 'Aucune recette trouvée';
+          } else if (visibleCount === 1) {
+            recettesTitle.textContent = '1 recette trouvée';
+          } else {
+            recettesTitle.textContent = `${visibleCount} recettes trouvées`;
+          }
+        }
+        
+        if (clearBtn) clearBtn.style.display = 'flex';
+      }
+      
+      function clearSearch() {
+        searchInput.value = '';
+        filterRecipes();
+        searchInput.focus();
+      }
+      
+      if (searchInput) {
+        searchInput.addEventListener("input", debounce(filterRecipes, 200));
+      }
+      
+      if (clearBtn) {
+        clearBtn.addEventListener("click", clearSearch);
+        clearBtn.style.display = 'none'; // Caché par défaut
+      }
+    })();
+    </script>
+    <footer class="site-footer">
+  <div class="footer-col-wrapper">
+    <div class="footer-col">
+      
+    </div>
+  </div>
+</footer>
+
+  </body>
+</html>

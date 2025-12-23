@@ -175,6 +175,9 @@ def extract_marmiton_recipe_selenium(url):
 
 def slugify(text):
     import re
+    import unicodedata
+    # Supprimer les accents: NFKD -> ASCII sans diacritiques
+    text = unicodedata.normalize('NFKD', text).encode('ascii', 'ignore').decode('ascii')
     text = text.lower()
     text = re.sub(r'[^a-z0-9]+', '_', text)
     return text.strip('_')
@@ -207,7 +210,7 @@ def main():
                     with open(image_path, 'wb') as imgf:
                         imgf.write(r.content)
                     # Remplacer l'URL par le chemin local dans le markdown
-                    md_content = md_content.replace(image_url, image_filename)
+                    md_content = md_content.replace(image_url, f"{{{{ site.baseurl }}}}/{image_filename}")
             except Exception as e:
                 print(f"Erreur lors du téléchargement de l'image : {e}")
     outfile = os.path.join(outdir, filename)
@@ -218,7 +221,19 @@ def main():
     # Push automatique sur le dépôt git
     import subprocess
     try:
+        # Ajouter la recette
         subprocess.run(["git", "add", outfile], check=True)
+        # Ajouter l'image si elle a été téléchargée
+        image_path_to_add = None
+        image_url_match = re.search(r'image: "([^"]+)"', md_content)
+        if image_url_match:
+            image_url = image_url_match.group(1)
+            if not image_url.startswith('http'):  # C'est un chemin local
+                # Récupérer le chemin absolu de l'image
+                image_path_to_add = os.path.join(os.path.dirname(__file__), image_url.replace('{{ site.baseurl }}/', ''))
+                if os.path.exists(image_path_to_add):
+                    subprocess.run(["git", "add", image_path_to_add], check=True)
+        
         subprocess.run(["git", "commit", "-m", f"Ajout recette {title}"], check=True)
         subprocess.run(["git", "push"], check=True)
         print("Recette poussée sur le dépôt distant.")
