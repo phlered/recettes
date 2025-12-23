@@ -10,11 +10,10 @@ ingredients:
   - "2,5 ml (1/2) cuillère à café de jus de citron"
   - "pistaches moulues ou flocons de noix de coco pour servir (facultatif)"
   - "Ce montant suffit pour les deux tiers. Vous pouvez congeler les autres ou si vous comptez les servir tous, ajoutez 1/2 quantité de sirop en plus."
-  - "237ml (1 tasse) lait"
-  - "1 cuillère à soupe bombée butter (30gr.)"
-  - "90g (1/2 tasse) semoule"
+  - "237 ml (1 tasse) de lait"
+  - "1 cuillère à soupe de beurre bombée (30 gr.)"
+  - "90 g (1/2 tasse) de sémoule"
   - "47 g (1/3 tasse) de farine"
-  - "2 eggs ("
 ---
 ![illustration de la recette](images/dessert_au_fromage_turc_lor_tatl_s.jpg)
 
@@ -27,11 +26,10 @@ ingredients:
 - 2,5 ml (1/2) cuillère à café de jus de citron
 - pistaches moulues ou flocons de noix de coco pour servir (facultatif)
 - Ce montant suffit pour les deux tiers. Vous pouvez congeler les autres ou si vous comptez les servir tous, ajoutez 1/2 quantité de sirop en plus.
-- 237ml (1 tasse) lait
-- 1 cuillère à soupe bombée butter (30gr.)
-- 90g (1/2 tasse) semoule
+- 237 ml (1 tasse) de lait
+- 1 cuillère à soupe de beurre bombée (30 gr.)
+- 90 g (1/2 tasse) de sémoule
 - 47 g (1/3 tasse) de farine
-- 2 eggs (
 
 ## Préparation
 
