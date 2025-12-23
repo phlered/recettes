@@ -5,6 +5,7 @@ source: "https://recettesb.blogspot.com/2020/03/title-taboule-libanais-descripti
 date: "2025-12-23"
 image: "{{ site.baseurl }}/images/taboule_libanais.jpg"
 ingredients:
+  - "Ingrédients"
   - "3 bouquets de persil plat"
   - "1 bouquet de menthe fraîche"
   - "2 oignons nouveaux"
@@ -19,6 +20,7 @@ ingredients:
 
 ## Ingrédients
 
+- Ingrédients
 - 3 bouquets de persil plat
 - 1 bouquet de menthe fraîche
 - 2 oignons nouveaux
