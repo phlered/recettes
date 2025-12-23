@@ -10,7 +10,7 @@ ingredients:
   - "150 g de beurre"
   - "1/2 c-a- thé de sel"
   - "1 c-a-thé de sucre"
-  - "80 à 100 ml d'eau glacée"
+  - "80 to 100 ml d'eau glacée"
   - "2 œufs"
   - "125 g de sucre"
   - "20 g de poudre d'amande"
@@ -30,7 +30,7 @@ ingredients:
 - 150 g de beurre
 - 1/2 c-a- thé de sel
 - 1 c-a-thé de sucre
-- 80 à 100 ml d'eau glacée
+- 80 to 100 ml d'eau glacée
 - 2 œufs
 - 125 g de sucre
 - 20 g de poudre d'amande
