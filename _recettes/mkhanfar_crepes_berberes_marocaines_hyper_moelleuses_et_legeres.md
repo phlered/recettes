@@ -7,7 +7,7 @@ image: "{{ site.baseurl }}/images/mkhanfar_crepes_berberes_marocaines_hyper_moel
 ingredients:
   - "Ingrédients"
   - "250 g Semoule de blé dur (fino) ou semoule extra fine"
-  - "200 g de farine"
+  - "200 g Farine"
   - "1 œuf"
   - "1 Sachet de levure chimique"
   - "1 càs sucre"
@@ -22,7 +22,7 @@ ingredients:
 
 - Ingrédients
 - 250 g Semoule de blé dur (fino) ou semoule extra fine
-- 200 g de farine
+- 200 g Farine
 - 1 œuf
 - 1 Sachet de levure chimique
 - 1 càs sucre
@@ -31,7 +31,7 @@ ingredients:
 
 ## Préparation
 
-1. Mixez tous les ingrédients au mixeur pendant 5 minutes.
+1. Mixer tous les ingrédients au blender pendant 5 minutes.
 2. Une fois terminé, transvasez l’appareil à pancake « Mkhanfar » dans un grand saladier, couvrez d’un linge propre ou d’un film alimentaire puis laisser reposer 20 min dans un endroit chaud loin des courants d’airs.
 3. La préparation va doubler et vous allez remarquer des petites bulles d’air qui montent à la surface.
 4. Faites chauffer une poêle antiadhésive huilé légèrement au préalable à feu moyen.
