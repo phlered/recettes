@@ -41,10 +41,11 @@ ingredients:
 2. Attention à très bien râper. C'est un passage ennuyeux. Mais indispensable pour un excellent résultat.
 3. Placez les carottes dans un mixeur avec le beurre fondu, l'huile et le jus d'orange.
 4. Faites fonctionner le mixeur à très haute vitesse et laissez-le faire tant de fois, en l’interrompant et en le tournant de temps en temps, jusqu’à obtenir une très fine purée de carottes!
-5. Montez à vitesse moyenne-basse, pour tout mélanger.
-6. Je recommande de bien beurrer et fariner les moules! Même fabriqués en silicone, ils doivent être parfaitement traités pour un résultat optimal!
-7. Le secret pour Camille d’une couleur orange brillante et uniforme est une courte cuisson!
-8. Faites cuire la Camille dans un four très chaud à 180 ° pendant 16-18 minutes, maximum 20 minutes! Cela dépend du four, mais faites attention!
+5. Fouetter pour mélanger. Ajouter la purée de carottes.
+6. Montez à vitesse moyenne-basse, pour tout mélanger.
+7. Je recommande de bien beurrer et fariner les moules! Même fabriqués en silicone, ils doivent être parfaitement traités pour un résultat optimal!
+8. Le secret pour Camille d’une couleur orange brillante et uniforme est une courte cuisson!
+9. Faites cuire la Camille dans un four très chaud à 180 ° pendant 16-18 minutes, maximum 20 minutes! Cela dépend du four, mais faites attention!
 
 ## Notes
 
