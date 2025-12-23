@@ -31,7 +31,7 @@ ingredients:
 
 ## Préparation
 
-1. Entreprenez par réaliser vos pesées.
+1. Commencez par réaliser vos pesées.
 2. Ensuite, travaillez les 125 g de beurre, les 250 g de farine, le sachet de levureet les 2 pincées de fleur sel du bout des doigts on dit qu’on sable le mélange.
 3. Fendez la gousse de vanille et récupérez les graines.
 4. Mettez votre gousse de vanille dans votre sucre vous obtiendrez du sucre vanillé maison.
