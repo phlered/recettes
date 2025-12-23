@@ -180,6 +180,53 @@ body.recette-page .recette-main h1:first-child {
   background: #ff5252;
 }
 
+/* Navigation historique des recettes */
+.recipe-nav {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0 12px;
+  margin-left: auto;
+}
+
+.nav-btn {
+  background: #5b7bff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #fff;
+  transition: background 0.2s, opacity 0.2s;
+  min-width: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-btn:hover:not(:disabled) {
+  background: #7a9cff;
+}
+
+.nav-btn:disabled {
+  background: #3a4a7a;
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.nav-counter {
+  color: #e8ecf2;
+  font-size: 0.95rem;
+  min-width: 45px;
+  text-align: center;
+  font-weight: 500;
+}
+
+/* Masquer la barre de recherche sur les pages recettes */
+body.recette-page .search-bar {
+  display: none !important;
+}
+
 .logo-btn:hover {
   color: #ffd700;
   background: #2c3747;
@@ -367,6 +414,20 @@ body.recette-page .recette-main h1:first-child {
   }
   .search-bar input {
     width: 100%;
+  }
+  .recipe-nav {
+    gap: 8px;
+    padding: 0 8px;
+    margin-left: auto;
+  }
+  .nav-btn {
+    padding: 6px 10px;
+    font-size: 1rem;
+    min-width: 40px;
+  }
+  .nav-counter {
+    min-width: 35px;
+    font-size: 0.85rem;
   }
   .site-main {
     margin-top: 72px;

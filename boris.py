@@ -14,6 +14,7 @@ import json
 import requests
 from deep_translator import GoogleTranslator
 from slugify import slugify
+from langdetect import detect, LangDetectException
 
 def extract_blogger_recipe(url):
     """
@@ -94,25 +95,70 @@ def extract_blogger_recipe(url):
             # Récupérer tout ce qui suit les mentions d'ingrédients jusqu'aux instructions
             start_idx = ingredients_matches[0].start()
             
-            # Chercher où commencent les instructions
-            instructions_pattern = r'(?:instructions?|préparation|étapes|directions|for the .*?:|add |stir |pour |grease|bake|press)'
-            instructions_match = re.search(instructions_pattern, full_text[start_idx+50:], re.IGNORECASE)
+            # Chercher où commencent les instructions (chercher les vraies sections, pas des mots isolés)
+            instructions_pattern = r'(?:^|\n)(?:instructions?|préparation|étapes|directions|notes?|remarks?|remarques?)'
+            instructions_match = re.search(instructions_pattern, full_text[start_idx+50:], re.IGNORECASE | re.MULTILINE)
             
             if instructions_match:
                 ingredients_text = full_text[start_idx:start_idx+50+instructions_match.start()]
             else:
                 ingredients_text = full_text[start_idx:]
             
-            # Extraire les ingrédients (lignes contenant des quantités, mesures, ou noms d'ingrédients)
+            # Extraire les ingrédients avec détection de groupes
+            # Organiser les ingrédients en groupes (Pour la…, For the…, etc.)
+            ingredient_groups = []  # [(group_name, [ingredients]), ...]
+            current_group_name = "Ingrédients"
+            current_group = []
+            
             for line in ingredients_text.split('\n'):
                 line = line.strip()
-                # Chercher les lignes avec quantités (nombres, fractions, ou mesures)
-                # Écarter les lignes cassées se terminant par "("
-                if line.endswith('('):
+                
+                # Détecter titre de groupe (Pour la…, For the…)
+                if re.match(r'^(?:pour |for )', line, re.IGNORECASE):
+                    # Sauvegarder le groupe précédent s'il existe
+                    if current_group:
+                        ingredient_groups.append((current_group_name, current_group))
+                    # Commencer un nouveau groupe
+                    current_group_name = line
+                    current_group = []
                     continue
-                if line and re.search(r'\d|cup|tbsp|tsp|g|ml|gr|oz|pint|litre|l\b|kg', line, re.IGNORECASE):
+                
+                # Ignorer les lignes vides ou les titres "Ingrédients"
+                if not line or re.match(r'^(?:ingrédients?|ingredients?|composants?)', line, re.IGNORECASE):
+                    continue
+                
+                # Prendre les lignes avec quantités numériques
+                if re.search(r'^\d|\d\s(?:g|ml|gr|oz|pint|litre|l\b|kg|cup|tbsp|tsp|teaspoon|tablespoon|cac|cas)', line, re.IGNORECASE):
+                    if not line.endswith('('):
+                        current_group.append(line)
+                # Accepter aussi les lignes sans quantité numérique mais avec « de »/« d' », ou poivre, sel, thym, etc.
+                elif re.search(r'\b(?:de |d\'|du |des |une |un |poivre|sel|thym|persil|basilic|origan)', line, re.IGNORECASE) and not line.isupper():
                     if not any(word in line.lower() for word in ['ingrédients', 'ingredients', 'for the', 'instructions', 'préparation', 'étapes']):
-                        ingredients.append(line)
+                        current_group.append(line)
+            
+            # Sauvegarder le dernier groupe
+            if current_group:
+                ingredient_groups.append((current_group_name, current_group))
+            
+            # Flattener les groupes en liste unique pour rétrocompatibilité
+            if ingredient_groups:
+                for group_name, group_items in ingredient_groups:
+                    ingredients.append(group_name)
+                    ingredients.extend(group_items)
+            else:
+                # Fallback: pas de groupes détectés, continuer avec la méthode précédente
+                for line in ingredients_text.split('\n'):
+                    line = line.strip()
+                    if re.match(r'^(?:pour |for )', line, re.IGNORECASE):
+                        continue
+                    if not line or re.match(r'^(?:ingrédients?|ingredients?|composants?)', line, re.IGNORECASE):
+                        continue
+                    if re.search(r'^\d|\d\s(?:g|ml|gr|oz|pint|litre|l\b|kg|cup|tbsp|tsp|teaspoon|tablespoon|cac|cas)', line, re.IGNORECASE):
+                        if not line.endswith('('):
+                            ingredients.append(line)
+                    elif re.search(r'\b(?:de |d\'|du |des |une |un |poivre|sel|thym|persil|basilic|origan)', line, re.IGNORECASE) and not line.isupper():
+                        if not any(word in line.lower() for word in ['ingrédients', 'ingredients', 'for the', 'instructions', 'préparation', 'étapes']):
+                            ingredients.append(line)
         
         # Chercher la section "Préparation" ou "Instructions"
         # Chercher tout ce qui commence par "Instructions" ou "For the"
@@ -226,12 +272,27 @@ def extract_blogger_recipe(url):
         print(f"Aucune instruction détectée pour {url}. Aucun fichier généré, aucun commit.")
         sys.exit(1)
     
-    # 5. Traduction en français pour chaque champ
-    title = translate_to_french(title)
-    ingredients = [translate_to_french(ing) for ing in ingredients]
-    steps = [translate_to_french(step) for step in steps]
-    if notes:
-        notes = translate_to_french(notes)
+    # 5. Détection de la langue sur l'ensemble du contenu
+    # Combiner titre + quelques ingrédients + quelques étapes pour une détection fiable
+    sample_text = title + ' ' + ' '.join(ingredients[:5]) + ' ' + ' '.join(steps[:3])
+    detected_lang = detect_language(sample_text)
+    
+    # Traduire seulement si le contenu n'est pas déjà en français
+    if detected_lang != 'fr':
+        print(f"Langue détectée: {detected_lang}, traduction en français...")
+        title = translate_to_french(title)
+        ingredients = [translate_to_french(ing) for ing in ingredients]
+        steps = [translate_to_french(step) for step in steps]
+        if notes:
+            notes = translate_to_french(notes)
+    else:
+        print(f"Langue détectée: français, pas de traduction nécessaire")
+        # Appliquer seulement la conversion d'unités et le post-traitement
+        title = postprocess_french(replace_units(title))
+        ingredients = [postprocess_french(replace_units(ing)) for ing in ingredients]
+        steps = [postprocess_french(replace_units(step)) for step in steps]
+        if notes:
+            notes = postprocess_french(replace_units(notes))
 
     # Bloc YAML
     yaml = [
@@ -248,17 +309,68 @@ def extract_blogger_recipe(url):
         yaml.append(f'  - "{ing}"')
     yaml.append('---\n')
 
-    # Construction du markdown
+    # Construction du markdown avec support pour groupes d'ingrédients et étapes
     md_content = '\n'.join(yaml)
     if image_url:
         md_content += f'![illustration de la recette]({image_url})\n\n'
     md_content += f"# {title}\n\n"
+    
+    # Générer la section Ingrédients (avec sous-sections si groupes détectés)
     md_content += "## Ingrédients\n\n"
+    ingredient_titles = set()
     for ing in ingredients:
-        md_content += f"- {ing}\n"
+        if re.match(r'^(?:pour |for )', ing, re.IGNORECASE):
+            # C'est un titre de groupe : ajouter comme sous-section
+            md_content += f"### {ing}\n\n"
+            ingredient_titles.add(ing)
+        elif ing not in ingredient_titles:
+            md_content += f"- {ing}\n"
+    
+    # Générer la section Préparation (avec sous-sections si étapes groupées)
     md_content += "\n## Préparation\n\n"
-    for i, step in enumerate(steps, 1):
-        md_content += f"{i}. {step}\n"
+    
+    # Chercher les titres de groupes d'étapes (lignes avec "Pâte", "Garniture", "Cuisson", etc.)
+    step_groups = []
+    current_group_title = None
+    current_step_group = []
+    
+    for step in steps:
+        # Détecter les titres de groupes (courtes lignes + patterns spécifiques)
+        # Éviter les phrases normales qui finissent par des lettres minuscules
+        is_group_title = False
+        if len(step) < 40:
+            # Matcher les patterns comme "Pâte brisée", "Garniture", "Cuisson et finition", etc.
+            if re.match(r'^[A-Z][a-z]+ (?:et |)[A-Z]?[a-z]*(?:\s+[a-z]+)?$', step) or step.endswith(':'):
+                is_group_title = True
+            # Matcher "Pour la pâte", "Pour la garniture"
+            if re.match(r'^(?:pour |for )', step, re.IGNORECASE):
+                is_group_title = True
+        
+        if is_group_title:
+            if current_step_group:
+                step_groups.append((current_group_title, current_step_group))
+            current_group_title = step.rstrip(':')
+            current_step_group = []
+        else:
+            current_step_group.append(step)
+    
+    if current_step_group:
+        step_groups.append((current_group_title, current_step_group))
+    
+    # Générer les étapes
+    if step_groups and len(step_groups) > 1:
+        # Afficher les étapes en groupes avec sous-sections et numérotation indépendante
+        for group_title, group_steps in step_groups:
+            if group_title:
+                md_content += f"### {group_title}\n\n"
+            for i, step in enumerate(group_steps, 1):
+                md_content += f"{i}. {step}\n"
+            md_content += "\n"
+    else:
+        # Afficher toutes les étapes sans groupes
+        for i, step in enumerate(steps, 1):
+            md_content += f"{i}. {step}\n"
+    
     if notes:
         md_content += "\n## Notes\n\n"
         md_content += f"{notes}\n"
@@ -343,28 +455,36 @@ def postprocess_french(text):
 
 def detect_language(text):
     """
-    Détecte si le texte est en anglais ou français
+    Détecte si le texte est en anglais ou français en utilisant langdetect
     """
-    # Utiliser des mots clés simples pour détecter la langue
-    english_words = {
-        'the','for','and','or','in','of','to','with','without','a','is','are',
-        'mix','add','bake','heat','cook','sprinkle','stir','pour','press',
-        'lemon','orange','vanilla','juice','rind','oil','vegetable','unsweetened','grated','coconut',
-        'cup','cups','tsp','tbsp'
-    }
-    french_words = {'le', 'la', 'et', 'de', 'à', 'un', 'une', 'mélanger', 'ajouter', 'cuire', 'chauffer', 'cuisiner', 'pour', 'avec'}
+    if not text or len(text) < 10:
+        return 'en'  # Par défaut anglais pour textes très courts
     
-    text_lower = text.lower()
-    english_count = sum(1 for word in english_words if word in text_lower)
-    french_count = sum(1 for word in french_words if word in text_lower)
-    
-    # Si présence de marqueurs d'unités anglaises, considérer anglais
-    if re.search(r"\b(cup|cups|tsp|tbsp)\b", text_lower):
-        return 'en'
-    # Par défaut, supposer anglais si on a plus de mots anglais
-    if english_count > french_count:
-        return 'en'
-    return 'fr'
+    try:
+        # langdetect retourne un code ISO comme 'en', 'fr', etc.
+        detected = detect(text)
+        return detected
+    except (LangDetectException, Exception):
+        # Fallback : utiliser des mots clés simples
+        english_words = {
+            'the','for','and','or','in','of','to','with','without','a','is','are',
+            'mix','add','bake','heat','cook','sprinkle','stir','pour','press',
+            'lemon','orange','vanilla','juice','rind','oil','vegetable','unsweetened','grated','coconut',
+            'cup','cups','tsp','tbsp'
+        }
+        french_words = {'le', 'la', 'et', 'de', 'à', 'un', 'une', 'mélanger', 'ajouter', 'cuire', 'chauffer', 'cuisiner', 'pour', 'avec', 'dans', 'les'}
+        
+        text_lower = text.lower()
+        english_count = sum(1 for word in english_words if f' {word} ' in f' {text_lower} ')
+        french_count = sum(1 for word in french_words if f' {word} ' in f' {text_lower} ')
+        
+        # Si présence de marqueurs d'unités anglaises, considérer anglais
+        if re.search(r"\b(cup|cups|tsp|tbsp)\b", text_lower):
+            return 'en'
+        # Par défaut, supposer anglais si on a plus de mots anglais
+        if english_count > french_count:
+            return 'en'
+        return 'fr'
 
 def translate_to_french(text):
     """

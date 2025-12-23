@@ -19,9 +19,14 @@ layout: null
           <span class="logo-icon" aria-hidden="true">🏠</span>
           <span class="logo-text">Mes recettes</span>
         </a>
-        <div class="search-bar">
+        <div class="search-bar" id="searchBar">
           <input type="text" id="headerSearchInput" placeholder="Rechercher une recette..." />
           <button type="button" id="clearSearchBtn" aria-label="Effacer la recherche">✖</button>
+        </div>
+        <div class="recipe-nav" id="recipeNav" style="display: none;">
+          <button type="button" id="prevRecipeBtn" class="nav-btn nav-prev" aria-label="Recette précédente">←</button>
+          <span id="navCounter" class="nav-counter"></span>
+          <button type="button" id="nextRecipeBtn" class="nav-btn nav-next" aria-label="Recette suivante">→</button>
         </div>
       </div>
     </header>
@@ -35,7 +40,85 @@ layout: null
       const clearBtn = document.getElementById("clearSearchBtn");
       const recetteCards = document.getElementById("recetteCards");
       const recettesTitle = document.getElementById("recettes-title");
+      const searchBar = document.getElementById("searchBar");
+      const recipeNav = document.getElementById("recipeNav");
+      const prevBtn = document.getElementById("prevRecipeBtn");
+      const nextBtn = document.getElementById("nextRecipeBtn");
+      const navCounter = document.getElementById("navCounter");
       
+      const isRecipePage = document.body.classList.contains('recette-page');
+      const isHomePage = !isRecipePage;
+      
+      // ===== Gestion de l'historique des recettes =====
+      function getRecipeHistory() {
+        const stored = localStorage.getItem('recipeHistory');
+        return stored ? JSON.parse(stored) : [];
+      }
+      
+      function saveRecipeHistory(history) {
+        localStorage.setItem('recipeHistory', JSON.stringify(history));
+      }
+      
+      function addToHistory(url, title) {
+        let history = getRecipeHistory();
+        // Éviter les doublons consécutifs
+        if (history.length > 0 && history[history.length - 1].url === url) {
+          return;
+        }
+        history.push({ url, title, timestamp: Date.now() });
+        // Garder seulement les 20 dernières recettes
+        if (history.length > 20) {
+          history = history.slice(-20);
+        }
+        saveRecipeHistory(history);
+        updateNavigation();
+      }
+      
+      function getCurrentRecipeIndex() {
+        const currentUrl = window.location.pathname;
+        const history = getRecipeHistory();
+        return history.findIndex(r => r.url === currentUrl);
+      }
+      
+      function updateNavigation() {
+        const history = getRecipeHistory();
+        const currentIndex = getCurrentRecipeIndex();
+        
+        if (currentIndex === -1 || history.length === 0) {
+          recipeNav.style.display = 'none';
+          return;
+        }
+        
+        recipeNav.style.display = 'flex';
+        navCounter.textContent = `${currentIndex + 1}/${history.length}`;
+        
+        prevBtn.disabled = currentIndex === 0;
+        nextBtn.disabled = currentIndex === history.length - 1;
+      }
+      
+      function navigateRecipe(direction) {
+        const history = getRecipeHistory();
+        const currentIndex = getCurrentRecipeIndex();
+        
+        if (currentIndex === -1) return;
+        
+        let newIndex = currentIndex + direction;
+        if (newIndex >= 0 && newIndex < history.length) {
+          window.location.href = history[newIndex].url;
+        }
+      }
+      
+      // Si on est sur une page de recette, l'ajouter à l'historique et initialiser la nav
+      if (isRecipePage) {
+        const pageTitle = document.querySelector('h1')?.textContent || document.title;
+        addToHistory(window.location.pathname, pageTitle);
+        updateNavigation();
+        
+        prevBtn.addEventListener('click', () => navigateRecipe(-1));
+        nextBtn.addEventListener('click', () => navigateRecipe(1));
+      }
+      
+      // ===== Gestion de la barre de recherche (page d'accueil seulement) =====
       function debounce(fn, delay) {
         let timer = null;
         return (...args) => {
@@ -95,13 +178,15 @@ layout: null
         searchInput.focus();
       }
       
-      if (searchInput) {
-        searchInput.addEventListener("input", debounce(filterRecipes, 200));
-      }
-      
-      if (clearBtn) {
-        clearBtn.addEventListener("click", clearSearch);
-        clearBtn.style.display = 'none'; // Caché par défaut
+      if (isHomePage) {
+        if (searchInput) {
+          searchInput.addEventListener("input", debounce(filterRecipes, 200));
+        }
+        
+        if (clearBtn) {
+          clearBtn.addEventListener("click", clearSearch);
+          clearBtn.style.display = 'none'; // Caché par défaut
+        }
       }
     })();
     </script>
