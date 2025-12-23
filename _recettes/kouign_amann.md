@@ -5,6 +5,7 @@ source: "https://recettesb.blogspot.com/2020/03/title-kouign-amann-description-r
 date: "2025-12-23"
 image: "{{ site.baseurl }}/images/kouign_amann.jpg"
 ingredients:
+  - "Ingrédients"
   - "180 g de farine de froment (type 55)"
   - "3 g de sel"
   - "3 g de levure de boulangerie"
@@ -18,6 +19,7 @@ ingredients:
 
 ## Ingrédients
 
+- Ingrédients
 - 180 g de farine de froment (type 55)
 - 3 g de sel
 - 3 g de levure de boulangerie
