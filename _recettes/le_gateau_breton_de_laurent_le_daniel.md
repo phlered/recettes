@@ -27,7 +27,19 @@ ingredients:
 
 ## Préparation
 
-1. Préchauffer le four à 170 °C. Au bout de 30 minutes au frais, dorer une deuxième fois le gâteau puis à l’aide d’une fourchette le décorer. Enfourner le gâteau breton pour 35 minutes dans le four préchauffé à 170 °C. Bien entendu ce temps est variable selon votre four et l’épaisseur que vous avez choisi pour le gâteau.
+1. Dans un saladier (ou dans la cuve de votre robot muni de la feuille), introduire la farine, la levure (mélangée à la farine), le sucre ainsi que la fleur de sel (pesée avec un balance cuillère de précision).
+2. Ajouter le beurre mou (mais pas pommade) coupé en petits morceaux et mélanger (soit à la main soit à la feuille).
+3. Une fois la pâte ayant l’aspect d’un « sablé mouillé », ajouter les jaunes d’oeufs et mélanger à nouveau jusqu’à la formation d’une boule de pâte homogène.
+4. Aplatir cette boule, l’envelopper dans du film alimentaire et la réserver deux heures au réfrigérateur.
+5. Au bout des deux heures de repos, sortir la pâte du réfrigérateur et l’étaler légèrement sur votre plan de travail fariné de manière à former un disque de diamètre légèrement supérieur à 17 cm.
+6. Avec un cercle en inox (∅ 17cm) détailler un disque parfait dans la pâte.
+7. Dorer ce disque avec le jaune d’oeuf restant battu avec deux cuillère à soupe d’eau.
+8. Remettre 30 minutes au réfrigérateur.
+9. Préchauffer le four à 170 °C.
+10. Au bout de 30 minutes au frais, dorer une deuxième fois le gâteau puis à l’aide d’une fourchette le décorer.
+11. Enfourner le gâteau breton pour 35 minutes dans le four préchauffé à 170 °C.
+12. Bien entendu ce temps est variable selon votre four et l’épaisseur que vous avez choisi pour le gâteau.
+13. A la sortie du four, laisser refroidir le gâteau breton sur une grille et quand il est bien froid, retirer délicatement le cercle en inox.
 
 ## Notes
 
