@@ -5,6 +5,7 @@ source: "https://recettesb.blogspot.com/2023/08/chakchouka.html"
 date: "2025-12-23"
 image: "{{ site.baseurl }}/images/chakchouka.jpg"
 ingredients:
+  - "Ingrédients"
   - "1 gros oignon jaune coupé en dés"
   - "1 gros poivron rouge coupé en dés"
   - "1 carotte rapée"
@@ -18,7 +19,6 @@ ingredients:
   - "1/4 CAC de canelle"
   - "1 CAS d'huile d'olive"
   - "Merguez ou huile d'olive (facultatif)"
-  - "Fêta et miel (facultatif)"
 ---
 ![illustration de la recette]({{ site.baseurl }}/images/chakchouka.jpg)
 
@@ -26,6 +26,7 @@ ingredients:
 
 ## Ingrédients
 
+- Ingrédients
 - 1 gros oignon jaune coupé en dés
 - 1 gros poivron rouge coupé en dés
 - 1 carotte rapée
@@ -39,7 +40,6 @@ ingredients:
 - 1/4 CAC de canelle
 - 1 CAS d'huile d'olive
 - Merguez ou huile d'olive (facultatif)
-- Fêta et miel (facultatif)
 
 ## Préparation
 
