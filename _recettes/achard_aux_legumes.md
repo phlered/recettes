@@ -8,7 +8,7 @@ ingredients:
   - "Ingrédients"
   - "1/2 chou blanc"
   - "4 carottes"
-  - "350 g de haricots verts"
+  - "350 g haricots verts"
   - "1/2 chou fleur"
   - "2 gros piments"
   - "1 oignon"
@@ -29,7 +29,7 @@ ingredients:
 - Ingrédients
 - 1/2 chou blanc
 - 4 carottes
-- 350 g de haricots verts
+- 350 g haricots verts
 - 1/2 chou fleur
 - 2 gros piments
 - 1 oignon
