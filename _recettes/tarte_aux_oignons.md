@@ -64,18 +64,13 @@ ingredients:
 11. Foncez bien votre cercle, en faisant en sorte que la pâte épouse parfaitement les contours, et de bien marquer l'angle droit.
 12. Il reste de la pâte (que l'on peut congeler pour faire des tartelettes) Préchauffez maintenant le four à 190° chaleur tournante, avec une grille sur le deuxième gradin en partant du bas.
 13. Epluchez les oignons frais et émincez-les finement à la mandoline.
-
-### Vous devez en obtenir 600 g.
-
-1. Versez alors 80 g de vin blanc sur 50 g de pain de mie (deux tranches sans croûte).
-2. Mélangez bien pour obtenir une pâte liquide.
-3. Mélangez un oeuf avec 1/2 teaspoon de sel fin et trois tours de moulin à poivre.
-
-### Ajoutez ensuite 1 tablespoon de farine.
-
-1. Mélangez bien pour ne pas qu'il y ait trop de grumeaux.
-2. Ajoutez 150 g de crème liquide.
-
+14. Vous devez en obtenir 600 g.
+15. Versez alors 80 g de vin blanc sur 50 g de pain de mie (deux tranches sans croûte).
+16. Mélangez bien pour obtenir une pâte liquide.
+17. Mélangez un oeuf avec 1/2 teaspoon de sel fin et trois tours de moulin à poivre.
+18. Ajoutez ensuite 1 tablespoon de farine.
+19. Mélangez bien pour ne pas qu'il y ait trop de grumeaux.
+20. Ajoutez 150 g de crème liquide.
 
 _Merci à Boris pour le partage_
 
