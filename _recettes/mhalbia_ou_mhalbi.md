@@ -5,12 +5,14 @@ source: "https://recettesb.blogspot.com/2020/11/mhalbia-ou-mhalbi.html?m=1"
 date: "2025-12-23"
 image: "{{ site.baseurl }}/images/mhalbia_ou_mhalbi.jpg"
 ingredients:
+  - "Ingrédients"
   - "250 g de riz (ou riz rond), broyé"
   - "150 g de sucre en poudre"
   - "1 sachet de sucre vanillé"
   - "100 ml d’eau de géranium"
   - "300 ml d'eau"
   - "500 ml de lait (très chaud)"
+  - "Des dattes (et/ou des pistaches torréfiées concassées)"
 ---
 ![illustration de la recette]({{ site.baseurl }}/images/mhalbia_ou_mhalbi.jpg)
 
@@ -18,12 +20,14 @@ ingredients:
 
 ## Ingrédients
 
+- Ingrédients
 - 250 g de riz (ou riz rond), broyé
 - 150 g de sucre en poudre
 - 1 sachet de sucre vanillé
 - 100 ml d’eau de géranium
 - 300 ml d'eau
 - 500 ml de lait (très chaud)
+- Des dattes (et/ou des pistaches torréfiées concassées)
 
 ## Préparation
 
