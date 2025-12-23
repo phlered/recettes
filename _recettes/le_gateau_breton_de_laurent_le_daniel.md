@@ -5,6 +5,7 @@ source: "https://recettesb.blogspot.com/2022/12/le-gateau-breton-de-laurent-le-d
 date: "2025-12-23"
 image: "{{ site.baseurl }}/images/le_gateau_breton_de_laurent_le_daniel.jpg"
 ingredients:
+  - "Ingrédients"
   - "250 g de farine T45"
   - "5 g de levure chimique"
   - "125 g de sucre en poudre"
@@ -18,6 +19,7 @@ ingredients:
 
 ## Ingrédients
 
+- Ingrédients
 - 250 g de farine T45
 - 5 g de levure chimique
 - 125 g de sucre en poudre
