@@ -19,6 +19,26 @@ ingredients:
 
 ## Préparation
 
+1. Coupez 125 g de beurre en morceaux, et mettez-le dans la cuve du robot.
+2. Ajoutez 200 g de farine et 1/2 teaspoon de fleur de sel.
+3. Bien sabler à l'aide de la feuille, pendant 3mn à petite vitesse.
+4. Ajoutez ensuite un jaune d'oeuf et 30 g de lait froids, et continuez très peu de temps.
+5. Il faut s'arrêter dès que l'on peut mettre la pâte en boule.
+6. Ne la travaillez pas trop, pour ne pas la "corser", sinon vous allez développer le gluten, et votre pâte se rétractera à la cuisson.
+7. Filmez et réservez au frais au moins une heure (ou une nuit).
+8. Lorsque la pâte a bien reposé, étalez-la soit entre deux exopat, soit sur un plan de travail TRÈS LÉGÈREMENT fariné (pas trop de farine sinon vous allez changer la texture).
+9. Si votre pâte est bien froide, vous verrez que très peu de farine suffit.
+10. Au départ vous allez avoir du mal à l'étaler, mais le beurre va vite chauffer sous l'action du rouleau, et au final on y arrive très facilement (la pâte a plein de petits points blancs, c'est normal : c'est la fleur de sel, qui croquera sous la dent après cuisson !).
+11. Foncez bien votre cercle, en faisant en sorte que la pâte épouse parfaitement les contours, et de bien marquer l'angle droit.
+12. Il reste de la pâte (que l'on peut congeler pour faire des tartelettes) Préchauffez maintenant le four à 190° chaleur tournante, avec une grille sur le deuxième gradin en partant du bas.
+13. Epluchez les oignons frais et émincez-les finement à la mandoline.
+14. Vous devez en obtenir 600 g.
+15. Versez alors 80 g de vin blanc sur 50 g de pain de mie (deux tranches sans croûte).
+16. Mélangez bien pour obtenir une pâte liquide.
+17. Mélangez un oeuf avec 1/2 teaspoon de sel fin et trois tours de moulin à poivre.
+18. Ajoutez ensuite 1 tablespoon de farine.
+19. Mélangez bien pour ne pas qu'il y ait trop de grumeaux.
+20. Ajoutez 150 g de crème liquide.
 
 _Merci à Boris pour le partage_
 
