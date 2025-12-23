@@ -9,6 +9,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
 from selenium.webdriver.chrome.service import Service
+from slugify import slugify
 
 def extract_marmiton_recipe_selenium(url):
     chrome_options = Options()
@@ -172,15 +173,6 @@ def extract_marmiton_recipe_selenium(url):
         md_content += f"{i}. {step}\n"
     md_content += f"\n[Source Marmiton]({url})\n"
     return title, md_content
-
-def slugify(text):
-    import re
-    import unicodedata
-    # Supprimer les accents: NFKD -> ASCII sans diacritiques
-    text = unicodedata.normalize('NFKD', text).encode('ascii', 'ignore').decode('ascii')
-    text = text.lower()
-    text = re.sub(r'[^a-z0-9]+', '_', text)
-    return text.strip('_')
 
 def main():
     if len(sys.argv) != 2:
