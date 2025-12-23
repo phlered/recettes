@@ -5,6 +5,7 @@ source: "https://recettesb.blogspot.com/2022/11/les-crackers-facon-manon-fleury.
 date: "2025-12-23"
 image: "{{ site.baseurl }}/images/les_crackers_facon_manon_fleury.jpg"
 ingredients:
+  - "Ingrédients"
   - "100 g de flocons d'avoine"
   - "50 g de graines de lin"
   - "25 g de graines de tournesol"
@@ -21,6 +22,7 @@ ingredients:
 
 ## Ingrédients
 
+- Ingrédients
 - 100 g de flocons d'avoine
 - 50 g de graines de lin
 - 25 g de graines de tournesol
