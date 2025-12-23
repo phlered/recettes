@@ -3,7 +3,7 @@ layout: default
 title: "Dessert au fromage turc « Lor Tatlısı »"
 source: "https://recettesb.blogspot.com/2023/08/turkish-cheese-dessert-lor-tatls.html?m=1"
 date: "2025-12-23"
-image: "images/dessert_au_fromage_turc_lor_tatl_s.jpg"
+image: "{{ site.baseurl }}/images/dessert_au_fromage_turc_lor_tatl_s.jpg"
 ingredients:
   - "237 ml (1 tasse) + 54 ml (3 cuillères à soupe) d'eau"
   - "200 g (1 tasse) de sucre"
@@ -15,7 +15,7 @@ ingredients:
   - "90 g (1/2 tasse) de sémoule"
   - "47 g (1/3 tasse) de farine"
 ---
-![illustration de la recette](images/dessert_au_fromage_turc_lor_tatl_s.jpg)
+![illustration de la recette]({{ site.baseurl }}/images/dessert_au_fromage_turc_lor_tatl_s.jpg)
 
 # Dessert au fromage turc « Lor Tatlısı »
 
