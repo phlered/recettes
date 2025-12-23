@@ -43,6 +43,16 @@ ingredients:
 
 ## Préparation
 
+1. La veille, mettez les lentilles à tremper 4 heures dans l'eau à température ambiante.
+2. Égouttez-les puis laissez-les "pointer" (laissez germer la graine) toute la nuit toujours à température ambiante.
+3. Préparez un "sofrito", un hachis de légumes : émincez grossièrement le demi-oignon, les gousses d'ail, les carottes et les branches de céleri.
+4. Dans une casserole, faites suer les légumes hachés dans un généreux filet d'huile d'olive dans une cocotte.
+5. Ajoutez un fond d'eau, et couvrez avant de laisser mijoter quelques minutes.
+6. Pendant que les légumes suent, hachez grossièrement les lentilles au couteau.
+7. Quand les légumes ont un peu fondu, ajoutez les lentilles, le cumin, le paprika, la moutarde à l'ancienne, le gingembre, le concentré de tomate, le coulis de tomate et le sel.
+8. Mouillez avec l'eau et le jus de carottes.
+9. Laissez cuire à couvert pendant 45 minutes, en ajoutant une louche d'eau à mi-cuisson, jusqu'à l'obtention d'un "ragoût" assez fluide, puis rectifiez l'assaisonnement.
+10. Servez cette sauce bolognaise végétale avec des pâtes, idéalement des spaghettis !
 
 _Merci à Boris pour le partage_
 
