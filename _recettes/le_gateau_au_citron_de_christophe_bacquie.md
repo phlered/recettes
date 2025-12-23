@@ -5,6 +5,7 @@ source: "https://recettesb.blogspot.com/2021/09/le-cake-au-citron-de-christophe-
 date: "2025-12-23"
 image: "{{ site.baseurl }}/images/le_gateau_au_citron_de_christophe_bacquie.png"
 ingredients:
+  - "Pour la pâte :"
   - "155 grammes de sucre en poudre"
   - "Zeste de 2 gros citrons"
   - "2 œufs (les miens pesaient 116 grammes)"
@@ -12,12 +13,23 @@ ingredients:
   - "120 grammes de farine T45"
   - "2 grammes de levure chimique"
   - "40 grammes d ‘huile d’olive"
+  - "un peu de farine pour le moule"
+  - "Pour le sirop (les quantités du chef sont de 3 x 30 grammes) :"
+  - "20 grammes de sucre semoule"
+  - "20 grammes d'eau"
+  - "20 grammes de jus de citron"
+  - "Pour le glaçage :"
+  - "80 grammes de sucre glace"
+  - "30 grammes de jus de citron"
+  - "La recette ne comporte pas de glaçage mais j’ai trouvé qu’il apportait une touche acidulée bienvenue. Si vous voulez un glaçage très blanc il faudra augmenter la quantité de sucre glace. Si vous le préférez bien citronné et transparent, les quantités ci-dessous seront suffisantes."
 ---
 ![illustration de la recette]({{ site.baseurl }}/images/le_gateau_au_citron_de_christophe_bacquie.png)
 
 # Le gâteau au citron de Christophe Bacquié
 
 ## Ingrédients
+
+### Pour la pâte :
 
 - 155 grammes de sucre en poudre
 - Zeste de 2 gros citrons
@@ -26,6 +38,17 @@ ingredients:
 - 120 grammes de farine T45
 - 2 grammes de levure chimique
 - 40 grammes d ‘huile d’olive
+- un peu de farine pour le moule
+### Pour le sirop (les quantités du chef sont de 3 x 30 grammes) :
+
+- 20 grammes de sucre semoule
+- 20 grammes d'eau
+- 20 grammes de jus de citron
+### Pour le glaçage :
+
+- 80 grammes de sucre glace
+- 30 grammes de jus de citron
+- La recette ne comporte pas de glaçage mais j’ai trouvé qu’il apportait une touche acidulée bienvenue. Si vous voulez un glaçage très blanc il faudra augmenter la quantité de sucre glace. Si vous le préférez bien citronné et transparent, les quantités ci-dessous seront suffisantes.
 
 ## Préparation
 
