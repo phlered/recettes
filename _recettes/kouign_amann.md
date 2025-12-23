@@ -27,6 +27,7 @@ ingredients:
 
 ## Préparation
 
+1. Faire une fontaine avec la farine Mettre le sel et la levure et ajouter l’eau froide Mélanger, incorporer la farine, et former une boule de pâte souple et élastique Repos 5 min Mettre de la farine sur le plan de travail Mettre la pâte et aplatissez en cercle Y mettre dessus 155 g de beurre souple et froid en forme de galette Mettre sur le beurre 155 g de sucre Refermer la pâte sur le beurre et le sucre Aplatissez et donner deux tours (*) Mettre en boule Aplatissez et mettre dans une moule beurré et sucré Dorer au lait Rayer au couteau Cuisson 200° 35 à 40 min (*) Un tour =allonger et plier en trois
 
 _Merci à Boris pour le partage_
 
