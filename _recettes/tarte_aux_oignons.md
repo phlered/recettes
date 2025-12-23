@@ -29,15 +29,14 @@ ingredients:
 
 ## Ingrédients
 
-### Pour la pâte brisée de Michalak
+### Pour la pâte brisée de Michalak :
 
 - 125 g de beurre à température ambiante
 - 200 g de farine type 55 (il faut une farine faible en gluten pour ne pas que la pâte se rétracte à la cuisson)
 - 1/2 teaspoon de fleur de sel (3 g)
 - 30 g de lait froid (qui sort du frigo)
 - 1 jaune d'oeuf froid (qui sort aussi du frigo !)
-
-### Pour la garniture
+### Pour la garniture :
 
 - 600 g d'oignons émincés
 - 150 g de crème liquide entière
@@ -52,8 +51,6 @@ ingredients:
 
 ## Préparation
 
-### Pâte brisée
-
 1. Coupez 125 g de beurre en morceaux, et mettez-le dans la cuve du robot.
 2. Ajoutez 200 g de farine et 1/2 teaspoon de fleur de sel.
 3. Bien sabler à l'aide de la feuille, pendant 3mn à petite vitesse.
@@ -66,17 +63,19 @@ ingredients:
 10. Au départ vous allez avoir du mal à l'étaler, mais le beurre va vite chauffer sous l'action du rouleau, et au final on y arrive très facilement (la pâte a plein de petits points blancs, c'est normal : c'est la fleur de sel, qui croquera sous la dent après cuisson !).
 11. Foncez bien votre cercle, en faisant en sorte que la pâte épouse parfaitement les contours, et de bien marquer l'angle droit.
 12. Il reste de la pâte (que l'on peut congeler pour faire des tartelettes) Préchauffez maintenant le four à 190° chaleur tournante, avec une grille sur le deuxième gradin en partant du bas.
+13. Epluchez les oignons frais et émincez-les finement à la mandoline.
 
-### Garniture et cuisson
+### Vous devez en obtenir 600 g.
 
-1. Epluchez les oignons frais et émincez-les finement à la mandoline.
-2. Vous devez en obtenir 600 g.
-3. Versez alors 80 g de vin blanc sur 50 g de pain de mie (deux tranches sans croûte).
-4. Mélangez bien pour obtenir une pâte liquide.
-5. Mélangez un oeuf avec 1/2 teaspoon de sel fin et trois tours de moulin à poivre.
-6. Ajoutez ensuite 1 tablespoon de farine.
-7. Mélangez bien pour ne pas qu'il y ait trop de grumeaux.
-8. Ajoutez 150 g de crème liquide.
+1. Versez alors 80 g de vin blanc sur 50 g de pain de mie (deux tranches sans croûte).
+2. Mélangez bien pour obtenir une pâte liquide.
+3. Mélangez un oeuf avec 1/2 teaspoon de sel fin et trois tours de moulin à poivre.
+
+### Ajoutez ensuite 1 tablespoon de farine.
+
+1. Mélangez bien pour ne pas qu'il y ait trop de grumeaux.
+2. Ajoutez 150 g de crème liquide.
+
 
 _Merci à Boris pour le partage_
 
