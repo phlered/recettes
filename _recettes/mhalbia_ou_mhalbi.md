@@ -27,7 +27,14 @@ ingredients:
 
 ## Préparation
 
-1. Cuire à couvert sur un feu très doux pendant 20 minutes.
+1. Dans une grande casserole à revêtement anti adhésif, porter l'eau à ébullition.
+2. Ajouter le sucre, le sucre vanillé et l’eau de géranium et bien mélanger.
+3. Lorsque les sucres ont fondu, ajouter le riz et bien mélanger.
+4. Cuire à couvert sur un feu très doux pendant 20 minutes.
+5. À mi-cuisson, ajouter le lait très chaud, en petites quantités et remuer constamment.
+6. Ne pas hésiter à ajouter du lait très chaud si nécessaire afin d’obtenir une bouillie blanche assez épaisse.
+7. Retirer la casserole du feu et transvaser la mhalbiya dans des ramequins ou des verres.
+8. Décorer avec des dattes et/ou des pistaches.
 
 ## Notes
 
