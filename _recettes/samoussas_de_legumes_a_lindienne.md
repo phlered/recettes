@@ -27,6 +27,8 @@ ingredients:
 
 ## Préparation
 
+1. URL : http://cuisinemoiunmouton.com/samoussas-de-legumes-a-lindienne/
+2. Les épices (varier selon l'intensité désirée)
 
 _Merci à Boris pour le partage_
 
