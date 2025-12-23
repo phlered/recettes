@@ -5,13 +5,14 @@ source: "https://recettesb.blogspot.com/2020/08/baba-ghanouj-ou-caviar-daubergin
 date: "2025-12-23"
 image: "{{ site.baseurl }}/images/baba_ghanouj_ou_caviar_d_aubergine.png"
 ingredients:
-  - "Ingrédient"
+  - "Ingrédients"
   - "1 grosse aubergine"
   - "3 c-a-soupe de tahini grillé (pâte de sésame)"
   - "1 citron"
   - "1 gousse d'ail écrasé"
   - "1 c-a-soupe d'huile d'olive"
   - "persil ciselé"
+  - "Poivre de Cayenne"
 ---
 ![illustration de la recette]({{ site.baseurl }}/images/baba_ghanouj_ou_caviar_d_aubergine.png)
 
@@ -19,13 +20,14 @@ ingredients:
 
 ## Ingrédients
 
-- Ingrédient
+- Ingrédients
 - 1 grosse aubergine
 - 3 c-a-soupe de tahini grillé (pâte de sésame)
 - 1 citron
 - 1 gousse d'ail écrasé
 - 1 c-a-soupe d'huile d'olive
 - persil ciselé
+- Poivre de Cayenne
 
 ## Préparation
 
