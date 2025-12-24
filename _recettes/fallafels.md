@@ -11,18 +11,18 @@ tags: [falafels, pois chiches, végétarien]
 # Falafels express (pois chiches en conserve)
 
 ## Ingrédients
-	•	1 boîte de pois chiches (400 g, soit ~240 g égouttés)
-	•	1 petit oignon ou 1 échalote
-	•	1 gousse d’ail
-	•	1 petit bouquet de persil (ou persil + coriandre)
-	•	1 c. à café de cumin moulu
-	•	1 c. à café de coriandre moulue (facultatif)
-	•	½ c. à café de paprika
-	•	Sel, poivre
-	•	1 c. à soupe de farine ou de pois chiche
-	•	½ c. à café de levure chimique (optionnel, mais plus moelleux)
-	•	1 c. à soupe de jus de citron
-	•	Huile pour cuisson
+-	1 boîte de pois chiches (400 g, soit ~240 g égouttés)
+-	1 petit oignon ou 1 échalote
+-	1 gousse d’ail
+-	1 petit bouquet de persil (ou persil + coriandre)
+-	1 c. à café de cumin moulu
+-	1 c. à café de coriandre moulue (facultatif)
+-	½ c. à café de paprika
+-	Sel, poivre
+-	1 c. à soupe de farine ou de pois chiche
+-	½ c. à café de levure chimique (optionnel, mais plus moelleux)
+-	1 c. à soupe de jus de citron
+-	Huile pour cuisson
 
 
 
@@ -34,14 +34,14 @@ tags: [falafels, pois chiches, végétarien]
 	5.	Laisser reposer 15–30 min au frais (facultatif mais conseillé).
 	6.	Former des petites boulettes ou palets.
 
-⸻
 
-Cuisson (3 options)
-	•	À la poêle (le plus simple)
+
+## Cuisson (3 options)
+-	À la poêle (le plus simple)
 Feu moyen, un fond d’huile, 3–4 min par face.
-	•	Au four (plus léger)
+-	Au four (plus léger)
 200 °C, 20–25 min, en les retournant à mi-cuisson.
-	•	À la friteuse
+-   À la friteuse
 170–180 °C, 3–4 min jusqu’à bien doré.
 
 ⸻
