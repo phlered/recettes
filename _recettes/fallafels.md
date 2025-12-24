@@ -27,12 +27,12 @@ tags: [falafels, pois chiches, végétarien]
 
 
 ## Préparation
-	1.	Égoutter et bien sécher les pois chiches (très important pour la tenue).
-	2.	Mettre tous les ingrédients dans un mixeur.
-	3.	Mixer par à-coups : on doit obtenir une texture granuleuse, pas une purée lisse.
-	4.	Goûter et rectifier l’assaisonnement.
-	5.	Laisser reposer 15–30 min au frais (facultatif mais conseillé).
-	6.	Former des petites boulettes ou palets.
+1.	Égoutter et bien sécher les pois chiches (très important pour la tenue).
+2.	Mettre tous les ingrédients dans un mixeur.
+3.	Mixer par à-coups : on doit obtenir une texture granuleuse, pas une purée lisse.
+4.	Goûter et rectifier l’assaisonnement.
+5.	Laisser reposer 15–30 min au frais (facultatif mais conseillé).
+6.	Former des petites boulettes ou palets.
 
 
 
@@ -46,10 +46,10 @@ Feu moyen, un fond d’huile, 3–4 min par face.
 
 ⸻
 
-Astuces importantes
-	•	Les pois chiches en boîte donnent des falafels plus tendres que ceux aux pois chiches secs : ne les fais pas trop gros.
-	•	S’ils s’écrasent : ajoute un peu de farine.
-	•	Pour une version plus parfumée : ajoute une pincée de piment, de zaatar ou de curcuma.
+## Astuces importantes
+- Les pois chiches en boîte donnent des falafels plus tendres que ceux aux pois chiches secs : ne les fais pas trop gros.     
+- S’ils s’écrasent : ajoute un peu de farine.
+- Pour une version plus parfumée : ajoute une pincée de piment, de zaatar ou de curcuma.
 
 ⸻
 
