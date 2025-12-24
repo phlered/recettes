@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Rôti végétarien lentilles, champignons & noix
-tags: [végétarien, plat, facile, lentilles, champignons, noix, fête]
+tags: [végétarien, plat, facile, lentilles, champignons, noix, fête, roti]
 ---
 
 ##  Rôti végétarien lentilles, champignons & noix
 
-[illustration de la recette]({{ site.baseurl }}/images/roti-lentilles-marrons-champignons-vegetarien-repas-fete-laualamenthe-1-1606106864.png)
+![illustration de la recette]({{ site.baseurl }}/images/roti-lentilles-marrons-champignons-vegetarien-repas-fete-laualamenthe-1-1606106864.png)
 
 Pour 6 personnes
 
